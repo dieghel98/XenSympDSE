@@ -159,12 +159,12 @@
 
                     <!--Indirect Tradition-->
 
-                    <biblStruct xml:id="ArisArsRhet"
+                    <biblStruct corresp="#ArisArsRhet"
                         source="http://stephanus.tlg.uci.edu.ezproxy.unibo.it/Iris/Cite?0284:056:0">
                         <analytic>
                             <title xml:id="ArsRhet"
                                 level="a">Ars Rhetorica</title>
-                            <author xml:id="Aristides" sameAs="http://viaf.org/viaf/89043754"
+                            <author xml:id="AeliusAristides" sameAs="http://viaf.org/viaf/89043754"
                                 >Aristides, Aelius</author>
                         </analytic>
                         <monogr>
@@ -468,7 +468,6 @@
                         </witness>
                     <witness xml:id="G">Vindobonensis hist. gr. 95, saec. XV, ff. 303r-323r
                         </witness>
-
                     <witness xml:id="VatUrbGr95">Vaticanus Urbinas gr. 95, saec.
                         XIV, Contains a full text of Symp. in ff. 31r-48v, and also two extracts in
                         ff. 71v-72r: (a) και ό Σωκράτης ειπεν (2,9) — έδοξεν είρήσθαι (2,11); (b)
@@ -499,7 +498,7 @@
                         ff. 58v-60v</witness>
                     <witness xml:id="g">Monacensis 495, saec. XV, Contains the same fragments of
                         Symp. as Vat.Urbin.95</witness>
-                    <witness corresp="#ArisArsRhet">Aristides, Ars Rhetorica</witness>
+                    <witness xml:id="Aristides">Aristides, Ars Rhetorica</witness>
                 </listWit>
 
                 <listOrg>
@@ -797,7 +796,7 @@
                     <p corresp="#V">Marcianus 511, saec. XIV, probably the base text for
                             Aldina edition. Symp. in ff.. 311v-318r [Cirignano = "M"] 
                             Full description at <ref
-                                target="https://pinakes.irht.cnrs.fr/notices/cote/69982/"></ref></p>
+                                target="https://pinakes.irht.cnrs.fr/notices/cote/69982/">https://pinakes.irht.cnrs.fr/notices/cote/69982/</ref></p>
                     <p corresp="#O">Marcianus 369, saec. XV, ff. 122r-128r. 
                         Full description at <ref
                                 target="https://pinakes.irht.cnrs.fr/notices/cote/69840/"></ref></p>
@@ -915,8 +914,9 @@
                 <div type="paragraph" n="1" xml:id="c1p1">
                     <p> Ἀλλ’ <app resp="#DC">
                             <lem>ἐμοὶ</lem>
-                            <rdg wit="#ArisArsRhet" type="substantive" cause="falseEmendation"
-                                source="#ArisArsRhet" resp="#Aristides #MEC #OF">ἔμοιγε</rdg>
+                            <rdg wit="#Aristides">ἔμοιγε</rdg>
+                            <!-- wit="#ArisArsRhet" type="substantive" cause="falseEmendation"
+                                source="#ArisArsRhet" resp="#Aristides #MEC #OF" -->
                             <note source="#ArisArsRhet">Aristides, Ars Rhetorica, ii.517.2 et
                                 525.12.</note>
                         </app> δοκεῖ τῶν καλῶν κἀγαθῶν ἀνδρῶν <app resp="#DC">
