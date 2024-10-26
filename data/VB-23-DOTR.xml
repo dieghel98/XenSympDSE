@@ -765,6 +765,10 @@
                     Writing as in the line above allows the software to consider ArisArsRhet as a witness, maybe allowing a better visualization of such information??
                 </p>
             </change>
+            
+            <change>
+                <p>turned the apparatus from implicit to explicit, from negative to positive.</p>
+            </change>
                 
         </revisionDesc>
     </teiHeader>
@@ -792,6 +796,8 @@
                     <head>Stemma Codicum</head>
                     <!--Insert here the picture of Huss' stemma codicum-->
                     <p><graphic url="#url_of_StemmaHuss1999.png"/></p>
+                    <p>Consensus codicum = V O L N P C K E A Ha X B H1 G VatUrbGr95 D F Z Q R Mut129 Mon494 H2 q r g</p>
+                    <!--codd. = #V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g-->
                 </div>
                 <div>
                     <head>Conspectus Siglorum</head>
@@ -917,13 +923,13 @@
 
                 <div type="paragraph" n="1" xml:id="c1p1">
                     <p> Ἀλλ’ <app resp="#DC">
-                            <lem>ἐμοὶ</lem>
+                        <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">ἐμοὶ</lem>
                         <rdg wit="#Aristides" type="substantive" cause="falseEmendation"
                             source="#ArisArsRhet" resp="#Aristides #MEC #OF">ἔμοιγε</rdg>
                             <note source="#ArisArsRhet">Aristides, Ars Rhetorica, ii.517.2 et
                                 525.12.</note>
                         </app> δοκεῖ τῶν καλῶν κἀγαθῶν ἀνδρῶν <app resp="#DC">
-                            <lem>ἔργα</lem>
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">ἔργα</lem>
                             <rdg wit="#Aristides" type="omission" source="#ArisArsRhet"
                                 resp="#Aristides #MEC #OF"/>
                             <note source="#ArisArsRhet">Aristides, in Ars Rhetorica, ii.517.2 et
