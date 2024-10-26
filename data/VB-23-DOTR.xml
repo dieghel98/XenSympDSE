@@ -159,12 +159,12 @@
 
                     <!--Indirect Tradition-->
 
-                    <biblStruct corresp="#ArisArsRhet"
+                    <biblStruct xml:id="ArisArsRhet"
                         source="http://stephanus.tlg.uci.edu.ezproxy.unibo.it/Iris/Cite?0284:056:0">
                         <analytic>
                             <title xml:id="ArsRhet"
                                 level="a">Ars Rhetorica</title>
-                            <author xml:id="AeliusAristides" sameAs="http://viaf.org/viaf/89043754"
+                            <author corresp="#Aristides" sameAs="http://viaf.org/viaf/89043754"
                                 >Aristides, Aelius</author>
                         </analytic>
                         <monogr>
@@ -187,7 +187,7 @@
                         <monogr>
                             <title xml:id="Deipnosoph"
                                 >Athenaei Naucratitae deipnosophistarum libri xv</title>
-                            <author xml:id="Athenaeus" sameAs="http://viaf.org/viaf/100169636"
+                            <author corresp="#Athenaeus" sameAs="http://viaf.org/viaf/100169636"
                                 >Athenaeus of Naucratis</author>
                             <editor xml:id="Kaibel" sameAs="http://viaf.org/viaf/39452354">Kaibel,
                                 G.</editor>
@@ -207,7 +207,7 @@
                     <biblStruct xml:id="AlexisPannuchis">
                         <analytic>
                             <title level="a" xml:id="Pannuchis">Pannuchis</title>
-                            <author xml:id="Alexis">Alexis</author>
+                            <author corresp="#Alexis">Alexis</author>
                         </analytic>
                         <monogr>
                             <title level="m">Poetae Comici Graeci (PCG)</title>
@@ -231,7 +231,7 @@
                         <monogr>
                             <title xml:id="DePulchr"
                                 >Enneades (De Pulchritudine)</title>
-                            <author xml:id="Plotinus" sameAs="http://viaf.org/viaf/108386765"
+                            <author corresp="#Plotinus" sameAs="http://viaf.org/viaf/108386765"
                                 >Plotinus</author>
                             <editor xml:id="Henry">Henry, P.</editor>
                             <editor xml:id="Schwyzer">Schwyzer, H.R.</editor>
@@ -499,6 +499,9 @@
                     <witness xml:id="g">Monacensis 495, saec. XV, Contains the same fragments of
                         Symp. as Vat.Urbin.95</witness>
                     <witness xml:id="Aristides">Aristides, Ars Rhetorica</witness>
+                    <witness xml:id="Athenaeus">Athenaeus, Deipnosophistae</witness>
+                    <witness xml:id="Alexis">Alexis, Pannuchis</witness>
+                    <witness xml:id="Plotinus">Plotinus, Enneades (De Pulchritudine)</witness>
                 </listWit>
 
                 <listOrg>
@@ -757,7 +760,8 @@
             <change>
                 <date>11/10/2024</date>
                 <p>attempt to unbug the misrepresentation by EVT of readings from indirect tradition or philological conjecture: 
-                    witness corresp="#ArisArsRhet">Aristides, Ars Rhetorica witness>
+                    witness xml:id="Aristides">Aristides, Ars Rhetorica witness>, and then change in the biblStruct the Id of the author: xml:id="AeliusAristides", 
+                    and the id of the biblStruct from xml:id to corresp. 
                     Writing as in the line above allows the software to consider ArisArsRhet as a witness, maybe allowing a better visualization of such information??
                 </p>
             </change>
@@ -888,7 +892,7 @@
                             extracts from Symp. in ff. 22r-28r</p>
                     <p corresp="#r">Bernensis 690, saec. XVI, extract of Symp. 8,12-39 in
                             ff. 58v-60v</p>
-                        <p corresp="#g">Monacensis 495, saec. XV, Contains the same fragments of
+                    <p corresp="#g">Monacensis 495, saec. XV, Contains the same fragments of
                             Symp. as Vat.Urbin.95</p>
                 </div>
             </div>
@@ -914,14 +918,13 @@
                 <div type="paragraph" n="1" xml:id="c1p1">
                     <p> Ἀλλ’ <app resp="#DC">
                             <lem>ἐμοὶ</lem>
-                            <rdg wit="#Aristides">ἔμοιγε</rdg>
-                            <!-- wit="#ArisArsRhet" type="substantive" cause="falseEmendation"
-                                source="#ArisArsRhet" resp="#Aristides #MEC #OF" -->
+                        <rdg wit="#Aristides" type="substantive" cause="falseEmendation"
+                            source="#ArisArsRhet" resp="#Aristides #MEC #OF">ἔμοιγε</rdg>
                             <note source="#ArisArsRhet">Aristides, Ars Rhetorica, ii.517.2 et
                                 525.12.</note>
                         </app> δοκεῖ τῶν καλῶν κἀγαθῶν ἀνδρῶν <app resp="#DC">
                             <lem>ἔργα</lem>
-                            <rdg wit="#ArisArsRhet" type="omission" source="#ArisArsRhet"
+                            <rdg wit="#Aristides" type="omission" source="#ArisArsRhet"
                                 resp="#Aristides #MEC #OF"/>
                             <note source="#ArisArsRhet">Aristides, in Ars Rhetorica, ii.517.2 et
                                 525.12, omits ἔργα.</note>
@@ -991,7 +994,7 @@
                                 <rdg wit="#O" resp="#CJS" type="addition"><add>εἶπεν</add></rdg>
                             </app> πολὺ ἂν τὴν κατασκευήν μοι λαμπροτέραν φανῆναι εἰ ἀνδράσιν <app
                                 resp="#DC">
-                                <lem wit="#A #ArisArsRhet" source="#ArisArsRhet"
+                                <lem wit="#A #Aristides" source="#ArisArsRhet"
                                     resp="#Aristides #MEC #OF #CJS #JDF">ἐκκεκαθαρμένοις</lem>
                                 <note source="#ArisArsRhet">Aristides, Ars Rhetorica
                                     ii.554.14</note>
@@ -1013,12 +1016,12 @@
                                 <lem
                                     wit="#g #r #Z #Q #Mut129 #Mon494 #q #R #H2 #A #Ha #X #H1 #V #L #O #N #P #C #K"
                                     resp="#MEC #OF #CJS">ἱππάρχοις</lem>
-                                <rdg wit="#D #F #G #E" source="#ArisArsRhet" type="graphic"
+                                <rdg wit="#D #F #G #E #Aristides" source="#ArisArsRhet" type="graphic"
                                     resp="#Aristides #OF">ἱππάρχαις</rdg>
                                 <witDetail wit="#E" resp="#OF">Manuscript E reports this reading
                                     super lineam</witDetail>
-                                <note source="#ArisArsRhet">Also Aristides reports this
-                                    reading</note>
+                                <!--<note source="#ArisArsRhet">Also Aristides reports this
+                                    reading</note>-->
                                 <rdg wit="#VatUrbGr95" resp="#JDF">ἱππάρχαις</rdg>
                                 <rdg wit="#B" type="substantial" resp="#OF">ὑπάρχαις</rdg>
                             </app> καὶ <app resp="#DC">
