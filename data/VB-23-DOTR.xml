@@ -930,17 +930,17 @@
                                 525.12.</note>
                         </app> δοκεῖ τῶν καλῶν κἀγαθῶν ἀνδρῶν <app resp="#DC">
                             <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">ἔργα</lem>
-                            <rdg wit="#Aristides" type="omission" source="#ArisArsRhet"
+                            <rdg wit="#Aristides" type="omissio" source="#ArisArsRhet"
                                 resp="#Aristides #MEC #OF"/>
                             <note source="#ArisArsRhet">Aristides, in Ars Rhetorica, ii.517.2 et
                                 525.12, omits ἔργα.</note>
                         </app> οὐ μόνον <app resp="#DC">
                             <lem>τὰ</lem>
-                            <rdg wit="#G #Ha" resp="#MEC #OF" type="omission"/>
+                            <rdg wit="#G #Ha" resp="#MEC #OF" type="omissio"/>
                         </app> μετὰ σπουδῆς πραττόμενα ἀξιομνημόνευτα εἶναι, ἀλλὰ καὶ <app
                             resp="#DC">
                             <lem>τὰ</lem>
-                            <rdg wit="#H2 #Q #R #Z" resp="#CJS" type="omission"/>
+                            <rdg wit="#H2 #Q #R #Z" resp="#CJS" type="omissio"/>
                         </app> ἐν ταῖς παιδιαῖς. οἷς δὲ παραγενόμενος ταῦτα γιγνώσκω <app resp="#DC">
                             <lem>δηλῶσαι</lem>
                             <rdg wit="#Η2" resp="#CJS" type="substantive">δηλώσω</rdg>
@@ -950,7 +950,7 @@
                 <div type="paragraph" n="2" xml:id="c1p2">
                     <p> ἦν μὲν <app resp="#DC">
                             <lem>γὰρ</lem>
-                            <rdg wit="#B" resp="#CJS" type="omission"/>
+                            <rdg wit="#B" resp="#CJS" type="omissio"/>
                         </app> Παναθηναίων τῶν μεγάλων ἱπποδρομία, <persName ref="#Kallias"
                             >Καλλίας</persName> δὲ ὁ <persName ref="#Hipponicus"
                             >Ἱππονίκου</persName> ἐρῶν ἐτύγχανεν <persName ref="#Autolycus"
@@ -975,7 +975,7 @@
                             </app></persName>
                         <app resp="#DC">
                             <lem>τε</lem>
-                            <rdg wit="#X #B" resp="#CJS" type="omission"/>
+                            <rdg wit="#X #B" resp="#CJS" type="omissio"/>
                         </app> καὶ <persName ref="#Critobulus">Κριτόβουλον</persName> καὶ <persName
                             ref="#Hermogenes">Ἑρμογένην</persName> καὶ <persName ref="#Antisthenes">
                             <app resp="#DC">
@@ -1017,7 +1017,7 @@
                                 <rdg wit="#B" type="substantial">εἰ</rdg>
                             </app> μᾶλλον ἢ <app resp="#DC">
                                 <lem>εἰ</lem>
-                                <rdg wit="#O" type="omission"/>
+                                <rdg wit="#O" type="omissio"/>
                             </app> στρατηγοῖς καὶ <app resp="#DC">
                                 <lem
                                     wit="#g #r #Z #Q #Mut129 #Mon494 #q #R #H2 #A #Ha #X #H1 #V #L #O #N #P #C #K"
@@ -1046,7 +1046,7 @@
                             who="#Socrates" direct="true">Ἀεὶ σὺ ἐπισκώπτεις ἡμᾶς <app resp="#DC">
                                 <lem>καταφρονῶν</lem>
                                 <rdg wit="#ArisArsRhet" source="#AriarsRhet" resp="#Aristides #OF"
-                                    type="omission"/>
+                                    type="omissio"/>
                             </app>, ὅτι <app resp="#DC">
                                 <lem/>
                                 <rdg wit="#G" type="addition" resp="#CJS">
@@ -1056,7 +1056,7 @@
                             <app resp="#DC">
                                 <lem>τε</lem>
                                 <rdg wit="#ArisArsRhet" source="#AriarsRhet" resp="#Aristides #OF"
-                                    type="omission"/>
+                                    type="omissio"/>
                             </app> πολὺ ἀργύριον δέδωκας ἐπὶ σοφίᾳ καὶ <persName ref="#Gorgias"
                                 >Γοργίᾳ</persName> καὶ <persName ref="#Prodicus">Προδίκῳ</persName>
                             καὶ ἄλλοις πολλοῖς, ἡμᾶς δ’ ὁρᾷς αὐτουργούς τινας τῆς <app resp="#DC">
@@ -1072,12 +1072,12 @@
                                 <lem
                                     wit="#VatUrbGr95 #g #F #D #r #Z #Q #Mut129 #Mon494 #q #R #H2 #E #A #X #B #H1 #G #V #L #O #N #P #C #K"
                                     >Καὶ</lem>
-                                <rdg wit="#Ha" resp="#CJS" type="omission"/>
+                                <rdg wit="#Ha" resp="#CJS" type="omissio"/>
                             </app> πρόσθεν μέν γε</said>, ἔφη, <said who="#Callias" direct="true"
                             >ἀπεκρυπτόμην ὑμᾶς ἔχων πολλὰ καὶ σοφὰ λέγειν, <app resp="#DC">
                                 <lem>νῦν δέ, ἐὰν παρ’ ἐμοὶ ἦτε, ἐπιδείξω ὑμῖν ἐμαυτὸν πάνυ πολλῆς
                                     σπουδῆς ἄξιον ὄντα</lem>
-                                <rdg wit="#N" resp="#CJS" type="omission"/>
+                                <rdg wit="#N" resp="#CJS" type="omissio"/>
                             </app></said>.</p>
                 </div>
 
@@ -1120,8 +1120,8 @@
                                 source="#MehlerXenSym #CobetProsopoXen">κατεκλίνησαν</rdg>
                         </app>. εὐθὺς <app resp="#DC">
                             <lem>μὲν</lem>
-                            <rdg wit="#V" type="omission" resp="#OF #CJS"/>
-                            <rdg wit="#O #L #N" type="omission" resp="#CJS"/>
+                            <rdg wit="#V" type="omissio" resp="#OF #CJS"/>
+                            <rdg wit="#O #L #N" type="omissio" resp="#CJS"/>
                            </app>
                         <app resp="#DC">
                             <lem>οὖν</lem>
@@ -1132,7 +1132,7 @@
                                 <add>τις</add></lem>
                             <rdg
                                 wit="#VatUrbGr95 #g #F #D #r #Z #Q #Mut129 #Mon494 #q #R #H2 #E #A #Ha #X #B #H1 #G #V #L #O #N #P #C #K"
-                                type="omission"/>
+                                type="omissio"/>
                         </app>
                         <app resp="#DC">
                             <lem>τὰ</lem>
@@ -1156,7 +1156,7 @@
                                 <app resp="#DC">
                                     <lem>τότε</lem>
                                     <rdg wit="#ArisArsRhet" source="#ArisArsRhet"
-                                        resp="#Aristides #OF" type="omission"/>
+                                        resp="#Aristides #OF" type="omissio"/>
                                 </app>, <app resp="#DC">
                                     <lem wit="#MehlerXenSym" source="#MehlerXenSym"
                                         resp="#Mehler #MEC">κεκτῆταί</lem>
@@ -1178,9 +1178,9 @@
                                     <rdg wit="#R" resp="#CJS"/>
                                 </app> φέγγος <app resp="#DC">
                                     <lem>τι</lem>
-                                    <rdg wit="R" resp="#CJS" type="omission"/>
+                                    <rdg wit="R" resp="#CJS" type="omissio"/>
                                     <rdg wit="#AthenDeipnosoph" source="#AthenDeipnosoph" resp="#OF"
-                                        type="omission"/>
+                                        type="omissio"/>
                                     <note>Athenaeus reports this omission in <bibl
                                             corresp="#AthenDeipnosoph">Deipnosophistae V 118
                                             A</bibl>.</note>
@@ -1235,7 +1235,7 @@
                             </note>
                         </app> ἔπασχέ <app resp="#DC">
                             <lem>τι</lem>
-                            <rdg wit="#Ha" resp="#CJS" type="omission"/>
+                            <rdg wit="#Ha" resp="#CJS" type="omissio"/>
                         </app> τὴν ψυχὴν <!--da υπςεκεινου a δε και εσχηματιζοντο è omesso in H2-->
                         <app resp="#DC">
                             <lem>ὑπ’ἐκείνου</lem>
@@ -1255,12 +1255,12 @@
                                 >σιωπηλότεροι</rdg>
                         </app> ἐγίγνοντο, οἱ δὲ <app resp="#DC">
                             <lem>καὶ</lem>
-                            <rdg wit="#R" resp="#CJS" type="omission"/>
+                            <rdg wit="#R" resp="#CJS" type="omissio"/>
                         </app>
                         <app resp="#DC">
                             <lem>ἐσχηματίζοντό</lem>
                             <rdg wit="#A" resp="#OF" type="substantial">ἐσχημάτιζον</rdg>
-                            <rdg wit="#G" type="omission" resp="#OF"/>
+                            <rdg wit="#G" type="omissio" resp="#OF"/>
                         </app> πως.</p>
                 </div>
 
@@ -1272,7 +1272,7 @@
                                 type="substantial">ἅπαντες</rdg>
                         </app> μὲν οὖν <app resp="#DC">
                             <lem>οἱ</lem>
-                            <rdg wit="#B" resp="#CJS" type="omission"/>
+                            <rdg wit="#B" resp="#CJS" type="omissio"/>
                         </app> ἐκ θεῶν του κατεχόμενοι ἀξιοθέατοι δοκοῦσιν εἶναι· ἀλλ’ οἱ μὲν <app
                             resp="#DC">
                             <lem/>
@@ -1288,9 +1288,9 @@
                         </app>
                         <app resp="#DC">
                             <lem>τε</lem>
-                            <rdg wit="#Q #F #ArisArsRhet" source="#ArisArsRhet" type="omission"
+                            <rdg wit="#Q #F #ArisArsRhet" source="#ArisArsRhet" type="omissio"
                                 resp="#Aristides #OF"/>
-                            <rdg wit="#R" type="omission" resp="#OF #CJS"/>
+                            <rdg wit="#R" type="omissio" resp="#OF #CJS"/>
                         </app> ὁρᾶσθαι <app resp="#DC">
                             <lem>καὶ</lem>
                             <rdg wit="#O">ἐν</rdg>
@@ -1387,8 +1387,8 @@
                             </app>
                             <app resp="#DC">
                                 <lem>γε</lem>
-                                <rdg wit="#A" resp="#MEC #OF #CJS" type="omission"/>
-                                <rdg wit="#R" resp="#OF #CJS" type="omission"/>
+                                <rdg wit="#A" resp="#MEC #OF #CJS" type="omissio"/>
+                                <rdg wit="#R" resp="#OF #CJS" type="omissio"/>
                             </app>
                             <app resp="#DC">
                                 <lem>φθονῆσαι</lem>
@@ -1402,7 +1402,7 @@
                             <rdg wit="#R" resp="#CJS">σκοπῶν τί</rdg>
                             <rdg wit="#RichardsNotes #NaberAdFra" resp="#Richards #Naber"
                                 type="conjecture">ἐπισκοπῶν ποῖόν τι</rdg>
-                            <rdg wit="#B" resp="#CJS" type="omission"/>
+                            <rdg wit="#B" resp="#CJS" type="omissio"/>
                         </app> ἐκείνῳ δόξειε τὸ σκῶμμα εἶναι.</p>
                 </div>
 
@@ -1482,7 +1482,7 @@
                                 <rdg wit="#H2" type="substantial" resp="#CJS">δὲ ἐμὲ γελῶντες</rdg>
                             </app>· νῦν δὲ τίνος ἕνεκα <app resp="#DC">
                                 <lem>καὶ</lem>
-                                <rdg wit="#H2" resp="#MEC #OF" type="omission"/>
+                                <rdg wit="#H2" resp="#MEC #OF" type="omissio"/>
                             </app>
                             <app resp="#DC">
                                 <lem>καλεῖ</lem>
@@ -1520,10 +1520,10 @@
                                     resp="#Stephanus">εἰσφέρεσθαι</rdg>
                                </app>.</said> καὶ ἅμα λέγων ταῦτα ἀπεμύττετό <app resp="#DC">
                             <lem>τε</lem>
-                            <rdg wit="#F" resp="#MEC #OF #CJS" type="omission"/>
+                            <rdg wit="#F" resp="#MEC #OF #CJS" type="omissio"/>
                         </app> καὶ τῇ φωνῇ <app resp="#DC">
                             <lem>σαφῶς</lem>
-                            <rdg wit="#B" resp="#CJS" type="omission"/>
+                            <rdg wit="#B" resp="#CJS" type="omissio"/>
                         </app> κλαίειν ἐφαίνετο.</p>
                 </div>
 
