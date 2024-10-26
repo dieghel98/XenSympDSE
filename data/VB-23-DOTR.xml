@@ -733,7 +733,7 @@
                     <p>Revision of listPerson (added person element for each single persName)</p>
                 </change>
             
-                <change>
+            <change resp="#DC">
                     <date>09/10/2024</date>
                     <p>inserted @wit for each rdg coming from indirect tradition and/or scholar's
                         conjecture</p>
@@ -742,7 +742,7 @@
                     <p>@source for each lesson from indirect tradition and scholars' conjecture</p>
                     <p>correction of @resp, pointing to scholars and not to biblStruct entries</p>
                 </change>
-                <change>
+            <change resp="#DC">
                     <date>10/10/2024</date>
                     <p>inserted a @sortKey for every named entity (persons, places, organizations), and xml:lang="" to all of them</p>
                     <p>given an xml:id to the listWit</p>
@@ -757,7 +757,7 @@
                     <p>removed ptr target="url"/ link to the sources from the witness, because this feature has been transposed in the list of witnesses in the front> instead of the teiHeader;</p>
                 </change>
             
-            <change>
+            <change resp="#DC">
                 <date>11/10/2024</date>
                 <p>attempt to unbug the misrepresentation by EVT of readings from indirect tradition or philological conjecture: 
                     witness xml:id="Aristides">Aristides, Ars Rhetorica witness>, and then change in the biblStruct the Id of the author: xml:id="AeliusAristides", 
@@ -766,8 +766,16 @@
                 </p>
             </change>
             
-            <change>
+            <change resp="#DC">
+                <date>26/10/2024</date>
                 <p>turned the apparatus from implicit to explicit, from negative to positive.</p>
+                <p>can't understand why with the positive apparatus, readings from indirect traditions are not shown, both in case it is an omission, 
+                and the the one it is just a variant reading. Don't know what to do</p>
+                <p>In order to visualize the name of the ancient author or the modern scholar proposing conjectures or just variant readings, I 
+                decided to insert new entries in the listWit of each author quoted for proposing conjectures or variant, providing such entries with 
+                the xml:id of the name to be shown beside the variant (ex. εμοίγε Aristides), and changing the xml:id from the biblStruct with corresp="#"
+                pointing to the new xml:id in the listWit. Unfortunately this also does not work. I don't know what to do.</p>
+                <p>Changed in the front the way to insert the link to the online resources of the digital facsimiles, or the manuscript descriptions on Pinakes.</p>
             </change>
                 
         </revisionDesc>
@@ -809,89 +817,89 @@
                                 target="https://pinakes.irht.cnrs.fr/notices/cote/69982/">https://pinakes.irht.cnrs.fr/notices/cote/69982/</ref></p>
                     <p corresp="#O">Marcianus 369, saec. XV, ff. 122r-128r. 
                         Full description at <ref
-                                target="https://pinakes.irht.cnrs.fr/notices/cote/69840/"></ref></p>
+                            target="https://pinakes.irht.cnrs.fr/notices/cote/69840/"></ref>https://pinakes.irht.cnrs.fr/notices/cote/69840/</p>
                     <p corresp="#L">Laurentianus 55-22, saec. XV, ff. 198r-218v
                             <!--digitalization available--> Digital Facsimile at <ptr
                                 target="https://tecabml.contentdm.oclc.org/digital/collection/plutei/id/854000"
-                            /></p>
+                            />https://tecabml.contentdm.oclc.org/digital/collection/plutei/id/854000</p>
                     <p corresp="#N">Marcianus 368, saec. XV, ff. 164r-171v
                         Full description at  <ref
-                                target="https://pinakes.irht.cnrs.fr/notices/cote/69839/"></ref></p>
+                            target="https://pinakes.irht.cnrs.fr/notices/cote/69839/"></ref>https://pinakes.irht.cnrs.fr/notices/cote/69839/</p>
                         
                     <p corresp="#P">Laurentianus c.s. 110, saec. XV in., fragm. ff.
                             109r-111r. Title "Fragmentum περι συμποσιου του ξενοφωντος" [Cirignano =
                             "C"]᾿ Full description at  <ref
-                                target="https://pinakes.irht.cnrs.fr/notices/cote/15838/"></ref></p>
+                                target="https://pinakes.irht.cnrs.fr/notices/cote/15838/"></ref>https://pinakes.irht.cnrs.fr/notices/cote/15838/</p>
                     <p corresp="#C">Parisinus 2995, saec. XV in., fragm. ff. 108r-110v.
                             Titolo "(Fragm.) περι συμποσιου του ξενοφωντος ρητορος", from 8,35 μετα
                             ξενων to 8,39 παρα σοι written by altera manu [Cirignano = "P"]
                             <!--Digitalization available--> Digital Facsimile at <ref
-                                target="https://gallica.bnf.fr/ark:/12148/btv1b10722854s"></ref></p>
+                                target="https://gallica.bnf.fr/ark:/12148/btv1b10722854s"></ref>https://gallica.bnf.fr/ark:/12148/btv1b10722854s</p>
                     <p corresp="#K">Perusinus B34, saec. XV, written in two columns by
                             Gerard from Patras, fragm. ff. 59r-60v Full description at <ref
-                                target="https://pinakes.irht.cnrs.fr/notices/cote/55391/"></ref></p>
+                                target="https://pinakes.irht.cnrs.fr/notices/cote/55391/"></ref>https://pinakes.irht.cnrs.fr/notices/cote/55391/</p>
                         
                     <p corresp="#E">Laurentianus 80,13, saec. XIV in., ff. 132r-144r
                             <!--digitalization available--> Digital Facsimile at <ref
                                 target="https://tecabml.contentdm.oclc.org/digital/collection/plutei/id/1047840"
-                            ></ref></p>
+                                ></ref>https://tecabml.contentdm.oclc.org/digital/collection/plutei/id/1047840</p>
                     <p corresp="#A">Parisinus 1643, saec. XV, ff. 151v-170r
                             <!--digitalization available--> Digital facsimile at <ref
-                                target="https://gallica.bnf.fr/ark:/12148/btv1b107221114"></ref></p>
+                                target="https://gallica.bnf.fr/ark:/12148/btv1b107221114"></ref>https://gallica.bnf.fr/ark:/12148/btv1b107221114</p>
                     <p corresp="#Ha">Britanicus addit. 5110, saec. XV, ff. 152r-159v
                             [Cirignano = "b"]</p>
                     <p corresp="#X">Leidensis e legato Vulcanii 2, saec. XV, written by
                             Giorgio Hermionimo from Sparta, ff. 73r-83v <!--digitalization available-->
                             Digital facsimile at <ref
                                 target="https://digitalcollections.universiteitleiden.nl/view/item/3488172"
-                            ></ref></p>
+                                ></ref>https://digitalcollections.universiteitleiden.nl/view/item/3488172</p>
                     <p corresp="#B">Parisinus 1645, saec. XV, written by Giorgio Hermionimo
                             from Sparta, ff. 1r-33r <!--digitalization available--> Digital Facsimile at
                             <ref target="https://gallica.bnf.fr/ark:/12148/btv1b107228913"
-                            ></ref></p>
+                                ></ref>https://gallica.bnf.fr/ark:/12148/btv1b107228913</p>
                     <p corresp="#H1">Vindobonensis phil. gr. 37, saec. XVI, ff. 112v-124v
                             (The same manuscript contains also H2, written by altera manu)
                             Full description at <ref
-                                target="https://pinakes.irht.cnrs.fr/notices/cote/71151/"></ref></p>
+                                target="https://pinakes.irht.cnrs.fr/notices/cote/71151/"></ref>https://pinakes.irht.cnrs.fr/notices/cote/71151/</p>
                     <p corresp="#G">Vindobonensis hist. gr. 95, saec. XV, ff. 303r-323r
                             <!--Digitalization available--> Digital Facsimile at <ref
                                 target="https://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_6024669&amp;order=1&amp;view=SINGLE"
-                            ></ref></p>
+                                ></ref>https://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_6024669&amp;order=1&amp;view=SINGLE</p>
                         
                     <p corresp="#VatUrbGr95">Vaticanus Urbinas gr. 95, saec.
                             XIV, Contains a full text of Symp. in ff. 31r-48v, and also two extracts in
                             ff. 71v-72r: (a) και ό Σωκράτης ειπεν (2,9) — έδοξεν είρήσθαι (2,11); (b)
                             διψώ (2,23) — εγειρειν (3,2) [Cirignano = "V"]
                             <!--digitalization available--> Digital Facsimile at <ref
-                                target="https://digi.vatlib.it/view/MSS_Urb.gr.95.pt.1"></ref></p>
+                                target="https://digi.vatlib.it/view/MSS_Urb.gr.95.pt.1"></ref>https://digi.vatlib.it/view/MSS_Urb.gr.95.pt.1</p>
                     <p corresp="#D">Laurentianus 85,9, saec. XV, probably the editio
                             princeps’ base text, ff. 429v-434v <!--digitalization available--> Digital
                             facsimile at <ref
                                 target="https://tecabml.contentdm.oclc.org/digital/collection/plutei/id/1020001"
-                            ></ref></p>
+                                ></ref>https://tecabml.contentdm.oclc.org/digital/collection/plutei/id/1020001</p>
                     <p corresp="#F">Vindobonensis phil. gr. 109, saec. XIV, ff. 219r-229v
                             <!--digitalization available--> Digital facsimile at <ref
                                 target="https://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_3104684&amp;order=1&amp;view=SINGLE"
-                            ></ref></p>
+                                ></ref>https://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_3104684&amp;order=1&amp;view=SINGLE</p>
                     <p corresp="#Z">Laurentianus 55, 19, saec. XV, ff. 1r-20v
                             <!--digitalization available--> Digital facsimile at <ref
                                 target="https://tecabml.contentdm.oclc.org/digital/collection/plutei/id/852421"
-                            ></ref></p>
+                                ></ref>https://tecabml.contentdm.oclc.org/digital/collection/plutei/id/852421</p>
                     <p corresp="#Q">Ambrosianus A 157 sup., saec. XV, written by Giorgio
                             Chrysococches, ff. 91r-104v <!--digitalization available--> Digital
                             facsimile at <ref
                                 target="https://digitallibrary.unicatt.it/veneranda/0b02da8280193b37"
-                            ></ref></p>
+                                ></ref>https://digitallibrary.unicatt.it/veneranda/0b02da8280193b37</p>
                     <p corresp="#R">Ambrosianus E 119 sup., saec. XV, Symp. until 8,36
                             φιληθεντι in ff. 25r-37r (written by altera manu in 21r e 22v)
                             Full description at <ref
-                                target="https://pinakes.irht.cnrs.fr/notices/cote/42729/"></ref></p>
+                                target="https://pinakes.irht.cnrs.fr/notices/cote/42729/"></ref>https://pinakes.irht.cnrs.fr/notices/cote/42729/</p>
                     <p corresp="#Mut129">Mutinensis Estensis gr. 129, saec. XV, ff.
                             1r-26v</p>
                     <p corresp="#Mon494">Monacensis 494, saec. XV, Symp. 1,1-2,26
                             πυκνα, ff. 1r-4v <!--digitalization available--> Digital facsimile at <ref
                                 target="https://daten.digitale-sammlungen.de/~db/0010/bsb00109229/images/index.html"
-                            ></ref></p>
+                                ></ref>https://daten.digitale-sammlungen.de/~db/0010/bsb00109229/images/index.html</p>
                     <p corresp="#H2">Vindobonensis phil. gr. 37, saec. XVI, ff. 148v-163r
                             (The same manuscript contains also H1, written by altera manu)</p>
                     <p corresp="#q">Laurentianus Acquisti e Doni 37, saec. XVI, Several
