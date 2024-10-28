@@ -310,7 +310,7 @@
                     <biblStruct xml:id="MehlerXenSym">
                         <monogr>
                             <title level="m">Xenophontis Convivium</title>
-                            <author xml:id="Mehler" sameAs="http://viaf.org/viaf/778411">Mehler,
+                            <author corresp="#Mehler" sameAs="http://viaf.org/viaf/778411">Mehler,
                                 Eugene</author>
                             <imprint>
                                 <publisher>Brill</publisher>
@@ -490,6 +490,7 @@
                     <witness xml:id="Alexis">Alexis, Pannuchis</witness>
                     <witness xml:id="Plotinus">Plotinus, Enneades (De Pulchritudine)</witness>
                     <witness xml:id="Dindorf">Dindorf, Xenophontis Scripta Minora</witness>
+                    <witness xml:id="Mehler">Mehler, Xenophontis Convivium</witness>
                 </listWit>
 
                 <listOrg>
@@ -1075,12 +1076,12 @@
                                     this reading super lineam</witDetail>
                                 <rdg wit="#B" type="substantial" resp="#OF">ὑπάρχαις</rdg>
                             </app> καὶ <app resp="#DC">
-                                <lem wit="#Dindorf" resp="#Dindorf"
+                                <lem wit="#Dindorf"
                                     source="#DindXenScripMin" type="conjecture">σπουδαρχίαις</lem>
                                 <rdg
                                     wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                     >σπουδάρχαις</rdg>
-                                <rdg wit="#MehlerXenSym" resp="#Mehler" source="#MehlerXenSym"
+                                <rdg wit="#Mehler" source="#MehlerXenSym"
                                     type="conjecture">σπουδαρχίδαις</rdg>
                             </app>.</said></p>
                 </div>
