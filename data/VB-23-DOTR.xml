@@ -1068,13 +1068,10 @@
                                 <lem
                                     wit="#V #O #L #N #P #C #K #A #Ha #X #H1 #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                     resp="#MEC #OF #CJS">ἱππάρχοις</lem>
-                                <rdg wit="#D #F #G #E #Aristides" source="#ArisArsRhet"
-                                    type="graphic" resp="#Aristides #OF">ἱππάρχαις</rdg>
+                                <rdg wit="#D #F #G #E #VatUrbGr95 #Aristides" source="#ArisArsRhet"
+                                    type="orthographic" resp="#Aristides #OF">ἱππάρχαις</rdg>
                                 <witDetail wit="#E" resp="#OF" place="above">Manuscript E reports
                                     this reading super lineam</witDetail>
-                                <!--<note source="#ArisArsRhet">Also Aristides reports this
-                                    reading</note>-->
-                                <rdg wit="#VatUrbGr95" resp="#JDF">ἱππάρχαις</rdg>
                                 <rdg wit="#B" type="substantial" resp="#OF">ὑπάρχαις</rdg>
                             </app> καὶ <app resp="#DC">
                                 <lem wit="#DindXenScripMin" resp="#Dindorf"
