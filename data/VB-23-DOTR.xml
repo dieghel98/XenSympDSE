@@ -930,11 +930,11 @@
 
                 <div type="paragraph" n="1" xml:id="c1p1">
                     <p> Ἀλλ’ <app resp="#DC">
-                        <lem>ἐμοὶ</lem>
+                        <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">ἐμοὶ</lem>
                         <rdg wit="#Aristides" type="substantive" cause="falseEmendation"
                             source="#ArisArsRhet" resp="#MEC #OF">ἔμοιγε</rdg>
-                            <note source="#ArisArsRhet">Aristides, Ars Rhetorica, ii.517.2 et
-                                525.12.</note>
+                            <!--<note source="#ArisArsRhet">Aristides, Ars Rhetorica, ii.517.2 et
+                                525.12.</note>-->
                         </app> δοκεῖ τῶν καλῶν κἀγαθῶν ἀνδρῶν <app resp="#DC">
                             <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">ἔργα</lem>
                             <rdg wit="#Aristides" type="omissio" source="#ArisArsRhet"
