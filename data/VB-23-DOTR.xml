@@ -164,7 +164,7 @@
                         <analytic>
                             <title xml:id="ArsRhet"
                                 level="a">Ars Rhetorica</title>
-                            <author corresp="#Aristides" sameAs="http://viaf.org/viaf/89043754"
+                            <author ref="#Aristides" sameAs="http://viaf.org/viaf/89043754"
                                 >Aristides, Aelius</author>
                         </analytic>
                         <monogr>
@@ -187,7 +187,7 @@
                         <monogr>
                             <title xml:id="Deipnosoph"
                                 >Athenaei Naucratitae deipnosophistarum libri xv</title>
-                            <author corresp="#Athenaeus" sameAs="http://viaf.org/viaf/100169636"
+                            <author ref="#Athenaeus" sameAs="http://viaf.org/viaf/100169636"
                                 >Athenaeus of Naucratis</author>
                             <editor xml:id="Kaibel" sameAs="http://viaf.org/viaf/39452354">Kaibel,
                                 G.</editor>
@@ -207,7 +207,7 @@
                     <biblStruct xml:id="AlexisPannuchis">
                         <analytic>
                             <title level="a" xml:id="Pannuchis">Pannuchis</title>
-                            <author corresp="#Alexis">Alexis</author>
+                            <author ref="#Alexis">Alexis</author>
                         </analytic>
                         <monogr>
                             <title level="m">Poetae Comici Graeci (PCG)</title>
@@ -231,7 +231,7 @@
                         <monogr>
                             <title xml:id="DePulchr"
                                 >Enneades (De Pulchritudine)</title>
-                            <author corresp="#Plotinus" sameAs="http://viaf.org/viaf/108386765"
+                            <author ref="#Plotinus" sameAs="http://viaf.org/viaf/108386765"
                                 >Plotinus</author>
                             <editor xml:id="Henry">Henry, P.</editor>
                             <editor xml:id="Schwyzer">Schwyzer, H.R.</editor>
