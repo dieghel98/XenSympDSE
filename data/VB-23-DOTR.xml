@@ -256,7 +256,7 @@
                     <biblStruct xml:id="DindXenScripMin">
                         <monogr>
                             <title level="m">Xenophontis Scripta Minora</title>
-                            <author xml:id="Dindorf" sameAs="http://viaf.org/viaf/4973853">Dindorf,
+                            <author corresp="#Dindorf" sameAs="http://viaf.org/viaf/4973853">Dindorf,
                                 L.</author>
                             <imprint>
                                 <pubPlace>Leipzig</pubPlace>
@@ -489,6 +489,7 @@
                     <witness xml:id="Athenaeus">Athenaeus, Deipnosophistae</witness>
                     <witness xml:id="Alexis">Alexis, Pannuchis</witness>
                     <witness xml:id="Plotinus">Plotinus, Enneades (De Pulchritudine)</witness>
+                    <witness xml:id="Dindorf">Dindorf, Xenophontis Scripta Minora</witness>
                 </listWit>
 
                 <listOrg>
@@ -1074,7 +1075,7 @@
                                     this reading super lineam</witDetail>
                                 <rdg wit="#B" type="substantial" resp="#OF">ὑπάρχαις</rdg>
                             </app> καὶ <app resp="#DC">
-                                <lem wit="#DindXenScripMin" resp="#Dindorf"
+                                <lem wit="#Dindorf" resp="#Dindorf"
                                     source="#DindXenScripMin" type="conjecture">σπουδαρχίαις</lem>
                                 <rdg
                                     wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
