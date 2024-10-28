@@ -803,7 +803,7 @@
                 <div>
                     <head>Stemma Codicum</head>
                     <!--Insert here the picture of Huss' stemma codicum-->
-                    <p><graphic url="#images/StemmaHuss1999.png"/></p>
+                    <p><graphic url="images/StemmaHuss1999.png"/></p>
                     <p>Consensus codicum = V O L N P C K E A Ha X B H1 G VatUrbGr95 D F Z Q R Mut129 Mon494 H2 q r g</p>
                     <!--codd. = #V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g-->
                 </div>
