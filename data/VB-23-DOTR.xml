@@ -14,10 +14,10 @@
                 <author xml:id="Xe" sameAs="https://isni.org/isni/0000000123212506"
                     >Xenophon</author>
                 <editor>
-                    <persName ref="#DC">Diego Canali</persName>
+                    <persName ref="#Canali">Diego Canali</persName>
                 </editor>
                 <principal>
-                    <persName ref="#DC">Diego Canali</persName>
+                    <persName ref="#Canali">Diego Canali</persName>
                 </principal>
                 <funder xml:id="UniBo" sameAs="https://isni.org/isni/0000000121912795">Alma Mater
                     Studiorum - Università di Bologna</funder>
@@ -26,7 +26,7 @@
                 <sponsor xml:id="TP">TALOS - AI4SSH</sponsor>
                 <respStmt>
                     <resp>Encoding:</resp>
-                    <persName xml:id="DC">Diego Canali</persName>
+                    <persName xml:id="Canali">Diego Canali</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Supervision:</resp>
@@ -78,7 +78,7 @@
                         <monogr>
                             <title xml:lang="lat">CONVIVIUM</title>
                             <author ref="#Xe">Xenophon</author>
-                            <editor corresp="#MEC" sameAs="https://isni.org/isni/0000000120287772"
+                            <editor corresp="#Marchant" sameAs="https://isni.org/isni/0000000120287772"
                                 >Marchant, E.C.</editor>
                             <imprint>
                                 <publisher>Claredon Press</publisher>
@@ -94,7 +94,7 @@
                         <monogr>
                             <title xml:lang="fr">Xénophon. Banquet - Apologie de Socrate</title>
                             <author ref="#Xe">Xenophon</author>
-                            <editor corresp="#OF" sameAs="https://isni.org/isni/0000000108779299"
+                            <editor corresp="#Ollier" sameAs="https://isni.org/isni/0000000108779299"
                                 >Ollier, François</editor>
                             <imprint>
                                 <publisher>Société d'édition "Les Belles Lettres"</publisher>
@@ -109,7 +109,7 @@
                             <title xml:lang="en">Xenophon's "Symposium": A collation, text and text
                                 history</title>
                             <author ref="#Xe">Xenophon</author>
-                            <editor corresp="#CJS" sameAs="https://isni.org/isni/0000000434940076"
+                            <editor corresp="#Cirignano" sameAs="https://isni.org/isni/0000000434940076"
                                 >Cirignano, John Stephen</editor>
                             <imprint>
                                 <publisher>Graduate College of The University of Iowa</publisher>
@@ -137,7 +137,7 @@
                             <title xml:lang="en">The Symposium of Xenophon of Athens. A New Critical
                                 Edition with a Facing-Page English Translation</title>
                             <author ref="#Xe">Xenophon</author>
-                            <editor corresp="#JDF" sameAs="https://isni.org/isni/000000011674343X"
+                            <editor corresp="#Jackson" sameAs="https://isni.org/isni/000000011674343X"
                                 >Jackson, Donald F.</editor>
                             <imprint>
                                 <publisher>The Edwin Mellen Press</publisher>
@@ -327,8 +327,8 @@
                         <monogr>
                             <title level="m">Commentatio, quae continetur Prosopographia
                                 Xenophontea</title>
-                            <author corresp="#Cobet" sameAs="http://viaf.org/viaf/69276004">Cobet, Carel
-                                Gabriel</author>
+                            <author corresp="#Cobet" sameAs="http://viaf.org/viaf/69276004">Cobet,
+                                Carel Gabriel</author>
                             <imprint>
                                 <publisher>Brill</publisher>
                                 <pubPlace>Leiden</pubPlace>
@@ -495,14 +495,15 @@
                     <witness xml:id="Richards">Richards, Notes on Xenophon and others</witness>
                     <witness xml:id="Cobet">Cobet, Commentatio, quae continetur Prosopographia
                         Xenophontea</witness>
-                    <witness xml:id="Petraglia">Petraglia, Per la tradizione indiretta del Simposio di Senofonte</witness>
+                    <witness xml:id="Petraglia">Petraglia, Per la tradizione indiretta del Simposio
+                        di Senofonte</witness>
                     <witness xml:id="Stephanus">Stephanus, Excudebat Henricus Stephanus</witness>
-                    <witness xml:id="MEC">MEC, Xenophon. Convivium</witness>
-                    <witness xml:id="OF">Ollier, Xénophon. Banquet - Apologie de Socrate</witness>
-                    <witness xml:id="CJS">Cirignano, Xenophon's "Symposium": A collation, text and text
-                        history</witness>
-                    <witness xml:id="JDF">Jackson, The Symposium of Xenophon of Athens. A New Critical
-                        Edition with a Facing-Page English Translation</witness>
+                    <witness xml:id="Marchant">Marchant, Xenophon. Convivium</witness>
+                    <witness xml:id="Ollier">Ollier, Xénophon. Banquet - Apologie de Socrate</witness>
+                    <witness xml:id="Cirignano">Cirignano, Xenophon's "Symposium": A collation, text and
+                        text history</witness>
+                    <witness xml:id="Jackson">Jackson, The Symposium of Xenophon of Athens. A New
+                        Critical Edition with a Facing-Page English Translation</witness>
                 </listWit>
 
                 <listOrg>
@@ -674,7 +675,7 @@
 
 
         <revisionDesc>
-            <change resp="#DC">
+            <change resp="#Canali">
                 <date>25/09/2024</date>
                 <p>starting recording all the changes in the ongoing implementation process of this
                     source file</p>
@@ -684,11 +685,11 @@
                 <p>Structuration of the "front" element and its blocks;</p>
                 <p>Better organization of the "listBibl", according to EVT_2 guidelines, see the
                     three set of "biblStruct" examples;</p>
-                <p>Statement that a. every "app" element must have also a @resp="#DC"; (fatto) b.
+                <p>Statement that a. every "app" element must have also a @resp="#Canali"; (fatto) b.
                     every "rdg" must have @resp and @source, and @type and @cause and/or @place.
                     (ancora da fare ----> now done!)</p>
             </change>
-            <change resp="#DC">
+            <change resp="#Canali">
                 <date>26/09/2024</date>
                 <p>There is a huge problem: the scholars mentioned for their choinces in favour of
                     some readings, found in the critical apparatus of Marchant's edition, well they
@@ -715,19 +716,19 @@
                     POSITIVE (still to be done)</p>
             </change>
 
-            <change resp="#DC">
+            <change resp="#Canali">
                 <date>27/09/2024</date>
                 <p>found Naber's article (Ad Fragmenta Comicorum Graecorum) in Journal (Mnemosyne,
                     vol 8 1880, pp. 246-268), and encoded in a proper way in the listBibl;</p>
                 <p>finished to uniform all the listBibl.</p>
             </change>
 
-            <change resp="#DC">
+            <change resp="#Canali">
                 <date>07/10/2024</date>
                 <p>examples of implementation in the front and back elements.</p>
             </change>
 
-            <change resp="#DC">
+            <change resp="#Canali">
                 <date>08/10/2024</date>
                 <p>changed the shape of listWit: from two different ones (one for manuscripts and
                     one for papyri), now there is only one, since no papyrus is involved in the
@@ -737,7 +738,7 @@
                 <p>Revision of listPerson (added person element for each single persName)</p>
             </change>
 
-            <change resp="#DC">
+            <change resp="#Canali">
                 <date>09/10/2024</date>
                 <p>inserted @wit for each rdg coming from indirect tradition and/or scholar's
                     conjecture</p>
@@ -746,7 +747,7 @@
                 <p>@source for each lesson from indirect tradition and scholars' conjecture</p>
                 <p>correction of @resp, pointing to scholars and not to biblStruct entries</p>
             </change>
-            <change resp="#DC">
+            <change resp="#Canali">
                 <date>10/10/2024</date>
                 <p>inserted a @sortKey for every named entity (persons, places, organizations), and
                     xml:lang="" to all of them</p>
@@ -771,7 +772,7 @@
                     the teiHeader;</p>
             </change>
 
-            <change resp="#DC">
+            <change resp="#Canali">
                 <date>11/10/2024</date>
                 <p>attempt to unbug the misrepresentation by EVT of readings from indirect tradition
                     or philological conjecture: witness xml:id="Aristides">Aristides, Ars Rhetorica
@@ -781,7 +782,7 @@
                     witness, maybe allowing a better visualization of such information?? </p>
             </change>
 
-            <change resp="#DC">
+            <change resp="#Canali">
                 <date>26/10/2024</date>
                 <p>turned the apparatus from implicit to explicit, from negative to positive.</p>
                 <p>can't understand why with the positive apparatus, readings from indirect
@@ -796,6 +797,16 @@
                     does not work. I don't know what to do.</p>
                 <p>Changed in the front the way to insert the link to the online resources of the
                     digital facsimiles, or the manuscript descriptions on Pinakes.</p>
+            </change>
+
+            <change>
+                <date>29/10/2024</date>
+                <p>Apparently, EVT is disturbed when @source appears within a lem or rdg element,
+                    displaying the code in a wrong or incomplete way, while it is not disturbed by
+                    @source within witDetail or note elements. --> Decide if transfer all the
+                    information about sources in a note or witDetail for each apparatus entry or
+                    reading or lem. It is not disturbed by @resp. So, follow the model for the
+                    apparatus entry of ἐκκεκαθαρμένοις (par. 4)</p>
             </change>
 
         </revisionDesc>
@@ -941,9 +952,9 @@
         <body xml:id="bodyCore" xml:lang="grc">
 
             <div type="title" xml:id="textTitle">
-                <head>Ξενοφώντος <app resp="#DC">
-                        <lem wit="#E" resp="#OF"/>
-                        <rdg wit="#D" resp="#OF" type="addition">
+                <head>Ξενοφώντος <app resp="#Canali">
+                    <lem wit="#E" resp="#Ollier"/>
+                    <rdg wit="#D" resp="#Ollier" type="addition">
                             <add>ῥήτορος</add>
                         </rdg>
                     </app> Συμπόσιον </head>
@@ -955,32 +966,32 @@
                 </div>
 
                 <div type="paragraph" n="1" xml:id="c1p1">
-                    <p> Ἀλλ’ <app resp="#DC">
+                    <p> Ἀλλ’ <app resp="#Canali">
                             <lem
                                 wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                 >ἐμοὶ</lem>
                             <rdg wit="#Aristides" type="substantive">ἔμοιγε</rdg>
                             <note source="#ArisArsRhet">Aristides, Ars Rhetorica, ii.517.2 et
                                 525.12.</note>
-                        </app> δοκεῖ τῶν καλῶν κἀγαθῶν ἀνδρῶν <app resp="#DC">
+                    </app> δοκεῖ τῶν καλῶν κἀγαθῶν ἀνδρῶν <app resp="#Canali">
                             <lem
                                 wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                 >ἔργα</lem>
                             <rdg wit="#Aristides" type="omissio"/>
                             <note source="#ArisArsRhet">Aristides, in Ars Rhetorica, ii.517.2 et
                                 525.12, omits ἔργα.</note>
-                        </app> οὐ μόνον <app resp="#DC">
+                    </app> οὐ μόνον <app resp="#Canali">
                             <lem
                                 wit="#V #O #L #N #P #C #K #E #A #X #B #H1 #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                 >τὰ</lem>
-                            <rdg wit="#G #Ha" resp="#MEC #OF" type="omissio"/>
+                            <rdg wit="#G #Ha" resp="#Marchant #Ollier" type="omissio"/>
                         </app> μετὰ σπουδῆς πραττόμενα ἀξιομνημόνευτα εἶναι, ἀλλὰ καὶ <app
-                            resp="#DC">
+                            resp="#Canali">
                             <lem
                                 wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Mut129 #Mon494 #q #r #g"
                                 >τὰ</lem>
-                            <rdg wit="#H2 #Q #R #Z" resp="#CJS" type="omissio"/>
-                        </app> ἐν ταῖς παιδιαῖς. οἷς δὲ παραγενόμενος ταῦτα γιγνώσκω <app resp="#DC">
+                            <rdg wit="#H2 #Q #R #Z" resp="#Cirignano" type="omissio"/>
+                        </app> ἐν ταῖς παιδιαῖς. οἷς δὲ παραγενόμενος ταῦτα γιγνώσκω <app resp="#Canali">
                             <lem
                                 wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"
                                 >δηλῶσαι</lem>
@@ -989,20 +1000,20 @@
                 </div>
 
                 <div type="paragraph" n="2" xml:id="c1p2">
-                    <p> ἦν μὲν <app resp="#DC">
+                    <p> ἦν μὲν <app resp="#Canali">
                             <lem
                                 wit="#V #O #L #N #P #C #K #E #A #Ha #X #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                 >γὰρ</lem>
-                            <rdg wit="#B" resp="#CJS" type="omissio"/>
+                        <rdg wit="#B" resp="#Cirignano" type="omissio"/>
                         </app> Παναθηναίων τῶν μεγάλων ἱπποδρομία, <persName ref="#Kallias"
                             >Καλλίας</persName> δὲ ὁ <persName ref="#Hipponicus"
                             >Ἱππονίκου</persName> ἐρῶν ἐτύγχανεν <persName ref="#Autolycus"
                             >Αὐτολύκου</persName> παιδὸς ὄντος, καὶ νενικηκότα αὐτὸν παγκράτιον ἧκεν
-                            <app resp="#DC">
+                        <app resp="#Canali">
                             <lem
                                 wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"
                                 >ἄγων</lem>
-                            <rdg wit="H2" resp="#CJS" type="orthographic">ἄγω</rdg>
+                                <rdg wit="H2" resp="#Cirignano" type="orthographic">ἄγω</rdg>
                         </app> ἐπὶ τὴν θέαν. ὡς δὲ ἡ ἱπποδρομία ἔληξεν, ἔχων τόν τε <persName
                             ref="#Autolycus">Αὐτόλυκον</persName> καὶ τὸν πατέρα αὐτοῦ ἀπῄει εἰς τὴν
                         ἐν <placeName ref="#Piraeus">Πειραιεῖ</placeName> οἰκίαν· συνείπετο δὲ αὐτῷ
@@ -1011,27 +1022,27 @@
 
                 <div type="paragraph" n="3" xml:id="c1p3">
                     <p> ἰδὼν δὲ ὁμοῦ ὄντας <persName ref="#Socrates">
-                            <app resp="#DC">
+                        <app resp="#Canali">
                                 <lem
                                     wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                         ><persName ref="#Socrates">Σωκράτην</persName></lem>
-                                <rdg wit="#F" type="orthographic" resp="#MEC"><persName
+                                <rdg wit="#F" type="orthographic" resp="#Marchant"><persName
                                         ref="#Socrates">Σωκράτη</persName></rdg>
-                                <witDetail wit="#F" resp="#MEC">Manuscript F reports the singular
+                                <witDetail wit="#F" resp="#Marchant">Manuscript F reports the singular
                                     accusative of Σώκρατης -η instead of -ην everywhere.</witDetail>
                             </app></persName>
-                        <app resp="#DC">
+                        <app resp="#Canali">
                             <lem
                                 wit="#V #O #L #N #P #C #K #E #A #Ha #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                 >τε</lem>
-                            <rdg wit="#X #B" resp="#CJS" type="omissio"/>
+                            <rdg wit="#X #B" resp="#Cirignano" type="omissio"/>
                         </app> καὶ <persName ref="#Critobulus">Κριτόβουλον</persName> καὶ <persName
                             ref="#Hermogenes">Ἑρμογένην</persName> καὶ <persName ref="#Antisthenes">
-                            <app resp="#DC">
+                                <app resp="#Canali">
                                 <lem
                                     wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Q #R #Mut129 #Mon494 #q #r #g"
                                         ><persName ref="#Antisthenes">Ἀντισθένην</persName></lem>
-                                <rdg wit="#F #H2" type="orthographic" resp="#MEC"><persName
+                                <rdg wit="#F #H2" type="orthographic" resp="#Marchant"><persName
                                         ref="#Antisthenes">Ἀντισθένη</persName></rdg>
                             </app></persName> καὶ <persName ref="#Charmides">Χαρμίδην</persName>,
                         τοῖς μὲν ἀμφ’ <persName ref="#Autolycus">Αὐτόλυκον</persName> ἡγεῖσθαί τινα
@@ -1041,21 +1052,21 @@
 
                 <div type="paragraph" n="4" xml:id="c1p4">
                     <p>
-                        <said who="#Callias" direct="true">Εἰς καλόν γε ὑμῖν <app resp="#DC">
+                        <said who="#Callias" direct="true">Εἰς καλόν γε ὑμῖν <app resp="#Canali">
                                 <lem
                                     wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #Mut129 #Mon494 #q #r #g"
                                     >συντετύχηκα</lem>
-                                <rdg wit="#R" type="substantial" resp="#CJS">συντετύχηκας</rdg>
-                                <rdg wit="#H2" type="substantial" resp="#CJS">συντετύχη</rdg>
+                            <rdg wit="#R" type="substantial" resp="#Cirignano">συντετύχηκας</rdg>
+                            <rdg wit="#H2" type="substantial" resp="#Cirignano">συντετύχη</rdg>
                             </app>· ἑστιᾶν γὰρ μέλλω <persName ref="#Autolycus">Αὐτόλυκον</persName>
-                            καὶ τὸν πατέρα αὐτοῦ. οἶμαι οὖν <app resp="#DC">
+                            καὶ τὸν πατέρα αὐτοῦ. οἶμαι οὖν <app resp="#Canali">
                                 <lem
                                     wit="#V #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"/>
-                                <rdg wit="#O" resp="#CJS" type="addition"><add>εἶπεν</add></rdg>
+                                <rdg wit="#O" resp="#Cirignano" type="addition"><add>εἶπεν</add></rdg>
                             </app> πολὺ ἂν τὴν κατασκευήν μοι λαμπροτέραν φανῆναι εἰ ἀνδράσιν <app
-                                resp="#DC">
-                                <lem wit="#A #Aristides"
-                                    resp="#MEC #OF #CJS #JDF">ἐκκεκαθαρμένοις</lem>
+                                resp="#Canali">
+                                <lem wit="#A #Aristides" resp="#Marchant #Ollier #Cirignano #Jackson"
+                                    >ἐκκεκαθαρμένοις</lem>
                                 <!--source="#ArisArsRhet"-->
                                 <note source="#ArisArsRhet">Aristides, Ars Rhetorica
                                     ii.554.14</note>
@@ -1064,31 +1075,31 @@
                                 <rdg
                                     wit="#V #O #L #N #P #C #K #E #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                     type="substantial">ἐγκεκαθαρμένοις</rdg>
-                            </app> τὰς ψυχὰς ὥσπερ ὑμῖν ὁ <app resp="#DC">
+                            </app> τὰς ψυχὰς ὥσπερ ὑμῖν ὁ <app resp="#Canali">
                                 <lem
                                     wit="#V #O #L #N #P #C #K #E #A #Ha #X #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                     >ἀνδρὼν</lem>
                                 <rdg wit="#B">ἀνδρός</rdg>
-                            </app> κεκοσμημένος <app resp="#DC">
+                            </app> κεκοσμημένος <app resp="#Canali">
                                 <lem
                                     wit="#V #O #L #N #P #C #K #E #A #Ha #X #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                     >εἴη</lem>
                                 <rdg wit="#B" type="substantial">εἰ</rdg>
-                            </app> μᾶλλον ἢ <app resp="#DC">
+                            </app> μᾶλλον ἢ <app resp="#Canali">
                                 <lem
                                     wit="#V #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                     >εἰ</lem>
                                 <rdg wit="#O" type="omissio"/>
-                            </app> στρατηγοῖς καὶ <app resp="#DC">
+                            </app> στρατηγοῖς καὶ <app resp="#Canali">
                                 <lem
                                     wit="#V #O #L #N #P #C #K #A #Ha #X #H1 #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
-                                    resp="#MEC #OF #CJS">ἱππάρχοις</lem>
+                                    resp="#Marchant #Ollier #Cirignano">ἱππάρχοις</lem>
                                 <rdg wit="#D #F #G #E #VatUrbGr95 #Aristides" source="#ArisArsRhet"
-                                    type="orthographic" resp="#Aristides #OF">ἱππάρχαις</rdg>
-                                <witDetail wit="#E" resp="#OF" place="above">Manuscript E reports
+                                    type="orthographic" resp="#Aristides #Ollier">ἱππάρχαις</rdg>
+                                <witDetail wit="#E" resp="#Ollier" place="above">Manuscript E reports
                                     this reading super lineam</witDetail>
-                                <rdg wit="#B" type="substantial" resp="#OF">ὑπάρχαις</rdg>
-                            </app> καὶ <app resp="#DC">
+                                <rdg wit="#B" type="substantial" resp="#Ollier">ὑπάρχαις</rdg>
+                            </app> καὶ <app resp="#Canali">
                                 <lem wit="#Dindorf" source="#DindXenScripMin" type="conjecture"
                                     >σπουδαρχίαις</lem>
                                 <rdg
@@ -1101,74 +1112,79 @@
 
                 <div type="paragraph" n="5" xml:id="c1p5">
                     <p> καὶ ὁ <persName ref="#Socrates">Σωκράτης</persName> εἶπεν· <said
-                            who="#Socrates" direct="true">Ἀεὶ σὺ ἐπισκώπτεις ἡμᾶς <app resp="#DC">
+                        who="#Socrates" direct="true">Ἀεὶ σὺ ἐπισκώπτεις ἡμᾶς <app resp="#Canali">
                                 <lem
                                     wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                     >καταφρονῶν</lem>
-                                <rdg wit="#Aristides" source="#AriarsRhet" resp="#Aristides #OF"
+                                <rdg wit="#Aristides" source="#AriarsRhet" resp="#Aristides #Ollier"
                                     type="omissio"/>
-                            </app>, ὅτι <app resp="#DC">
+                        </app>, ὅτι <app resp="#Canali">
                                 <lem
                                     wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"/>
-                                <rdg wit="#G" type="addition" resp="#CJS">
+                                <rdg wit="#G" type="addition" resp="#Cirignano">
                                     <add>οὐ</add>
                                 </rdg>
                             </app> σὺ μὲν <persName ref="#Protagoras">Πρωταγόρᾳ</persName>
-                            <app resp="#DC">
+                        <app resp="#Canali">
                                 <lem
                                     wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                     >τε</lem>
-                                <rdg wit="#Aristides" source="#AriarsRhet" resp="#Aristides #OF"
+                                <rdg wit="#Aristides" source="#AriarsRhet" resp="#Aristides #Ollier"
                                     type="omissio"/>
                             </app> πολὺ ἀργύριον δέδωκας ἐπὶ σοφίᾳ καὶ <persName ref="#Gorgias"
                                 >Γοργίᾳ</persName> καὶ <persName ref="#Prodicus">Προδίκῳ</persName>
-                            καὶ ἄλλοις πολλοῖς, ἡμᾶς δ’ ὁρᾷς αὐτουργούς τινας τῆς <app resp="#DC">
+                        καὶ ἄλλοις πολλοῖς, ἡμᾶς δ’ ὁρᾷς αὐτουργούς τινας τῆς <app resp="#Canali">
                                 <lem
                                     wit="#V #O #L #N #P #C #K #E #A #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                     >φιλοσοφίας</lem>
-                                <rdg wit="#Ha" resp="#CJS">σοφίας</rdg>
+                                <rdg wit="#Ha" resp="#Cirignano">σοφίας</rdg>
                             </app> ὄντας</said>.</p>
                 </div>
 
                 <div type="paragraph" n="6" xml:id="c1p6">
                     <p> καὶ ὁ <persName ref="#Callias">Καλλίας</persName>, <said who="#Callias"
                             direct="true">
-                            <app resp="#DC">
+                        <app resp="#Canali">
                                 <lem
                                     wit="#V #O #L #N #P #C #K #E #A #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                     >Καὶ</lem>
-                                <rdg wit="#Ha" resp="#CJS" type="omissio"/>
+                                <rdg wit="#Ha" resp="#Cirignano" type="omissio"/>
                             </app> πρόσθεν μέν γε</said>, ἔφη, <said who="#Callias" direct="true"
-                            >ἀπεκρυπτόμην ὑμᾶς ἔχων πολλὰ καὶ σοφὰ λέγειν, <app resp="#DC">
+                                >ἀπεκρυπτόμην ὑμᾶς ἔχων πολλὰ καὶ σοφὰ λέγειν, <app resp="#Canali">
                                 <lem
                                     wit="#V #O #L #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                     >νῦν δέ, ἐὰν παρ’ ἐμοὶ ἦτε, ἐπιδείξω ὑμῖν ἐμαυτὸν πάνυ πολλῆς
                                     σπουδῆς ἄξιον ὄντα</lem>
-                                <rdg wit="#N" resp="#CJS" type="omissio"/>
+                                <rdg wit="#N" resp="#Cirignano" type="omissio"/>
                             </app></said>.</p>
                 </div>
 
                 <div type="paragraph" n="7" xml:id="c1p7">
                     <p>οἱ οὖν ἀμφὶ τὸν <persName ref="#Socrates">Σωκράτην</persName> πρῶτον μέν,
                         ὥσπερ εἰκὸς ἦν, ἐπαινοῦντες τὴν κλῆσιν οὐχ ὑπισχνοῦντο συνδειπνήσειν· ὡς δὲ
-                        πάνυ ἀχθόμενος φανερὸς ἦν <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"/>
-                            <rdg wit="#Aristides" source="#AriarsRhet" resp="#Aristides #OF"
+                        πάνυ ἀχθόμενος φανερὸς ἦν <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"/>
+                            <rdg wit="#Aristides" source="#AriarsRhet" resp="#Aristides #Ollier"
                                 type="addition">
                                 <add>ἀχθόμενος</add>
                             </rdg>
-                        </app>, εἰ μὴ ἕψοιντο, συνηκολού θησαν. ἔπειτα δὲ αὐτῷ <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">οἱ μὲν γυμνασάμενοι καὶ <app resp="#DC">
-                                <lem wit="#V #O #L #N #P #C #K #E #Ha #X #B #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">χρισάμενοι</lem>
+                        </app>, εἰ μὴ ἕψοιντο, συνηκολού θησαν. ἔπειτα δὲ αὐτῷ <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                >οἱ μὲν γυμνασάμενοι καὶ <app resp="#Canali">
+                                    <lem
+                                        wit="#V #O #L #N #P #C #K #E #Ha #X #B #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                        >χρισάμενοι</lem>
                                     <rdg wit="#A #H1" type="orthographic" cause="iotacism"
-                                        resp="#CJS">χρησάμενοι</rdg>
-                                    <rdg wit="#A" type="addition" resp="#CJS"><add place="above"
+                                        resp="#Cirignano">χρησάμενοι</rdg>
+                                    <rdg wit="#A" type="addition" resp="#Cirignano"><add place="above"
                                             >χρωσάμενοι</add></rdg>
                                 </app>
                             </lem>
-                            <rdg wit="#Aristides" source="#ArisArsRhet" resp="#OF"
+                            <rdg wit="#Aristides" source="#ArisArsRhet" resp="#Ollier"
                                 type="substantial">οἱ μέν τινες χρισάμενοι</rdg>
-                        </app>, οἱ δὲ καὶ λουσάμενοι <app resp="#DC">
+                        </app>, οἱ δὲ καὶ λουσάμενοι <app resp="#Canali">
                             <lem
                                 wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g #Athenaeus #Alexis #Naber"
                                 resp="#Naber" source="#AthenDeipnosoph #AlexisPannuchis #NaberAdFra"
@@ -1183,56 +1199,66 @@
 
                 <div type="paragraph" n="8" xml:id="c1p8">
                     <p><persName ref="#Autolycus">Αὐτόλυκος</persName> μὲν οὖν παρὰ τὸν πατέρα
-                        ἐκαθέζετο, οἱ δ’ ἄλλοι, ὥσπερ εἰκός, <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">κατεκλίθησαν</lem>
+                        ἐκαθέζετο, οἱ δ’ ἄλλοι, ὥσπερ εἰκός, <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                >κατεκλίθησαν</lem>
                             <rdg wit="#Mehler #Cobet" resp="#Mehler #Cobet"
                                 source="#MehlerXenSym #CobetProsopoXen">κατεκλίνησαν</rdg>
-                        </app>. εὐθὺς <app resp="#DC">
+                        </app>. εὐθὺς <app resp="#Canali">
                             <lem>μὲν</lem>
-                            <rdg wit="#V" type="omissio" resp="#OF #CJS"/>
-                            <rdg wit="#O #L #N" type="omissio" resp="#CJS"/>
+                            <rdg wit="#V" type="omissio" resp="#Ollier #Cirignano"/>
+                            <rdg wit="#O #L #N" type="omissio" resp="#Cirignano"/>
                         </app>
-                        <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">οὖν</lem>
-                            <rdg wit="#G" type="omissio" resp="#MEC #OF"/>
-                        </app> ἐννοήσας <app resp="#DC">
-                            <lem wit="#Aristides" source="#ArisArsRHet" resp="#Aristides #MEC #OF"
+                        <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                >οὖν</lem>
+                            <rdg wit="#G" type="omissio" resp="#Marchant #Ollier"/>
+                        </app> ἐννοήσας <app resp="#Canali">
+                            <lem wit="#Aristides" source="#ArisArsRHet" resp="#Aristides #Marchant #Ollier"
                                 type="addition">
                                 <add>τις</add></lem>
                             <rdg
                                 wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                 type="omissio"/>
                         </app>
-                        <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">τὰ</lem>
-                            <rdg wit="#X" type="addition" resp="#CJS">
+                        <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                >τὰ</lem>
+                            <rdg wit="#X" type="addition" resp="#Cirignano">
                                 <add>τὰ</add>
                             </rdg>
-                        </app> γιγνόμενα ἡγήσατ’ ἂν φύσει βασιλικόν <app resp="#DC">
+                        </app> γιγνόμενα ἡγήσατ’ ἂν φύσει βασιλικόν <app resp="#Canali">
                             <lem
                                 wit="#V #O #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
-                                resp="#MEC">τι</lem>
-                            <rdg wit="#L" resp="#CJS" type="substantive">τινα</rdg>
-                            <rdg wit="#Aristides" source="#ArisArsRhet" resp="#Aristides #MEC #OF"
+                                resp="#Marchant">τι</lem>
+                            <rdg wit="#L" resp="#Cirignano" type="substantive">τινα</rdg>
+                            <rdg wit="#Aristides" source="#ArisArsRhet" resp="#Aristides #Marchant #Ollier"
                                 type="addition">
                                 <add>τὸ</add>
                             </rdg>
                         </app> κάλλος <!--lacunaStart in H2. -->
-                        <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"><lacunaStart wit="#H2"/>εἶναι, ἄλλως τε καὶ ἂν μετ’ αἰδοῦς καὶ σωφροσύνης, καθάπερ
-                                    <persName ref="#Autolycus">Αὐτόλυκος</persName>
-                                <app resp="#DC">
-                                    <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g">τότε</lem>
+                        <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"
+                                    ><lacunaStart wit="#H2"/>εἶναι, ἄλλως τε καὶ ἂν μετ’ αἰδοῦς καὶ
+                                σωφροσύνης, καθάπερ <persName ref="#Autolycus">Αὐτόλυκος</persName>
+                                <app resp="#Canali">
+                                    <lem
+                                        wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"
+                                        >τότε</lem>
                                     <rdg wit="#Aristides" source="#ArisArsRhet"
-                                        resp="#Aristides #OF" type="omissio"/>
-                                </app>, <app resp="#DC">
-                                    <lem wit="#Mehler" source="#MehlerXenSym"
-                                        resp="#Mehler #MEC">κεκτῆταί</lem>
+                                        resp="#Aristides #Ollier" type="omissio"/>
+                                </app>, <app resp="#Canali">
+                                    <lem wit="#Mehler" source="#MehlerXenSym" resp="#Mehler #Marchant"
+                                        >κεκτῆταί</lem>
                                     <rdg
                                         wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"
                                         >κέκτηταί</rdg>
                                 </app> τις αὐτό. </lem>
-                            <rdg wit="#H2" type="lacuna"><lacunaEnd wit="#H2"></lacunaEnd></rdg>
+                            <rdg wit="#H2" type="lacuna"><lacunaEnd wit="#H2"/></rdg>
                         </app>
                     </p>
                 </div>
@@ -1240,50 +1266,66 @@
 
                 <div type="paragraph" n="9" xml:id="c1p9">
                     <p>
-                        <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"><lacunaStart wit="#H2"/>πρῶτον μὲν γάρ, ὥσπερ <app resp="#DC">
-                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #Mut129 #Mon494 #q #r #g">ὅταν</lem>
-                                    <rdg wit="#R" resp="#CJS"/>
-                                </app> φέγγος <app resp="#DC">
-                                    <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #Mut129 #Mon494 #q #r #g">τι</lem>
-                                    <rdg wit="R" resp="#CJS" type="omissio"/>
-                                    <rdg wit="#Athenaeus" source="#AthenDeipnosoph" resp="#OF"
+                        <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"
+                                ><lacunaStart wit="#H2"/>πρῶτον μὲν γάρ, ὥσπερ <app resp="#Canali">
+                                    <lem
+                                        wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #Mut129 #Mon494 #q #r #g"
+                                        >ὅταν</lem>
+                                        <rdg wit="#R" resp="#Cirignano"/>
+                                </app> φέγγος <app resp="#Canali">
+                                    <lem
+                                        wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #Mut129 #Mon494 #q #r #g"
+                                        >τι</lem>
+                                    <rdg wit="R" resp="#Cirignano" type="omissio"/>
+                                    <rdg wit="#Athenaeus" source="#AthenDeipnosoph" resp="#Ollier"
                                         type="omissio"/>
                                     <note>Athenaeus reports this omission in <bibl
                                             corresp="#AthenDeipnosoph">Deipnosophistae V 118
                                             A</bibl>.</note>
-                                </app> ἐν νυκτὶ <app resp="#DC">
-                                    <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g">φανῇ</lem>
-                                    <rdg wit="#Athenaeus" source="#AthenDeipnosoph" resp="#OF"
+                                </app> ἐν νυκτὶ <app resp="#Canali">
+                                    <lem
+                                        wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"
+                                        >φανῇ</lem>
+                                    <rdg wit="#Athenaeus" source="#AthenDeipnosoph" resp="#Ollier"
                                         type="substantial">παρῇ</rdg>
                                     <note><persName ref="#Athenaeus">Athenaeus</persName>, <bibl
                                             corresp="#AthenDeipnosoph">Deipnosophistae V 118
                                             A</bibl>.</note>
-                                </app>, πάντων προσάγεται <app resp="#DC">
-                                    <lem wit="#V #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"/>
+                                </app>, πάντων προσάγεται <app resp="#Canali">
+                                    <lem
+                                        wit="#V #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"/>
                                     <rdg wit="#O" type="addidion">
                                         <add>εἰς</add>
                                     </rdg>
-                                </app>τὰ ὄμματα, οὕτω <app resp="#DC">
-                                    <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g">καὶ τότε τοῦ <persName ref="#Autolycus"
+                                </app>τὰ ὄμματα, οὕτω <app resp="#Canali">
+                                    <lem
+                                        wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"
+                                        >καὶ τότε τοῦ <persName ref="#Autolycus"
                                             >Αὐτόλυκου</persName> τὸ κάλλος</lem>
-                                    <rdg wit="#Athenaeus" source="#AthenDeipnosoph" resp="#OF"
+                                    <rdg wit="#Athenaeus" source="#AthenDeipnosoph" resp="#Ollier"
                                         type="substantial">καὶ τὸ Αυτολύκου κάλλος</rdg>
                                 </app>
                                 <!--lacunaEnd in H2-->
                             </lem>
                             <rdg wit="#H2"><lacunaEnd wit="#H2"/></rdg>
-                        </app> πάντων <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">εἷλκε</lem>
-                            <rdg wit="#Athenaeus" source="#AthenDeipnosoph" resp="#OF"
+                        </app> πάντων <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                >εἷλκε</lem>
+                            <rdg wit="#Athenaeus" source="#AthenDeipnosoph" resp="#Ollier"
                                 >ἐφέλκεται</rdg>
-                        </app> τὰς ὄψεις <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">πρὸς</lem>
-                            <rdg wit="#Athenaeus" source="#AthenDeipnosoph" resp="#OF"
-                                >ἐφ'</rdg>
+                        </app> τὰς ὄψεις <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                >πρὸς</lem>
+                            <rdg wit="#Athenaeus" source="#AthenDeipnosoph" resp="#Ollier">ἐφ'</rdg>
                         </app>
-                        <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">αὐτόν</lem>
+                        <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                >αὐτόν</lem>
                             <rdg wit="#Petraglia #Plotinus" resp="#Petraglia"
                                 source="#PetragliaIndTrad #PlotDePulchr" type="conjecture"
                                 >αὐτό</rdg>
@@ -1291,116 +1333,146 @@
                                     <persName ref="#Plotinus">Plotinus</persName>, <bibl
                                     corresp="#PlotDePulchr">Liber de pulchritudine i 6 1, ll.
                                     17-19</bibl>. </note>
-                            <rdg wit="#Athenaeus" source="#AthenDeipnosoph" resp="#OF"
-                                >αὐτό</rdg>
-                        </app> · ἔπειτα τῶν <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">ὁρώντων οὐδεὶς οὐκ</lem>
+                            <rdg wit="#Athenaeus" source="#AthenDeipnosoph" resp="#Ollier">αὐτό</rdg>
+                        </app> · ἔπειτα τῶν <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                >ὁρώντων οὐδεὶς οὐκ</lem>
                             <rdg wit="#Athenaeus" source="#AthenDeipnosoph"
-                                resp="#Athenaeus #MEC #OF" type="substantial">παρόντων οὐδεὶς ἦν ὃς
+                                resp="#Athenaeus #Marchant #Ollier" type="substantial">παρόντων οὐδεὶς ἦν ὃς
                                 οὐκ</rdg>
                             <note><persName ref="#Athenaeus">Athenaeus</persName>, <bibl
                                     corresp="#AthenDeipnosoph">Deipnosofistes V 188 A</bibl>
                             </note>
-                        </app> ἔπασχέ <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #A #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">τι</lem>
-                            <rdg wit="#Ha" resp="#CJS" type="omissio"/>
+                        </app> ἔπασχέ <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                >τι</lem>
+                            <rdg wit="#Ha" resp="#Cirignano" type="omissio"/>
                         </app> τὴν ψυχὴν <!--da υπςεκεινου a δε και εσχηματιζοντο è omesso in H2-->
-                        <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">ὑπ’ἐκείνου</lem>
-                            <rdg wit="#F" type="substantial" resp="#CJS">πρὸς ἐκεῖνον</rdg>
+                        <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                >ὑπ’ἐκείνου</lem>
+                            <rdg wit="#F" type="substantial" resp="#Cirignano">πρὸς ἐκεῖνον</rdg>
                             <witDetail wit="#F">Manuscript F reports this lesson ante
                                 correctionem</witDetail>
-                        </app> . οἱ μέν <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">γε</lem>
+                        </app> . οἱ μέν <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                >γε</lem>
                             <rdg wit="#Mehler" resp="#Mehler" type="addition">
                                 <add>γὰρ</add>
                             </rdg>
                         </app>
-                        <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">σιωπηρότεροι</lem>
-                            <rdg wit="#Athenaeus" source="#AthenDeipnosoph"
-                                resp="#Athenaeus #OF" type="orthographic" cause="rotacism"
-                                >σιωπηλότεροι</rdg>
-                        </app> ἐγίγνοντο, οἱ δὲ <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #Mut129 #Mon494 #H2 #q #r #g">καὶ</lem>
-                            <rdg wit="#R" resp="#CJS" type="omissio"/>
+                        <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                >σιωπηρότεροι</lem>
+                            <rdg wit="#Athenaeus" source="#AthenDeipnosoph" resp="#Athenaeus #Ollier"
+                                type="orthographic" cause="rotacism">σιωπηλότεροι</rdg>
+                        </app> ἐγίγνοντο, οἱ δὲ <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #Mut129 #Mon494 #H2 #q #r #g"
+                                >καὶ</lem>
+                            <rdg wit="#R" resp="#Cirignano" type="omissio"/>
                         </app>
-                        <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #Ha #X #B #H1 #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">ἐσχηματίζοντό</lem>
-                            <rdg wit="#A" resp="#OF" type="substantial">ἐσχημάτιζον</rdg>
-                            <rdg wit="#G" type="omissio" resp="#OF"/>
+                        <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #Ha #X #B #H1 #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                >ἐσχηματίζοντό</lem>
+                            <rdg wit="#A" resp="#Ollier" type="substantial">ἐσχημάτιζον</rdg>
+                            <rdg wit="#G" type="omissio" resp="#Ollier"/>
                         </app> πως.</p>
                 </div>
 
                 <div type="paragraph" n="10" xml:id="c1p10">
                     <p>
-                        <app resp="#DC">
+                        <app resp="#Canali">
                             <lem>πάντες</lem>
-                            <rdg wit="#Aristides" source="#ArisArsRhet" resp="#Aristides #OF"
+                            <rdg wit="#Aristides" source="#ArisArsRhet" resp="#Aristides #Ollier"
                                 type="substantial">ἅπαντες</rdg>
-                        </app> μὲν οὖν <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">οἱ</lem>
-                            <rdg wit="#B" resp="#CJS" type="omissio"/>
+                        </app> μὲν οὖν <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                >οἱ</lem>
+                            <rdg wit="#B" resp="#Cirignano" type="omissio"/>
                         </app> ἐκ θεῶν του κατεχόμενοι ἀξιοθέατοι δοκοῦσιν εἶναι· ἀλλ’ οἱ μὲν <app
-                            resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"/>
-                            <rdg wit="#B" type="addition" resp="#CJS">
+                            resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"/>
+                            <rdg wit="#B" type="addition" resp="#Cirignano">
                                 <add>οὖν</add>
                             </rdg>
-                        </app>ἐξ ἄλλων πρὸς τὸ <app resp="#DC">
+                        </app>ἐξ ἄλλων πρὸς τὸ <app resp="#Canali">
                             <lem wit="#Stephanus" source="#StephanusFirstEd1561"
-                                resp="#Stephanus #MEC #OF">γοργότεροί</lem>
+                                resp="#Stephanus #Marchant #Ollier">γοργότεροί</lem>
                             <rdg
                                 wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g #Aristides"
-                                source="#ArisArsRhet" resp="#Aristides #MEC #OF">γοργότερόν</rdg>
+                                source="#ArisArsRhet" resp="#Aristides #Marchant #Ollier">γοργότερόν</rdg>
                         </app>
-                        <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Mut129 #Mon494 #H2 #q #r #g">τε</lem>
+                        <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Mut129 #Mon494 #H2 #q #r #g"
+                                >τε</lem>
                             <rdg wit="#Q #F #Aristides" source="#ArisArsRhet" type="omissio"
-                                resp="#Aristides #OF"/>
-                            <rdg wit="#R" type="omissio" resp="#OF #CJS"/>
-                        </app> ὁρᾶσθαι <app resp="#DC">
-                            <lem wit="#V #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">καὶ</lem>
+                                resp="#Aristides #Ollier"/>
+                            <rdg wit="#R" type="omissio" resp="#Ollier #Cirignano"/>
+                        </app> ὁρᾶσθαι <app resp="#Canali">
+                            <lem
+                                wit="#V #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                >καὶ</lem>
                             <rdg wit="#O">ἐν</rdg>
-                        </app> φοβερώτερον φθέγγεσθαι καὶ <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #Ha #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">σφοδρότεροι</lem>
-                            <rdg wit="#A #B #H1 #G #X" type="substantial" resp="#MEC #OF #CJS"
+                        </app> φοβερώτερον φθέγγεσθαι καὶ <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #Ha #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                >σφοδρότεροι</lem>
+                            <rdg wit="#A #B #H1 #G #X" type="substantial" resp="#Marchant #Ollier #Cirignano"
                                 >σφοδρότερον</rdg>
-                        </app> εἶναι <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Mut129 #Mon494 #H2 #q #r #g">φέρονται</lem>
+                        </app> εἶναι <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Mut129 #Mon494 #H2 #q #r #g"
+                                >φέρονται</lem>
                             <rdg wit="#F #Q #R #Aristides" source="#ArisArsRhet"
-                                resp="#Aristides #OF #CJS">φαίνονται</rdg>
+                                resp="#Aristides #Ollier #Cirignano">φαίνονται</rdg>
                             <witDetail wit="#F">The reading φαίνονται is found also in Aristides,
                                 and it is added supra versum in manuscript F.</witDetail>
                         </app>, οἱ δ’ ὑπὸ τοῦ σώφρονος <persName ref="#Eros">ἔρωτος</persName>
-                        ἔνθεοι τά τε ὄμματα <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g">φιλοφρονεστέρως</lem>
-                            <rdg wit="#H2" type="orthographic" resp="#CJS">φιλοφρονεστένως</rdg>
-                        </app> ἔχουσι καὶ τὴν φωνὴν <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">πρᾳοτέραν ποιοῦνται</lem>
+                        ἔνθεοι τά τε ὄμματα <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"
+                                >φιλοφρονεστέρως</lem>
+                            <rdg wit="#H2" type="orthographic" resp="#Cirignano">φιλοφρονεστένως</rdg>
+                        </app> ἔχουσι καὶ τὴν φωνὴν <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                >πρᾳοτέραν ποιοῦνται</lem>
                             <rdg wit="#Mehler" source="#MehlerXenSym" resp="#Mehler"
                                 type="conjecture">προίενται</rdg>
                         </app>
-                        <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">καὶ τὰ σχήματα</lem>
-                            <rdg wit="#B" type="addition" cause="repetition" resp="#CJS">
+                        <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                >καὶ τὰ σχήματα</lem>
+                            <rdg wit="#B" type="addition" cause="repetition" resp="#Cirignano">
                                 <add>καὶ τὰ σχήματα</add>
                             </rdg>
-                        </app> εἰς τὸ <app resp="#DC">
-                            <lem wit="#MEC #OF" resp="#MEC #OF"
+                        </app> εἰς τὸ <app resp="#Canali">
+                            <lem wit="#Marchant #Ollier" resp="#Marchant #Ollier"
                                 source="#XenSympMarchant #XenSympOllier" type="conjecture"
                                 >ἐλευθεριώτερον</lem>
-                            <rdg wit="#A" resp="#MEC #OF">ἐλευθερότερον</rdg>
+                            <rdg wit="#A" resp="#Marchant #Ollier">ἐλευθερότερον</rdg>
                             <rdg
                                 wit="#V #O #L #N #P #C #K #E #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
-                                resp="#MEC #OF">ἐλευθερ(ι)ώτατον</rdg>
-                            <rdg wit="#CJS" source="#XenSympCirignano" resp="#CJS"
+                                resp="#Marchant #Ollier">ἐλευθερ(ι)ώτατον</rdg>
+                            <rdg wit="#Cirignano" source="#XenSympCirignano" resp="#Cirignano"
                                 >ἐλευθερώτατον</rdg>
                         </app> ἄγουσιν. ἃ δὴ καὶ <persName ref="#Callias">Καλλίας</persName> τότε
                         διὰ τὸν <persName ref="#Eros">ἔρωτα</persName> πράττων ἀξιοθέατος ἦν τοῖς
-                            <app resp="#DC">
-                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #R #Mut129 #Mon494 #H2 #q #r #g"/>
-                            <rdg wit="#Q" type="addition" resp="#OF">
+                        <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #R #Mut129 #Mon494 #H2 #q #r #g"/>
+                                <rdg wit="#Q" type="addition" resp="#Ollier">
                                 <add>γε</add>
                             </rdg>
                         </app> τετελεσμένοις τούτῳ τῷ θεῷ.</p>
@@ -1411,30 +1483,39 @@
                         κρείττονός τινος. <persName ref="#Philip">Φίλιππος</persName> δ’ ὁ
                         γελωτοποιὸς κρούσας τὴν θύραν εἶπε τῷ ὑπακούσαντι <said who="#Philip"
                             direct="false">εἰσαγγεῖλαι ὅστις τε εἴη καὶ δι’ ὅ τι κατάγεσθαι <app
-                                resp="#DC">
-                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">βούλοιτο</lem>
+                                resp="#Canali">
+                                <lem
+                                    wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                    >βούλοιτο</lem>
                                 <rdg wit="#Athenaeus" source="#AthenDeipnosoph"
-                                    resp="#Athenaeus #MEC #OF">βούλεται</rdg>
+                                    resp="#Athenaeus #Marchant #Ollier">βούλεται</rdg>
                                 <note><bibl corresp="#AthenDeipnosoph">Athenaeus, Deipnosofistae XIV
                                         614 C.</bibl></note>
-                            </app>, συνεσκευασμένος <app resp="#DC">
-                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">τε</lem>
+                            </app>, συνεσκευασμένος <app resp="#Canali">
+                                <lem
+                                    wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                    >τε</lem>
                                 <rdg wit="#Athenaeus" source="#AthenDeipnosoph"
-                                    resp="#Athenaeus #MEC #OF">δὲ</rdg>
+                                    resp="#Athenaeus #Marchant #Ollier">δὲ</rdg>
                             </app>
-                            <app resp="#DC">
-                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">παρεῖναι ἔφη</lem>
+                            <app resp="#Canali">
+                                <lem
+                                    wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                    >παρεῖναι ἔφη</lem>
                                 <rdg wit="#Athenaeus" source="#AthenDeipnosoph"
-                                    resp="#Athenaeus #OF">ἔφη παρεῖναι</rdg>
-                            </app> πάντα τὰ ἐπιτήδεια ὥστε <app resp="#DC">
-                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"/>
-                                <rdg wit="#Athenaeus" source="#AthenDeipnosoph"
-                                    type="addition" resp="#Athenaeus #MEC">
+                                    resp="#Athenaeus #Ollier">ἔφη παρεῖναι</rdg>
+                            </app> πάντα τὰ ἐπιτήδεια ὥστε <app resp="#Canali">
+                                <lem
+                                    wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"/>
+                                <rdg wit="#Athenaeus" source="#AthenDeipnosoph" type="addition"
+                                    resp="#Athenaeus #Marchant">
                                     <add>καὶ</add>
                                 </rdg>
                             </app> δειπνεῖν τἀλλότρια, καὶ τὸν παῖδα δὲ ἔφη πάνυ πιέζεσθαι διά τε τὸ
-                            φέρειν <app resp="#DC">
-                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">μηδὲν</lem>
+                            φέρειν <app resp="#Canali">
+                                <lem
+                                    wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                    >μηδὲν</lem>
                                 <rdg wit="#Naber" resp="#Naber" source="#NaberAdFra" type="deletion"
                                         ><del>μηδὲν</del></rdg>
                                 <!--forse qui dovrei marcare questa espunzione del Naber con l'elemento <del>???-->
@@ -1443,46 +1524,62 @@
 
                 <div type="paragraph" n="12" xml:id="c1p12">
                     <p>ὁ οὖν <persName ref="#Callias">Καλλίας</persName> ἀκούσας ταῦτα εἶπεν· <said
-                            who="#Callias" direct="true">Ἀλλὰ μέντοι <app resp="#DC">
-                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"/>
-                                <rdg wit="#G" type="addition" resp="#CJS">
+                        who="#Callias" direct="true">Ἀλλὰ μέντοι <app resp="#Canali">
+                                <lem
+                                    wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"/>
+                                <rdg wit="#G" type="addition" resp="#Cirignano">
                                     <add>γε</add>
                                 </rdg>
-                            </app>, ὦ ἄνδρες, αἰσχρὸν <app resp="#DC">
-                                <lem wit="#V #O #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">στέγης</lem>
-                                <rdg wit="#L" type="substantial" resp="#CJS">στέγη</rdg>
+                        </app>, ὦ ἄνδρες, αἰσχρὸν <app resp="#Canali">
+                                <lem
+                                    wit="#V #O #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                    >στέγης</lem>
+                                <rdg wit="#L" type="substantial" resp="#Cirignano">στέγη</rdg>
                             </app>
-                            <app resp="#DC">
-                                <lem wit="#V #O #L #N #P #C #K #E #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #Mut129 #Mon494 #H2 #q #r #g">γε</lem>
-                                <rdg wit="#A #R" resp="#MEC #OF #CJS" type="omissio"/>
+                        <app resp="#Canali">
+                                <lem
+                                    wit="#V #O #L #N #P #C #K #E #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #Mut129 #Mon494 #H2 #q #r #g"
+                                    >γε</lem>
+                                <rdg wit="#A #R" resp="#Marchant #Ollier #Cirignano" type="omissio"/>
                             </app>
-                            <app resp="#DC">
-                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g">φθονῆσαι</lem>
-                                <rdg wit="#H2" type="substantial" resp="#CJS">φθονῆναι</rdg>
-                            </app>· <app resp="#DC">
-                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g">εἰσίτω</lem>
-                                <rdg wit="#H2" resp="#CJS" type="substantial">εἶσι</rdg>
+                        <app resp="#Canali">
+                                <lem
+                                    wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"
+                                    >φθονῆσαι</lem>
+                                <rdg wit="#H2" type="substantial" resp="#Cirignano">φθονῆναι</rdg>
+                        </app>· <app resp="#Canali">
+                                <lem
+                                    wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"
+                                    >εἰσίτω</lem>
+                                <rdg wit="#H2" resp="#Cirignano" type="substantial">εἶσι</rdg>
                             </app> οὖν</said>. καὶ ἅμα ἀπέβλεψεν εἰς τὸν <persName ref="#Autolycus"
-                            >Αὐτόλυκον</persName>, δῆλον ὅτι <app resp="#DC">
-                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #H1 #G #VatUrbGr95 #D #F #Z #Q #Mut129 #Mon494 #H2 #q #r #g">ἐπισκοπῶν τί</lem>
-                                <rdg wit="#B" resp="#CJS" type="omissio"/>
-                                <rdg wit="#R" resp="#CJS">σκοπῶν τί</rdg>
-                            <rdg wit="#Richards #Naber" resp="#Richards #Naber" source="#RichardsNotes #NaberAdFra"
-                                type="conjecture">ἐπισκοπῶν ποῖόν τι</rdg>
-                            
+                                >Αὐτόλυκον</persName>, δῆλον ὅτι <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #H1 #G #VatUrbGr95 #D #F #Z #Q #Mut129 #Mon494 #H2 #q #r #g"
+                                >ἐπισκοπῶν τί</lem>
+                                <rdg wit="#B" resp="#Cirignano" type="omissio"/>
+                                <rdg wit="#R" resp="#Cirignano">σκοπῶν τί</rdg>
+                            <rdg wit="#Richards #Naber" resp="#Richards #Naber"
+                                source="#RichardsNotes #NaberAdFra" type="conjecture">ἐπισκοπῶν
+                                ποῖόν τι</rdg>
+
                         </app> ἐκείνῳ δόξειε τὸ σκῶμμα εἶναι.</p>
                 </div>
 
                 <div type="paragraph" n="13" xml:id="c1p13">
-                    <p><persName ref="#Philip">ὁ δὲ</persName> στὰς ἐπὶ τῷ ἀνδρῶνι <app resp="#DC">
-                        <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">ἔνθα τὸ δεῖπνον ἦν</lem>
-                            <rdg wit="#Mehler" source="#MehlerXenSym" resp="#Mehler"
-                                type="deletion"/>
+                    <p><persName ref="#Philip">ὁ δὲ</persName> στὰς ἐπὶ τῷ ἀνδρῶνι <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                >ἔνθα τὸ δεῖπνον ἦν</lem>
+                            <rdg wit="#Mehler" source="#MehlerXenSym" resp="#Mehler" type="deletion"
+                            />
                         </app> εἶπεν· <said who="#Philip" direct="true">Ὅτι μὲν γελωτοποιός εἰμι
                             ἴστε πάντες· ἥκω δὲ προθύμως νομίσας γελοιότερον εἶναι τὸ ἄκλητον ἢ <app
-                                resp="#DC">
-                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #Mut129 #Mon494 #H2 #q #r #g">τὸ </lem>
-                                <rdg wit="#R" resp="#CJS" type="substantial">τὸν</rdg>
+                                resp="#Canali">
+                                <lem
+                                    wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #Mut129 #Mon494 #H2 #q #r #g"
+                                    >τὸ </lem>
+                                <rdg wit="#R" resp="#Cirignano" type="substantial">τὸν</rdg>
                             </app>κεκλημένον ἐλθεῖν ἐπὶ τὸ δεῖπνον</said>. <said who="#Callias"
                             direct="true">Κατακλίνου τοίνυν,</said> ἔφη ὁ <persName ref="#Callias"
                             >Καλλίας</persName>. <said who="#Callias" direct="true">καὶ γὰρ οἱ
@@ -1492,25 +1589,35 @@
 
                 <div type="paragraph" n="14" xml:id="c1p14">
                     <p> δειπνούντων δὲ αὐτῶν ὁ <persName ref="#Philip">Φίλιππος</persName>
-                        <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">γελοῖόν τι εὐθὺς</lem>
-                            <rdg wit="#G" type="transposition" resp="#CJS">εὐθὺς γελοῖόν τι</rdg>
+                        <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                >γελοῖόν τι εὐθὺς</lem>
+                            <rdg wit="#G" type="transposition" resp="#Cirignano">εὐθὺς γελοῖόν τι</rdg>
                         </app>
-                        <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #Mut129 #Mon494 #H2 #q #r #g">ἐπεχείρει</lem>
-                            <rdg wit="#R" resp="#OF">ἐπιχείρει</rdg>
-                        </app> λέγειν, ἵνα δὴ <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #Mut129 #Mon494 #H2 #q #r #g">ἐπιτελοίη</lem>
-                            <rdg wit="#R" type="orthographic" resp="#OF #CJS">ἐπιμελοίη</rdg>
+                        <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #Mut129 #Mon494 #H2 #q #r #g"
+                                >ἐπεχείρει</lem>
+                            <rdg wit="#R" resp="#Ollier">ἐπιχείρει</rdg>
+                        </app> λέγειν, ἵνα δὴ <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #Mut129 #Mon494 #H2 #q #r #g"
+                                >ἐπιτελοίη</lem>
+                            <rdg wit="#R" type="orthographic" resp="#Ollier #Cirignano">ἐπιμελοίη</rdg>
                         </app>
-                        <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g">ὧνπερ</lem>
-                            <rdg wit="#H2" resp="#CJS">ὧν πάρ'</rdg>
+                        <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"
+                                >ὧνπερ</lem>
+                            <rdg wit="#H2" resp="#Cirignano">ὧν πάρ'</rdg>
                         </app>ὧνπερ ἕνεκα ἐκαλεῖτο ἑκάστοτε ἐπὶ τὰ δεῖπνα. ὡς δ’ οὐκ ἐκίνησε γέλωτα,
                         τότε μὲν ἀχθεσθεὶς φανερὸς ἐγένετο. αὖθις δ’ ὀλίγον ὕστερον ἄλλο τι γελοῖον
                         ἐβούλετο λέγειν. ὡς δὲ οὐδὲ τότε ἐγέλασαν ἐπ’ αὐτῷ, ἐν τῷ μεταξὺ παυσάμενος
-                        τοῦ δείπνου <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">συγκαλυψάμενος</lem>
+                        τοῦ δείπνου <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                >συγκαλυψάμενος</lem>
                             <rdg wit="#Mehler" source="#MehlerXenSym" resp="#Mehler"
                                 type="substantial">ἐγκαλυψάμενος</rdg>
                         </app> κατέκειτο.</p>
@@ -1525,72 +1632,100 @@
                         εἶπε· <said who="#Philip" direct="true">Ναὶ μὰ Δί’,</said> ἔφη, <said
                             who="#Philip" direct="true">ὦ <persName ref="#Callias"
                             >Καλλία</persName>, μεγάλη γε· ἐπεὶ γὰρ γέλως ἐξ ἀνθρώπων <app
-                                resp="#DC">
-                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">ἀπόλωλεν</lem>
-                                <rdg wit="#G" resp="#CJS">ὄλωλεν</rdg>
-                            </app>, ἔρρει τὰ ἐμὰ <app resp="#DC">
-                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">πράγματα</lem>
+                                resp="#Canali">
+                                <lem
+                                    wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                    >ἀπόλωλεν</lem>
+                                <rdg wit="#G" resp="#Cirignano">ὄλωλεν</rdg>
+                            </app>, ἔρρει τὰ ἐμὰ <app resp="#Canali">
+                                <lem
+                                    wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                    >πράγματα</lem>
                                 <rdg wit="#Mehler" source="#MehlerXenSym" resp="#Mehler"
                                     type="deletion"/>
-                            </app>. πρόσθεν μὲν γὰρ τούτου ἕνεκα <app resp="#DC">
-                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g">ἐκαλούμην</lem>
-                                <rdg wit="#H2" resp="#CJS">ἐκαλού</rdg>
-                            </app> ἐπὶ <app resp="#DC">
-                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g">τὰ</lem>
-                                <rdg wit="#H2" resp="#CJS">τὸν</rdg>
-                            </app> δεῖπνα, ἵνα <app resp="#DC">
-                                <lem wit="#P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">εὐφραίνοιντο</lem>
-                                <rdg wit="#V #O #L #N" type="substantial" resp="#CJS"
+                            </app>. πρόσθεν μὲν γὰρ τούτου ἕνεκα <app resp="#Canali">
+                                <lem
+                                    wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"
+                                    >ἐκαλούμην</lem>
+                                <rdg wit="#H2" resp="#Cirignano">ἐκαλού</rdg>
+                            </app> ἐπὶ <app resp="#Canali">
+                                <lem
+                                    wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"
+                                    >τὰ</lem>
+                                <rdg wit="#H2" resp="#Cirignano">τὸν</rdg>
+                            </app> δεῖπνα, ἵνα <app resp="#Canali">
+                                <lem
+                                    wit="#P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                    >εὐφραίνοιντο</lem>
+                                <rdg wit="#V #O #L #N" type="substantial" resp="#Cirignano"
                                     >εὐφραίνοντο</rdg>
-                            </app> οἱ συνόντες <app resp="#DC">
-                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #R #Mut129 #Mon494 #q #r #g">δι’ ἐμὲ γελῶντες</lem>
-                                <rdg wit="#Z #Q" type="transposition" resp="#CJS">γελῶντες δι’
+                            </app> οἱ συνόντες <app resp="#Canali">
+                                <lem
+                                    wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #R #Mut129 #Mon494 #q #r #g"
+                                    >δι’ ἐμὲ γελῶντες</lem>
+                                <rdg wit="#Z #Q" type="transposition" resp="#Cirignano">γελῶντες δι’
                                     ἐμὲ</rdg>
-                                <rdg wit="#H2" type="substantial" resp="#CJS">δὲ ἐμὲ γελῶντες</rdg>
-                            </app>· νῦν δὲ τίνος ἕνεκα <app resp="#DC">
-                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g">καὶ</lem>
-                                <rdg wit="#H2" resp="#MEC #OF" type="omissio"/>
+                                <rdg wit="#H2" type="substantial" resp="#Cirignano">δὲ ἐμὲ γελῶντες</rdg>
+                            </app>· νῦν δὲ τίνος ἕνεκα <app resp="#Canali">
+                                <lem
+                                    wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"
+                                    >καὶ</lem>
+                                <rdg wit="#H2" resp="#Marchant #Ollier" type="omissio"/>
                             </app>
-                            <app resp="#DC">
-                                <lem wit="#V #O #L #N #P #C #K #E #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">καλεῖ</lem>
-                                <rdg wit="#A" resp="#CJS"><add place="above">καλοῖ</add></rdg>
-                            </app> μέ τις; <app resp="#DC">
-                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"><lacunaStart wit="#F"/>οὔτε γὰρ ἔγωγε <app resp="#DC">
-                                    <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Q #R #Mut129 #Mon494 #q #r #g">σπουδάσαι</lem>
-                                        <rdg wit="#H2" resp="#CJS">σπουδήσαι</rdg>
-                                    </app> ἂν δυναίμην μᾶλλον <app resp="#DC">
-                                        <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">ἤπερ</lem>
+                            <app resp="#Canali">
+                                <lem
+                                    wit="#V #O #L #N #P #C #K #E #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                    >καλεῖ</lem>
+                                <rdg wit="#A" resp="#Cirignano"><add place="above">καλοῖ</add></rdg>
+                            </app> μέ τις; <app resp="#Canali">
+                                <lem
+                                    wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                    ><lacunaStart wit="#F"/>οὔτε γὰρ ἔγωγε <app resp="#Canali">
+                                        <lem
+                                            wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Q #R #Mut129 #Mon494 #q #r #g"
+                                            >σπουδάσαι</lem>
+                                            <rdg wit="#H2" resp="#Cirignano">σπουδήσαι</rdg>
+                                    </app> ἂν δυναίμην μᾶλλον <app resp="#Canali">
+                                        <lem
+                                            wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                            >ἤπερ</lem>
                                         <rdg wit="#Richards" source="#RichardsNotes"
                                             resp="#Richards" type="conjecture">ἢ</rdg>
-                                    </app> ἀθάνατος γενέσθαι, <app resp="#DC">
-
-
-                                        <lem wit="#A" resp="#MEC #OF #CJS"><add place="margin">οὔτε
+                                    </app> ἀθάνατος γενέσθαι, <app resp="#Canali">
+                                        <lem wit="#A" resp="#Marchant #Ollier #Cirignano"><add place="margin">οὔτε
                                                 μὴν</add></lem>
-                                        <rdg wit="#Q #R #Z #N" type="substantial" resp="#CJS">οὔτε
+                                        <rdg wit="#Q #R #Z #N" type="substantial" resp="#Cirignano">οὔτε
                                             μὴ</rdg>
-                                        <rdg wit="#V #O #L #P #C #K #E #Ha #X #B #H1 #G #VatUrbGr95 #D #Mut129 #Mon494 #H2 #q #r #g" type="substantial" resp="#OF #CJS">τοῦ τε μὴ</rdg>
+                                        <rdg
+                                            wit="#V #O #L #P #C #K #E #Ha #X #B #H1 #G #VatUrbGr95 #D #Mut129 #Mon494 #H2 #q #r #g"
+                                            type="substantial" resp="#Ollier #Cirignano">τοῦ τε μὴ</rdg>
                                     </app> ὡς ἀντικληθησόμενος καλεῖ μέ τις </lem>
-                                <rdg wit="#F" resp="#CJS" type="lacuna"><lacunaEnd wit="#F"/></rdg>
+                                <rdg wit="#F" resp="#Cirignano" type="lacuna"><lacunaEnd wit="#F"/></rdg>
                                 <witDetail wit="#F" rend="ante-correctionem">From οὔτε γὰρ to μέ τις
                                     is omitted in manuscript F, ante correctionem.</witDetail>
-                                <rdg wit="#E #A #H1" type="repetition" resp="#CJS">
+                                <rdg wit="#E #A #H1" type="repetition" resp="#Cirignano">
                                     <add>οὔτε γὰρ ἔγωγε σπουδάσαι ἂν δυναίμην μᾶλλον ἤπερ ἀθάνατος
                                         γενέσθαι, οὔτε μὴν ὡς ἀντικληθησόμενος καλεῖ μέ τις</add>
                                 </rdg>
                                 <witDetail wit="#E #A #H1">From οὔτε γὰρ to μέ τις is repeated in
                                     manuscripts EAH1.</witDetail>
                             </app> , ἐπεὶ πάντες ἴσασιν ὅτι ἀρχὴν οὐδὲ νομίζεται εἰς τὴν ἐμὴν οἰκίαν
-                            δεῖπνον <app resp="#DC">
-                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">προσφέρεσθαι</lem>
+                            δεῖπνον <app resp="#Canali">
+                                <lem
+                                    wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                    >προσφέρεσθαι</lem>
                                 <rdg wit="#Stephanus" source="#StephanusFirstEd1561"
                                     resp="#Stephanus">εἰσφέρεσθαι</rdg>
-                            </app>.</said> καὶ ἅμα λέγων ταῦτα ἀπεμύττετό <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">τε</lem>
-                            <rdg wit="#F" resp="#MEC #OF #CJS" type="omissio"/>
-                        </app> καὶ τῇ φωνῇ <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">σαφῶς</lem>
-                            <rdg wit="#B" resp="#CJS" type="omissio"/>
+                            </app>.</said> καὶ ἅμα λέγων ταῦτα ἀπεμύττετό <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                >τε</lem>
+                                <rdg wit="#F" resp="#Marchant #Ollier #Cirignano" type="omissio"/>
+                            </app> καὶ τῇ φωνῇ <app resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                >σαφῶς</lem>
+                            <rdg wit="#B" resp="#Cirignano" type="omissio"/>
                         </app> κλαίειν ἐφαίνετο.</p>
                 </div>
 
@@ -1599,20 +1734,26 @@
                     <p>πάντες μὲν οὖν παρεμυθοῦντό τε αὐτὸν <said who="#Callias, #Hipponicus, 
                         #Autolycus, #Niceratus, #Socrates, #Critobulus, #Hermogenes, #Antisthenes, 
                         #Charmides, #Lycon, #Philip" direct="false">
-                            <app resp="#DC">
-                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">ὡς</lem>
-                                <rdg wit="#X #B" resp="#CJS">καὶ</rdg>
-                            </app> αὖθις <app resp="#DC">
-                                <lem wit="#V #O #L #N #P #C #K #E #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">γελασόμενοι</lem>
+                        <app resp="#Canali">
+                                <lem
+                                    wit="#V #O #L #N #P #C #K #E #A #Ha #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                    >ὡς</lem>
+                                <rdg wit="#X #B" resp="#Cirignano">καὶ</rdg>
+                        </app> αὖθις <app resp="#Canali">
+                                <lem
+                                    wit="#V #O #L #N #P #C #K #E #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                    >γελασόμενοι</lem>
                                 <rdg wit="#A" type="substantial" rend="ante-correctionem"
-                                    resp="#CJS">γελασόμενος</rdg>
+                                    resp="#Cirignano">γελασόμενος</rdg>
                                 <witDetail wit="#A">Manuscript A reports this reading ante
                                     correctionem</witDetail>
                             </app> καὶ δειπνεῖν ἐκέλευον</said>, <persName ref="#Critobulus"
                             >Κριτόβουλος</persName> δὲ καὶ ἐξεκάγχασεν ἐπὶ τῷ οἰκτισμῷ αὐτοῦ. <app
-                            resp="#DC">
-                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">ὁ δ’ ὡς</lem>
-                            <rdg wit="#X #B" resp="#CJS">ὣς δ’ ὡς</rdg>
+                                resp="#Canali">
+                            <lem
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                >ὁ δ’ ὡς</lem>
+                                <rdg wit="#X #B" resp="#Cirignano">ὣς δ’ ὡς</rdg>
                         </app> ᾔσθετο τοῦ γέλωτος, ἀνεκαλύψατό τε καὶ τῇ ψυχῇ παρακελευσάμενος
                         θαρρεῖν, ὅτι ἔσονται συμβολαί, πάλιν ἐδείπνει.</p>
                 </div>
