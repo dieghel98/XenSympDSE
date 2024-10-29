@@ -1054,8 +1054,9 @@
                                 <rdg wit="#O" resp="#CJS" type="addition"><add>εἶπεν</add></rdg>
                             </app> πολὺ ἂν τὴν κατασκευήν μοι λαμπροτέραν φανῆναι εἰ ἀνδράσιν <app
                                 resp="#DC">
-                                <lem wit="#A #Aristides" source="#ArisArsRhet"
+                                <lem wit="#A #Aristides"
                                     resp="#MEC #OF #CJS #JDF">ἐκκεκαθαρμένοις</lem>
+                                <!--source="#ArisArsRhet"-->
                                 <note source="#ArisArsRhet">Aristides, Ars Rhetorica
                                     ii.554.14</note>
                                 <witDetail wit="#A" place="above">Manuscript A super
@@ -1218,7 +1219,7 @@
                             </rdg>
                         </app> κάλλος <!--lacunaStart in H2. -->
                         <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g">εἶναι, ἄλλως τε καὶ ἂν μετ’ αἰδοῦς καὶ σωφροσύνης, καθάπερ
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"><lacunaStart wit="#H2"/>εἶναι, ἄλλως τε καὶ ἂν μετ’ αἰδοῦς καὶ σωφροσύνης, καθάπερ
                                     <persName ref="#Autolycus">Αὐτόλυκος</persName>
                                 <app resp="#DC">
                                     <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g">τότε</lem>
@@ -1231,7 +1232,7 @@
                                         wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"
                                         >κέκτηταί</rdg>
                                 </app> τις αὐτό. </lem>
-                            <rdg wit="#H2" type="lacuna"><lacunaStart wit="#H2"/></rdg>
+                            <rdg wit="#H2" type="lacuna"><lacunaEnd wit="#H2"></lacunaEnd></rdg>
                         </app>
                     </p>
                 </div>
@@ -1240,7 +1241,7 @@
                 <div type="paragraph" n="9" xml:id="c1p9">
                     <p>
                         <app resp="#DC">
-                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"> πρῶτον μὲν γάρ, ὥσπερ <app resp="#DC">
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"><lacunaStart wit="#H2"/>πρῶτον μὲν γάρ, ὥσπερ <app resp="#DC">
                                 <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #Mut129 #Mon494 #q #r #g">ὅταν</lem>
                                     <rdg wit="#R" resp="#CJS"/>
                                 </app> φέγγος <app resp="#DC">
