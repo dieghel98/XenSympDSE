@@ -993,9 +993,9 @@
                             <rdg wit="#H2 #Q #R #Z" resp="#Cirignano" type="omissio"/>
                         </app> ἐν ταῖς παιδιαῖς. οἷς δὲ παραγενόμενος ταῦτα γιγνώσκω <app resp="#Canali">
                             <lem
-                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #H2 #Mut129 #Mon494 #q #r #g"
                                 >δηλῶσαι</lem>
-                            <rdg wit="#Η2" type="substantive">δηλώσω</rdg>
+                            <rdg wit="#R" type="substantive">δηλώσω</rdg>
                         </app> βούλομαι.</p>
                 </div>
 
