@@ -78,7 +78,7 @@
                         <monogr>
                             <title xml:lang="lat">CONVIVIUM</title>
                             <author ref="#Xe">Xenophon</author>
-                            <editor xml:id="MEC" sameAs="https://isni.org/isni/0000000120287772"
+                            <editor corresp="#MEC" sameAs="https://isni.org/isni/0000000120287772"
                                 >Marchant, E.C.</editor>
                             <imprint>
                                 <publisher>Claredon Press</publisher>
@@ -94,7 +94,7 @@
                         <monogr>
                             <title xml:lang="fr">Xénophon. Banquet - Apologie de Socrate</title>
                             <author ref="#Xe">Xenophon</author>
-                            <editor xml:id="OF" sameAs="https://isni.org/isni/0000000108779299"
+                            <editor corresp="#OF" sameAs="https://isni.org/isni/0000000108779299"
                                 >Ollier, François</editor>
                             <imprint>
                                 <publisher>Société d'édition "Les Belles Lettres"</publisher>
@@ -109,7 +109,7 @@
                             <title xml:lang="en">Xenophon's "Symposium": A collation, text and text
                                 history</title>
                             <author ref="#Xe">Xenophon</author>
-                            <editor xml:id="CJS" sameAs="https://isni.org/isni/0000000434940076"
+                            <editor corresp="#CJS" sameAs="https://isni.org/isni/0000000434940076"
                                 >Cirignano, John Stephen</editor>
                             <imprint>
                                 <publisher>Graduate College of The University of Iowa</publisher>
@@ -137,7 +137,7 @@
                             <title xml:lang="en">The Symposium of Xenophon of Athens. A New Critical
                                 Edition with a Facing-Page English Translation</title>
                             <author ref="#Xe">Xenophon</author>
-                            <editor xml:id="JDF" sameAs="https://isni.org/isni/000000011674343X"
+                            <editor corresp="#JDF" sameAs="https://isni.org/isni/000000011674343X"
                                 >Jackson, Donald F.</editor>
                             <imprint>
                                 <publisher>The Edwin Mellen Press</publisher>
@@ -166,7 +166,7 @@
                         source="http://stephanus.tlg.uci.edu.ezproxy.unibo.it/Iris/Cite?0284:056:0">
                         <analytic>
                             <title xml:id="ArsRhet" level="a">Ars Rhetorica</title>
-                            <author ref="#Aristides" sameAs="http://viaf.org/viaf/89043754"
+                            <author corresp="#Aristides" sameAs="http://viaf.org/viaf/89043754"
                                 >Aristides, Aelius</author>
                         </analytic>
                         <monogr>
@@ -189,7 +189,7 @@
                         <monogr>
                             <title xml:id="Deipnosoph">Athenaei Naucratitae deipnosophistarum libri
                                 xv</title>
-                            <author ref="#Athenaeus" sameAs="http://viaf.org/viaf/100169636"
+                            <author corresp="#Athenaeus" sameAs="http://viaf.org/viaf/100169636"
                                 >Athenaeus of Naucratis</author>
                             <editor xml:id="Kaibel" sameAs="http://viaf.org/viaf/39452354">Kaibel,
                                 G.</editor>
@@ -209,7 +209,7 @@
                     <biblStruct xml:id="AlexisPannuchis">
                         <analytic>
                             <title level="a" xml:id="Pannuchis">Pannuchis</title>
-                            <author ref="#Alexis">Alexis</author>
+                            <author corresp="#Alexis">Alexis</author>
                         </analytic>
                         <monogr>
                             <title level="m">Poetae Comici Graeci (PCG)</title>
@@ -232,7 +232,7 @@
                         source="http://stephanus.tlg.uci.edu.ezproxy.unibo.it/Iris/Cite?2000:001:83063">
                         <monogr>
                             <title xml:id="DePulchr">Enneades (De Pulchritudine)</title>
-                            <author ref="#Plotinus" sameAs="http://viaf.org/viaf/108386765"
+                            <author corresp="#Plotinus" sameAs="http://viaf.org/viaf/108386765"
                                 >Plotinus</author>
                             <editor xml:id="Henry">Henry, P.</editor>
                             <editor xml:id="Schwyzer">Schwyzer, H.R.</editor>
@@ -256,8 +256,8 @@
                     <biblStruct xml:id="DindXenScripMin">
                         <monogr>
                             <title level="m">Xenophontis Scripta Minora</title>
-                            <author corresp="#Dindorf" sameAs="http://viaf.org/viaf/4973853">Dindorf,
-                                L.</author>
+                            <author corresp="#Dindorf" sameAs="http://viaf.org/viaf/4973853"
+                                >Dindorf, L.</author>
                             <imprint>
                                 <pubPlace>Leipzig</pubPlace>
                                 <publisher>Teubner</publisher>
@@ -271,12 +271,12 @@
                         <analytic>
                             <title level="a">Ad Fragmenta Comicorum Graecorum ("Contin. ex pag."
                                 268)</title>
-                            <author xml:id="Naber" sameAs="http://viaf.org/viaf/67246036">Naber,
+                            <author corresp="#Naber" sameAs="http://viaf.org/viaf/67246036">Naber,
                                 Samuel Adrianus</author>
                         </analytic>
                         <monogr>
                             <title level="j">Mnemosyne</title>
-                            <editor xml:id="Cobet" sameAs="http://viaf.org/viaf/69276004">Cobet,
+                            <editor corresp="#Cobet" sameAs="http://viaf.org/viaf/69276004">Cobet,
                                 Carel Gabriel</editor>
                             <editor xml:id="VanDerMey">Van der Mey, H.W.</editor>
                             <imprint>
@@ -294,7 +294,7 @@
                     <biblStruct xml:id="RichardsNotes">
                         <monogr>
                             <title level="m">Notes on Xenophon and others</title>
-                            <author xml:id="Richards" sameAs="http://viaf.org/viaf/48837021"
+                            <author corresp="#Richards" sameAs="http://viaf.org/viaf/48837021"
                                 >Richards, Herbert</author>
                             <imprint>
                                 <publisher>E. Grant Richards</publisher>
@@ -327,7 +327,7 @@
                         <monogr>
                             <title level="m">Commentatio, quae continetur Prosopographia
                                 Xenophontea</title>
-                            <author sameAs="http://viaf.org/viaf/69276004">Cobet, Carel
+                            <author corresp="#Cobet" sameAs="http://viaf.org/viaf/69276004">Cobet, Carel
                                 Gabriel</author>
                             <imprint>
                                 <publisher>Brill</publisher>
@@ -343,7 +343,7 @@
                     <biblStruct xml:id="StephanusFirstEd1561">
                         <monogr>
                             <title level="m">Excudebat Henricus Stephanus</title>
-                            <author xml:id="Stephanus" sameAs="http://viaf.org/viaf/79024744"
+                            <author corresp="#Stephanus" sameAs="http://viaf.org/viaf/79024744"
                                 >Stephanus, Henricus</author>
                             <imprint>
                                 <pubPlace>Geneva</pubPlace>
@@ -386,7 +386,7 @@
                         <analytic>
                             <title level="a">Per la tradizione indiretta del Simposio di
                                 Senofonte</title>
-                            <author xml:id="Petraglia">Petraglia, Manuela</author>
+                            <author corresp="#Petraglia">Petraglia, Manuela</author>
                         </analytic>
                         <monogr>
                             <title level="m">Res Publica Litterarum : Studies in the Classical
@@ -491,6 +491,18 @@
                     <witness xml:id="Plotinus">Plotinus, Enneades (De Pulchritudine)</witness>
                     <witness xml:id="Dindorf">Dindorf, Xenophontis Scripta Minora</witness>
                     <witness xml:id="Mehler">Mehler, Xenophontis Convivium</witness>
+                    <witness xml:id="Naber">Naber, Ad Fragmenta Comicorum Graecorum</witness>
+                    <witness xml:id="Richards">Richards, Notes on Xenophon and others</witness>
+                    <witness xml:id="Cobet">Cobet, Commentatio, quae continetur Prosopographia
+                        Xenophontea</witness>
+                    <witness xml:id="Petraglia">Petraglia, Per la tradizione indiretta del Simposio di Senofonte</witness>
+                    <witness xml:id="Stephanus">Stephanus, Excudebat Henricus Stephanus</witness>
+                    <witness xml:id="MEC">MEC, Xenophon. Convivium</witness>
+                    <witness xml:id="OF">Ollier, Xénophon. Banquet - Apologie de Socrate</witness>
+                    <witness xml:id="CJS">Cirignano, Xenophon's "Symposium": A collation, text and text
+                        history</witness>
+                    <witness xml:id="JDF">Jackson, The Symposium of Xenophon of Athens. A New Critical
+                        Edition with a Facing-Page English Translation</witness>
                 </listWit>
 
                 <listOrg>
@@ -1076,36 +1088,43 @@
                                     this reading super lineam</witDetail>
                                 <rdg wit="#B" type="substantial" resp="#OF">ὑπάρχαις</rdg>
                             </app> καὶ <app resp="#DC">
-                                <lem wit="#Dindorf"
-                                    source="#DindXenScripMin" type="conjecture">σπουδαρχίαις</lem>
+                                <lem wit="#Dindorf" source="#DindXenScripMin" type="conjecture"
+                                    >σπουδαρχίαις</lem>
                                 <rdg
                                     wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                     >σπουδάρχαις</rdg>
-                                <rdg wit="#Mehler" source="#MehlerXenSym"
-                                    type="conjecture">σπουδαρχίδαις</rdg>
+                                <rdg wit="#Mehler" source="#MehlerXenSym" type="conjecture"
+                                    >σπουδαρχίδαις</rdg>
                             </app>.</said></p>
                 </div>
 
                 <div type="paragraph" n="5" xml:id="c1p5">
                     <p> καὶ ὁ <persName ref="#Socrates">Σωκράτης</persName> εἶπεν· <said
                             who="#Socrates" direct="true">Ἀεὶ σὺ ἐπισκώπτεις ἡμᾶς <app resp="#DC">
-                                <lem>καταφρονῶν</lem>
-                                <rdg wit="#ArisArsRhet" source="#AriarsRhet" resp="#Aristides #OF"
+                                <lem
+                                    wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                    >καταφρονῶν</lem>
+                                <rdg wit="#Aristides" source="#AriarsRhet" resp="#Aristides #OF"
                                     type="omissio"/>
                             </app>, ὅτι <app resp="#DC">
-                                <lem/>
+                                <lem
+                                    wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"/>
                                 <rdg wit="#G" type="addition" resp="#CJS">
                                     <add>οὐ</add>
                                 </rdg>
                             </app> σὺ μὲν <persName ref="#Protagoras">Πρωταγόρᾳ</persName>
                             <app resp="#DC">
-                                <lem>τε</lem>
-                                <rdg wit="#ArisArsRhet" source="#AriarsRhet" resp="#Aristides #OF"
+                                <lem
+                                    wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                    >τε</lem>
+                                <rdg wit="#Aristides" source="#AriarsRhet" resp="#Aristides #OF"
                                     type="omissio"/>
                             </app> πολὺ ἀργύριον δέδωκας ἐπὶ σοφίᾳ καὶ <persName ref="#Gorgias"
                                 >Γοργίᾳ</persName> καὶ <persName ref="#Prodicus">Προδίκῳ</persName>
                             καὶ ἄλλοις πολλοῖς, ἡμᾶς δ’ ὁρᾷς αὐτουργούς τινας τῆς <app resp="#DC">
-                                <lem>φιλοσοφίας</lem>
+                                <lem
+                                    wit="#V #O #L #N #P #C #K #E #A #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                    >φιλοσοφίας</lem>
                                 <rdg wit="#Ha" resp="#CJS">σοφίας</rdg>
                             </app> ὄντας</said>.</p>
                 </div>
@@ -1115,12 +1134,14 @@
                             direct="true">
                             <app resp="#DC">
                                 <lem
-                                    wit="#VatUrbGr95 #g #F #D #r #Z #Q #Mut129 #Mon494 #q #R #H2 #E #A #X #B #H1 #G #V #L #O #N #P #C #K"
+                                    wit="#V #O #L #N #P #C #K #E #A #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                     >Καὶ</lem>
                                 <rdg wit="#Ha" resp="#CJS" type="omissio"/>
                             </app> πρόσθεν μέν γε</said>, ἔφη, <said who="#Callias" direct="true"
                             >ἀπεκρυπτόμην ὑμᾶς ἔχων πολλὰ καὶ σοφὰ λέγειν, <app resp="#DC">
-                                <lem>νῦν δέ, ἐὰν παρ’ ἐμοὶ ἦτε, ἐπιδείξω ὑμῖν ἐμαυτὸν πάνυ πολλῆς
+                                <lem
+                                    wit="#V #O #L #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                    >νῦν δέ, ἐὰν παρ’ ἐμοὶ ἦτε, ἐπιδείξω ὑμῖν ἐμαυτὸν πάνυ πολλῆς
                                     σπουδῆς ἄξιον ὄντα</lem>
                                 <rdg wit="#N" resp="#CJS" type="omissio"/>
                             </app></said>.</p>
@@ -1130,31 +1151,31 @@
                     <p>οἱ οὖν ἀμφὶ τὸν <persName ref="#Socrates">Σωκράτην</persName> πρῶτον μέν,
                         ὥσπερ εἰκὸς ἦν, ἐπαινοῦντες τὴν κλῆσιν οὐχ ὑπισχνοῦντο συνδειπνήσειν· ὡς δὲ
                         πάνυ ἀχθόμενος φανερὸς ἦν <app resp="#DC">
-                            <lem/>
-                            <rdg wit="#ArisArsRhet" source="#AriarsRhet" resp="#Aristides #OF"
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"/>
+                            <rdg wit="#Aristides" source="#AriarsRhet" resp="#Aristides #OF"
                                 type="addition">
                                 <add>ἀχθόμενος</add>
                             </rdg>
                         </app>, εἰ μὴ ἕψοιντο, συνηκολού θησαν. ἔπειτα δὲ αὐτῷ <app resp="#DC">
-                            <lem>οἱ μὲν γυμνασάμενοι καὶ <app resp="#DC">
-                                    <lem>χρισάμενοι</lem>
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">οἱ μὲν γυμνασάμενοι καὶ <app resp="#DC">
+                                <lem wit="#V #O #L #N #P #C #K #E #Ha #X #B #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">χρισάμενοι</lem>
                                     <rdg wit="#A #H1" type="orthographic" cause="iotacism"
                                         resp="#CJS">χρησάμενοι</rdg>
                                     <rdg wit="#A" type="addition" resp="#CJS"><add place="above"
                                             >χρωσάμενοι</add></rdg>
                                 </app>
                             </lem>
-                            <rdg wit="#ArisArsRhet" source="#ArisArsRhet" resp="#OF"
+                            <rdg wit="#Aristides" source="#ArisArsRhet" resp="#OF"
                                 type="substantial">οἱ μέν τινες χρισάμενοι</rdg>
                         </app>, οἱ δὲ καὶ λουσάμενοι <app resp="#DC">
                             <lem
-                                wit="#VatUrbGr95 #g #F #D #r #Z #Q #Mut129 #Mon494 #q #R #H2 #E #A #Ha #X #B #H1 #G #V #L #O #N #P #C #K #NaberAdFra"
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g #Athenaeus #Alexis #Naber"
                                 resp="#Naber" source="#AthenDeipnosoph #AlexisPannuchis #NaberAdFra"
                                 >παρῆλθον</lem>
                             <note>Marchant (1921) reports in apparatus: "παρῆλθον tuetur Naber coll.
                                 Alexis ap. Athen. iv. 170 B : προσῆλθον Richards : cf. Com. III.
                                 vii. i" </note>
-                            <rdg wit="#RichardsNotes" source="#RichardsNotes" resp="Richards"
+                            <rdg wit="#Richards" source="#RichardsNotes" resp="#Richards"
                                 >προσῆλθον</rdg>
                         </app>.</p>
                 </div>
@@ -1162,8 +1183,8 @@
                 <div type="paragraph" n="8" xml:id="c1p8">
                     <p><persName ref="#Autolycus">Αὐτόλυκος</persName> μὲν οὖν παρὰ τὸν πατέρα
                         ἐκαθέζετο, οἱ δ’ ἄλλοι, ὥσπερ εἰκός, <app resp="#DC">
-                            <lem>κατεκλίθησαν</lem>
-                            <rdg wit="#MehlerXenSym #CobetProsopoXen" resp="#Mehler #Cobet"
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">κατεκλίθησαν</lem>
+                            <rdg wit="#Mehler #Cobet" resp="#Mehler #Cobet"
                                 source="#MehlerXenSym #CobetProsopoXen">κατεκλίνησαν</rdg>
                         </app>. εὐθὺς <app resp="#DC">
                             <lem>μὲν</lem>
@@ -1171,43 +1192,43 @@
                             <rdg wit="#O #L #N" type="omissio" resp="#CJS"/>
                         </app>
                         <app resp="#DC">
-                            <lem>οὖν</lem>
-                            <rdg wit="#G" resp="#MEC #OF"/>
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">οὖν</lem>
+                            <rdg wit="#G" type="omissio" resp="#MEC #OF"/>
                         </app> ἐννοήσας <app resp="#DC">
-                            <lem wit="#ArisArsRhet" source="#ArisArsRHet" resp="#Aristides #MEC #OF"
-                                type="conjecture">
+                            <lem wit="#Aristides" source="#ArisArsRHet" resp="#Aristides #MEC #OF"
+                                type="addition">
                                 <add>τις</add></lem>
                             <rdg
-                                wit="#VatUrbGr95 #g #F #D #r #Z #Q #Mut129 #Mon494 #q #R #H2 #E #A #Ha #X #B #H1 #G #V #L #O #N #P #C #K"
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                 type="omissio"/>
                         </app>
                         <app resp="#DC">
-                            <lem>τὰ</lem>
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">τὰ</lem>
                             <rdg wit="#X" type="addition" resp="#CJS">
                                 <add>τὰ</add>
                             </rdg>
                         </app> γιγνόμενα ἡγήσατ’ ἂν φύσει βασιλικόν <app resp="#DC">
                             <lem
-                                wit="#VatUrbGr95 #g #F #D #r #Z #Q #Mut129 #Mon494 #q #R #H2 #E #A #Ha #X #B #H1 #G #V #O #N #P #C #K"
+                                wit="#V #O #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                 resp="#MEC">τι</lem>
                             <rdg wit="#L" resp="#CJS" type="substantive">τινα</rdg>
-                            <rdg wit="#ArisArsRhet" source="#ArisArsRhet" resp="#Aristides #MEC #OF"
+                            <rdg wit="#Aristides" source="#ArisArsRhet" resp="#Aristides #MEC #OF"
                                 type="addition">
                                 <add>τὸ</add>
                             </rdg>
                         </app> κάλλος <!--lacunaStart in H2. -->
                         <app resp="#DC">
-                            <lem>εἶναι, ἄλλως τε καὶ ἂν μετ’ αἰδοῦς καὶ σωφροσύνης, καθάπερ
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g">εἶναι, ἄλλως τε καὶ ἂν μετ’ αἰδοῦς καὶ σωφροσύνης, καθάπερ
                                     <persName ref="#Autolycus">Αὐτόλυκος</persName>
                                 <app resp="#DC">
-                                    <lem>τότε</lem>
-                                    <rdg wit="#ArisArsRhet" source="#ArisArsRhet"
+                                    <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g">τότε</lem>
+                                    <rdg wit="#Aristides" source="#ArisArsRhet"
                                         resp="#Aristides #OF" type="omissio"/>
                                 </app>, <app resp="#DC">
-                                    <lem wit="#MehlerXenSym" source="#MehlerXenSym"
+                                    <lem wit="#Mehler" source="#MehlerXenSym"
                                         resp="#Mehler #MEC">κεκτῆταί</lem>
                                     <rdg
-                                        wit="#VatUrbGr95 #g #F #D #r #Z #Q #Mut129 #Mon494 #q #R #H2 #E #A #Ha #X #B #H1 #G #V #L #O #N #P #C #K"
+                                        wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"
                                         >κέκτηταί</rdg>
                                 </app> τις αὐτό. </lem>
                             <rdg wit="#H2" type="lacuna"><lacunaStart wit="#H2"/></rdg>
@@ -1219,92 +1240,92 @@
                 <div type="paragraph" n="9" xml:id="c1p9">
                     <p>
                         <app resp="#DC">
-                            <lem> πρῶτον μὲν γάρ, ὥσπερ <app resp="#DC">
-                                    <lem>ὅταν</lem>
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"> πρῶτον μὲν γάρ, ὥσπερ <app resp="#DC">
+                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #Mut129 #Mon494 #q #r #g">ὅταν</lem>
                                     <rdg wit="#R" resp="#CJS"/>
                                 </app> φέγγος <app resp="#DC">
-                                    <lem>τι</lem>
+                                    <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #Mut129 #Mon494 #q #r #g">τι</lem>
                                     <rdg wit="R" resp="#CJS" type="omissio"/>
-                                    <rdg wit="#AthenDeipnosoph" source="#AthenDeipnosoph" resp="#OF"
+                                    <rdg wit="#Athenaeus" source="#AthenDeipnosoph" resp="#OF"
                                         type="omissio"/>
                                     <note>Athenaeus reports this omission in <bibl
                                             corresp="#AthenDeipnosoph">Deipnosophistae V 118
                                             A</bibl>.</note>
                                 </app> ἐν νυκτὶ <app resp="#DC">
-                                    <lem>φανῇ</lem>
-                                    <rdg wit="#AthenDeipnosoph" source="#AthenDeipnosoph" resp="#OF"
+                                    <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g">φανῇ</lem>
+                                    <rdg wit="#Athenaeus" source="#AthenDeipnosoph" resp="#OF"
                                         type="substantial">παρῇ</rdg>
                                     <note><persName ref="#Athenaeus">Athenaeus</persName>, <bibl
                                             corresp="#AthenDeipnosoph">Deipnosophistae V 118
                                             A</bibl>.</note>
                                 </app>, πάντων προσάγεται <app resp="#DC">
-                                    <lem/>
+                                    <lem wit="#V #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"/>
                                     <rdg wit="#O" type="addidion">
                                         <add>εἰς</add>
                                     </rdg>
                                 </app>τὰ ὄμματα, οὕτω <app resp="#DC">
-                                    <lem>καὶ τότε τοῦ <persName ref="#Autolycus"
+                                    <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g">καὶ τότε τοῦ <persName ref="#Autolycus"
                                             >Αὐτόλυκου</persName> τὸ κάλλος</lem>
-                                    <rdg wit="#AthenDeipnosoph" source="#AthenDeipnosoph" resp="#OF"
+                                    <rdg wit="#Athenaeus" source="#AthenDeipnosoph" resp="#OF"
                                         type="substantial">καὶ τὸ Αυτολύκου κάλλος</rdg>
                                 </app>
                                 <!--lacunaEnd in H2-->
                             </lem>
                             <rdg wit="#H2"><lacunaEnd wit="#H2"/></rdg>
                         </app> πάντων <app resp="#DC">
-                            <lem>εἷλκε</lem>
-                            <rdg wit="#AthenDeipnosoph" source="#AthenDeipnosoph" resp="#OF"
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">εἷλκε</lem>
+                            <rdg wit="#Athenaeus" source="#AthenDeipnosoph" resp="#OF"
                                 >ἐφέλκεται</rdg>
                         </app> τὰς ὄψεις <app resp="#DC">
-                            <lem>πρὸς</lem>
-                            <rdg wit="#AthenDeipnosoph" source="#AthenDeipnosoph" resp="OF"
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">πρὸς</lem>
+                            <rdg wit="#Athenaeus" source="#AthenDeipnosoph" resp="#OF"
                                 >ἐφ'</rdg>
                         </app>
                         <app resp="#DC">
-                            <lem>αὐτόν</lem>
-                            <rdg wit="#PetragliaIndTrad" resp="#Petraglia"
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">αὐτόν</lem>
+                            <rdg wit="#Petraglia #Plotinus" resp="#Petraglia"
                                 source="#PetragliaIndTrad #PlotDePulchr" type="conjecture"
                                 >αὐτό</rdg>
                             <note>Petraglia proposes this conjectur after comparing the passage with
                                     <persName ref="#Plotinus">Plotinus</persName>, <bibl
                                     corresp="#PlotDePulchr">Liber de pulchritudine i 6 1, ll.
                                     17-19</bibl>. </note>
-                            <rdg wit="#AthenDeipnosoph" source="#AthenDeipnosoph" resp="#OF"
+                            <rdg wit="#Athenaeus" source="#AthenDeipnosoph" resp="#OF"
                                 >αὐτό</rdg>
                         </app> · ἔπειτα τῶν <app resp="#DC">
-                            <lem>ὁρώντων οὐδεὶς οὐκ</lem>
-                            <rdg wit="#AthenDeipnosoph" source="#AthenDeipnosoph"
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">ὁρώντων οὐδεὶς οὐκ</lem>
+                            <rdg wit="#Athenaeus" source="#AthenDeipnosoph"
                                 resp="#Athenaeus #MEC #OF" type="substantial">παρόντων οὐδεὶς ἦν ὃς
                                 οὐκ</rdg>
                             <note><persName ref="#Athenaeus">Athenaeus</persName>, <bibl
                                     corresp="#AthenDeipnosoph">Deipnosofistes V 188 A</bibl>
                             </note>
                         </app> ἔπασχέ <app resp="#DC">
-                            <lem>τι</lem>
+                            <lem wit="#V #O #L #N #P #C #K #E #A #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">τι</lem>
                             <rdg wit="#Ha" resp="#CJS" type="omissio"/>
                         </app> τὴν ψυχὴν <!--da υπςεκεινου a δε και εσχηματιζοντο è omesso in H2-->
                         <app resp="#DC">
-                            <lem>ὑπ’ἐκείνου</lem>
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">ὑπ’ἐκείνου</lem>
                             <rdg wit="#F" type="substantial" resp="#CJS">πρὸς ἐκεῖνον</rdg>
                             <witDetail wit="#F">Manuscript F reports this lesson ante
                                 correctionem</witDetail>
                         </app> . οἱ μέν <app resp="#DC">
-                            <lem>γε</lem>
-                            <rdg wit="#MehlerXenSym" resp="#Mehler" type="addition">
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">γε</lem>
+                            <rdg wit="#Mehler" resp="#Mehler" type="addition">
                                 <add>γὰρ</add>
                             </rdg>
                         </app>
                         <app resp="#DC">
-                            <lem>σιωπηρότεροι</lem>
-                            <rdg wit="#AthenDeipnosoph" source="#AthenDeipnosoph"
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">σιωπηρότεροι</lem>
+                            <rdg wit="#Athenaeus" source="#AthenDeipnosoph"
                                 resp="#Athenaeus #OF" type="orthographic" cause="rotacism"
                                 >σιωπηλότεροι</rdg>
                         </app> ἐγίγνοντο, οἱ δὲ <app resp="#DC">
-                            <lem>καὶ</lem>
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #Mut129 #Mon494 #H2 #q #r #g">καὶ</lem>
                             <rdg wit="#R" resp="#CJS" type="omissio"/>
                         </app>
                         <app resp="#DC">
-                            <lem>ἐσχηματίζοντό</lem>
+                            <lem wit="#V #O #L #N #P #C #K #E #Ha #X #B #H1 #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">ἐσχηματίζοντό</lem>
                             <rdg wit="#A" resp="#OF" type="substantial">ἐσχημάτιζον</rdg>
                             <rdg wit="#G" type="omissio" resp="#OF"/>
                         </app> πως.</p>
@@ -1314,72 +1335,70 @@
                     <p>
                         <app resp="#DC">
                             <lem>πάντες</lem>
-                            <rdg wit="#ArisArsRhet" source="#ArisArsRhet" resp="#Aristides #OF"
+                            <rdg wit="#Aristides" source="#ArisArsRhet" resp="#Aristides #OF"
                                 type="substantial">ἅπαντες</rdg>
                         </app> μὲν οὖν <app resp="#DC">
-                            <lem>οἱ</lem>
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">οἱ</lem>
                             <rdg wit="#B" resp="#CJS" type="omissio"/>
                         </app> ἐκ θεῶν του κατεχόμενοι ἀξιοθέατοι δοκοῦσιν εἶναι· ἀλλ’ οἱ μὲν <app
                             resp="#DC">
-                            <lem/>
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"/>
                             <rdg wit="#B" type="addition" resp="#CJS">
                                 <add>οὖν</add>
                             </rdg>
                         </app>ἐξ ἄλλων πρὸς τὸ <app resp="#DC">
-                            <lem wit="#StephanusFirstEd1561" source="#StephanusFirstEd1561"
-                                resp="#MEC #OF">γοργότεροί</lem>
+                            <lem wit="#Stephanus" source="#StephanusFirstEd1561"
+                                resp="#Stephanus #MEC #OF">γοργότεροί</lem>
                             <rdg
-                                wit="#VatUrbGr95 #g #F #D #r #Z #Q #Mut129 #Mon494 #q #R #H2 #E #A #Ha #X #B #H1 #G #V #L #O #N #P #C #K"
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g #Aristides"
                                 source="#ArisArsRhet" resp="#Aristides #MEC #OF">γοργότερόν</rdg>
                         </app>
                         <app resp="#DC">
-                            <lem>τε</lem>
-                            <rdg wit="#Q #F #ArisArsRhet" source="#ArisArsRhet" type="omissio"
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Mut129 #Mon494 #H2 #q #r #g">τε</lem>
+                            <rdg wit="#Q #F #Aristides" source="#ArisArsRhet" type="omissio"
                                 resp="#Aristides #OF"/>
                             <rdg wit="#R" type="omissio" resp="#OF #CJS"/>
                         </app> ὁρᾶσθαι <app resp="#DC">
-                            <lem>καὶ</lem>
+                            <lem wit="#V #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">καὶ</lem>
                             <rdg wit="#O">ἐν</rdg>
                         </app> φοβερώτερον φθέγγεσθαι καὶ <app resp="#DC">
-                            <lem>σφοδρότεροι</lem>
-                            <rdg wit="#A #B #H1" type="substantial" resp="#MEC #OF #CJS"
+                            <lem wit="#V #O #L #N #P #C #K #E #Ha #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">σφοδρότεροι</lem>
+                            <rdg wit="#A #B #H1 #G #X" type="substantial" resp="#MEC #OF #CJS"
                                 >σφοδρότερον</rdg>
-                            <rdg wit="#G" resp="#MEC #OF">σφοδρότερον</rdg>
-                            <rdg wit="#X" resp="#CJS">σφοδρότερον</rdg>
                         </app> εἶναι <app resp="#DC">
-                            <lem>φέρονται</lem>
-                            <rdg wit="#F #Q #R #ArisArsRhet" source="#ArisArsRhet"
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Mut129 #Mon494 #H2 #q #r #g">φέρονται</lem>
+                            <rdg wit="#F #Q #R #Aristides" source="#ArisArsRhet"
                                 resp="#Aristides #OF #CJS">φαίνονται</rdg>
                             <witDetail wit="#F">The reading φαίνονται is found also in Aristides,
                                 and it is added supra versum in manuscript F.</witDetail>
                         </app>, οἱ δ’ ὑπὸ τοῦ σώφρονος <persName ref="#Eros">ἔρωτος</persName>
                         ἔνθεοι τά τε ὄμματα <app resp="#DC">
-                            <lem>φιλοφρονεστέρως</lem>
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g">φιλοφρονεστέρως</lem>
                             <rdg wit="#H2" type="orthographic" resp="#CJS">φιλοφρονεστένως</rdg>
                         </app> ἔχουσι καὶ τὴν φωνὴν <app resp="#DC">
-                            <lem>πρᾳοτέραν ποιοῦνται</lem>
-                            <rdg wit="#MehlerXenSym" source="#MehlerXenSym" resp="#Mehler"
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">πρᾳοτέραν ποιοῦνται</lem>
+                            <rdg wit="#Mehler" source="#MehlerXenSym" resp="#Mehler"
                                 type="conjecture">προίενται</rdg>
                         </app>
                         <app resp="#DC">
-                            <lem>καὶ τὰ σχήματα</lem>
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">καὶ τὰ σχήματα</lem>
                             <rdg wit="#B" type="addition" cause="repetition" resp="#CJS">
                                 <add>καὶ τὰ σχήματα</add>
                             </rdg>
                         </app> εἰς τὸ <app resp="#DC">
-                            <lem wit="#XenSympMarchant #XenSympOllier" resp="#MEC #OF"
+                            <lem wit="#MEC #OF" resp="#MEC #OF"
                                 source="#XenSympMarchant #XenSympOllier" type="conjecture"
                                 >ἐλευθεριώτερον</lem>
                             <rdg wit="#A" resp="#MEC #OF">ἐλευθερότερον</rdg>
                             <rdg
-                                wit="#VatUrbGr95 #g #F #D #r #Z #Q #Mut129 #Mon494 #q #R #H2 #E #Ha #X #B #H1 #G #V #L #O #N #P #C #K"
+                                wit="#V #O #L #N #P #C #K #E #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                 resp="#MEC #OF">ἐλευθερ(ι)ώτατον</rdg>
-                            <rdg wit="#XenSympCirignano" source="#XenSympCirignano" resp="#CJS"
+                            <rdg wit="#CJS" source="#XenSympCirignano" resp="#CJS"
                                 >ἐλευθερώτατον</rdg>
                         </app> ἄγουσιν. ἃ δὴ καὶ <persName ref="#Callias">Καλλίας</persName> τότε
                         διὰ τὸν <persName ref="#Eros">ἔρωτα</persName> πράττων ἀξιοθέατος ἦν τοῖς
                             <app resp="#DC">
-                            <lem/>
+                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #R #Mut129 #Mon494 #H2 #q #r #g"/>
                             <rdg wit="#Q" type="addition" resp="#OF">
                                 <add>γε</add>
                             </rdg>
@@ -1392,30 +1411,30 @@
                         γελωτοποιὸς κρούσας τὴν θύραν εἶπε τῷ ὑπακούσαντι <said who="#Philip"
                             direct="false">εἰσαγγεῖλαι ὅστις τε εἴη καὶ δι’ ὅ τι κατάγεσθαι <app
                                 resp="#DC">
-                                <lem>βούλοιτο</lem>
-                                <rdg wit="#AthenDeipnosoph" source="#AthenDeipnosoph"
+                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">βούλοιτο</lem>
+                                <rdg wit="#Athenaeus" source="#AthenDeipnosoph"
                                     resp="#Athenaeus #MEC #OF">βούλεται</rdg>
                                 <note><bibl corresp="#AthenDeipnosoph">Athenaeus, Deipnosofistae XIV
                                         614 C.</bibl></note>
                             </app>, συνεσκευασμένος <app resp="#DC">
-                                <lem>τε</lem>
-                                <rdg wit="#AthenDeipnosoph" source="#AthenDeipnosoph"
+                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">τε</lem>
+                                <rdg wit="#Athenaeus" source="#AthenDeipnosoph"
                                     resp="#Athenaeus #MEC #OF">δὲ</rdg>
                             </app>
                             <app resp="#DC">
-                                <lem>παρεῖναι ἔφη</lem>
-                                <rdg wit="#AthenDeipnosoph" source="#AthenDeipnosoph"
+                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">παρεῖναι ἔφη</lem>
+                                <rdg wit="#Athenaeus" source="#AthenDeipnosoph"
                                     resp="#Athenaeus #OF">ἔφη παρεῖναι</rdg>
                             </app> πάντα τὰ ἐπιτήδεια ὥστε <app resp="#DC">
-                                <lem/>
-                                <rdg wit="#AthenDeipnosoph" source="#AthenDeipnosoph"
+                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"/>
+                                <rdg wit="#Athenaeus" source="#AthenDeipnosoph"
                                     type="addition" resp="#Athenaeus #MEC">
                                     <add>καὶ</add>
                                 </rdg>
                             </app> δειπνεῖν τἀλλότρια, καὶ τὸν παῖδα δὲ ἔφη πάνυ πιέζεσθαι διά τε τὸ
                             φέρειν <app resp="#DC">
-                                <lem>μηδὲν</lem>
-                                <rdg wit="#NaberAdFra" resp="#Naber" type="deletion"
+                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">μηδὲν</lem>
+                                <rdg wit="#Naber" resp="#Naber" source="#NaberAdFra" type="deletion"
                                         ><del>μηδὲν</del></rdg>
                                 <!--forse qui dovrei marcare questa espunzione del Naber con l'elemento <del>???-->
                             </app> καὶ διὰ τὸ ἀνάριστον εἶναι</said>.</p>
@@ -1424,44 +1443,44 @@
                 <div type="paragraph" n="12" xml:id="c1p12">
                     <p>ὁ οὖν <persName ref="#Callias">Καλλίας</persName> ἀκούσας ταῦτα εἶπεν· <said
                             who="#Callias" direct="true">Ἀλλὰ μέντοι <app resp="#DC">
-                                <lem/>
+                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"/>
                                 <rdg wit="#G" type="addition" resp="#CJS">
                                     <add>γε</add>
                                 </rdg>
                             </app>, ὦ ἄνδρες, αἰσχρὸν <app resp="#DC">
-                                <lem>στέγης</lem>
+                                <lem wit="#V #O #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">στέγης</lem>
                                 <rdg wit="#L" type="substantial" resp="#CJS">στέγη</rdg>
                             </app>
                             <app resp="#DC">
-                                <lem>γε</lem>
-                                <rdg wit="#A" resp="#MEC #OF #CJS" type="omissio"/>
-                                <rdg wit="#R" resp="#OF #CJS" type="omissio"/>
+                                <lem wit="#V #O #L #N #P #C #K #E #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #Mut129 #Mon494 #H2 #q #r #g">γε</lem>
+                                <rdg wit="#A #R" resp="#MEC #OF #CJS" type="omissio"/>
                             </app>
                             <app resp="#DC">
-                                <lem>φθονῆσαι</lem>
+                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g">φθονῆσαι</lem>
                                 <rdg wit="#H2" type="substantial" resp="#CJS">φθονῆναι</rdg>
                             </app>· <app resp="#DC">
-                                <lem>εἰσίτω</lem>
+                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g">εἰσίτω</lem>
                                 <rdg wit="#H2" resp="#CJS" type="substantial">εἶσι</rdg>
                             </app> οὖν</said>. καὶ ἅμα ἀπέβλεψεν εἰς τὸν <persName ref="#Autolycus"
                             >Αὐτόλυκον</persName>, δῆλον ὅτι <app resp="#DC">
-                            <lem>ἐπισκοπῶν τί</lem>
-                            <rdg wit="#R" resp="#CJS">σκοπῶν τί</rdg>
-                            <rdg wit="#RichardsNotes #NaberAdFra" resp="#Richards #Naber"
+                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #H1 #G #VatUrbGr95 #D #F #Z #Q #Mut129 #Mon494 #H2 #q #r #g">ἐπισκοπῶν τί</lem>
+                                <rdg wit="#B" resp="#CJS" type="omissio"/>
+                                <rdg wit="#R" resp="#CJS">σκοπῶν τί</rdg>
+                            <rdg wit="#Richards #Naber" resp="#Richards #Naber" source="#RichardsNotes #NaberAdFra"
                                 type="conjecture">ἐπισκοπῶν ποῖόν τι</rdg>
-                            <rdg wit="#B" resp="#CJS" type="omissio"/>
+                            
                         </app> ἐκείνῳ δόξειε τὸ σκῶμμα εἶναι.</p>
                 </div>
 
                 <div type="paragraph" n="13" xml:id="c1p13">
                     <p><persName ref="#Philip">ὁ δὲ</persName> στὰς ἐπὶ τῷ ἀνδρῶνι <app resp="#DC">
-                            <lem>ἔνθα τὸ δεῖπνον ἦν</lem>
-                            <rdg wit="#MehlerXenSym" source="#MehlerXenSym" resp="#Mehler"
+                        <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">ἔνθα τὸ δεῖπνον ἦν</lem>
+                            <rdg wit="#Mehler" source="#MehlerXenSym" resp="#Mehler"
                                 type="deletion"/>
                         </app> εἶπεν· <said who="#Philip" direct="true">Ὅτι μὲν γελωτοποιός εἰμι
                             ἴστε πάντες· ἥκω δὲ προθύμως νομίσας γελοιότερον εἶναι τὸ ἄκλητον ἢ <app
                                 resp="#DC">
-                                <lem>τὸ </lem>
+                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #Mut129 #Mon494 #H2 #q #r #g">τὸ </lem>
                                 <rdg wit="#R" resp="#CJS" type="substantial">τὸν</rdg>
                             </app>κεκλημένον ἐλθεῖν ἐπὶ τὸ δεῖπνον</said>. <said who="#Callias"
                             direct="true">Κατακλίνου τοίνυν,</said> ἔφη ὁ <persName ref="#Callias"
@@ -1473,25 +1492,25 @@
                 <div type="paragraph" n="14" xml:id="c1p14">
                     <p> δειπνούντων δὲ αὐτῶν ὁ <persName ref="#Philip">Φίλιππος</persName>
                         <app resp="#DC">
-                            <lem>γελοῖόν τι εὐθὺς</lem>
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">γελοῖόν τι εὐθὺς</lem>
                             <rdg wit="#G" type="transposition" resp="#CJS">εὐθὺς γελοῖόν τι</rdg>
                         </app>
                         <app resp="#DC">
-                            <lem>ἐπεχείρει</lem>
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #Mut129 #Mon494 #H2 #q #r #g">ἐπεχείρει</lem>
                             <rdg wit="#R" resp="#OF">ἐπιχείρει</rdg>
                         </app> λέγειν, ἵνα δὴ <app resp="#DC">
-                            <lem>ἐπιτελοίη</lem>
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #Mut129 #Mon494 #H2 #q #r #g">ἐπιτελοίη</lem>
                             <rdg wit="#R" type="orthographic" resp="#OF #CJS">ἐπιμελοίη</rdg>
                         </app>
                         <app resp="#DC">
-                            <lem>ὧνπερ</lem>
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g">ὧνπερ</lem>
                             <rdg wit="#H2" resp="#CJS">ὧν πάρ'</rdg>
                         </app>ὧνπερ ἕνεκα ἐκαλεῖτο ἑκάστοτε ἐπὶ τὰ δεῖπνα. ὡς δ’ οὐκ ἐκίνησε γέλωτα,
                         τότε μὲν ἀχθεσθεὶς φανερὸς ἐγένετο. αὖθις δ’ ὀλίγον ὕστερον ἄλλο τι γελοῖον
                         ἐβούλετο λέγειν. ὡς δὲ οὐδὲ τότε ἐγέλασαν ἐπ’ αὐτῷ, ἐν τῷ μεταξὺ παυσάμενος
                         τοῦ δείπνου <app resp="#DC">
-                            <lem>συγκαλυψάμενος</lem>
-                            <rdg wit="#MehlerXenSym" source="#MehlerXenSym" resp="#Mehler"
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">συγκαλυψάμενος</lem>
+                            <rdg wit="#Mehler" source="#MehlerXenSym" resp="#Mehler"
                                 type="substantial">ἐγκαλυψάμενος</rdg>
                         </app> κατέκειτο.</p>
                 </div>
@@ -1506,41 +1525,41 @@
                             who="#Philip" direct="true">ὦ <persName ref="#Callias"
                             >Καλλία</persName>, μεγάλη γε· ἐπεὶ γὰρ γέλως ἐξ ἀνθρώπων <app
                                 resp="#DC">
-                                <lem>ἀπόλωλεν</lem>
+                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">ἀπόλωλεν</lem>
                                 <rdg wit="#G" resp="#CJS">ὄλωλεν</rdg>
                             </app>, ἔρρει τὰ ἐμὰ <app resp="#DC">
-                                <lem>πράγματα</lem>
-                                <rdg wit="#MehlerXenSym" source="#MehlerXenSym" resp="#Mehler"
+                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">πράγματα</lem>
+                                <rdg wit="#Mehler" source="#MehlerXenSym" resp="#Mehler"
                                     type="deletion"/>
                             </app>. πρόσθεν μὲν γὰρ τούτου ἕνεκα <app resp="#DC">
-                                <lem>ἐκαλούμην</lem>
+                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g">ἐκαλούμην</lem>
                                 <rdg wit="#H2" resp="#CJS">ἐκαλού</rdg>
                             </app> ἐπὶ <app resp="#DC">
-                                <lem>τὰ</lem>
+                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g">τὰ</lem>
                                 <rdg wit="#H2" resp="#CJS">τὸν</rdg>
                             </app> δεῖπνα, ἵνα <app resp="#DC">
-                                <lem>εὐφραίνοιντο</lem>
+                                <lem wit="#P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">εὐφραίνοιντο</lem>
                                 <rdg wit="#V #O #L #N" type="substantial" resp="#CJS"
                                     >εὐφραίνοντο</rdg>
                             </app> οἱ συνόντες <app resp="#DC">
-                                <lem>δι’ ἐμὲ γελῶντες</lem>
+                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #R #Mut129 #Mon494 #q #r #g">δι’ ἐμὲ γελῶντες</lem>
                                 <rdg wit="#Z #Q" type="transposition" resp="#CJS">γελῶντες δι’
                                     ἐμὲ</rdg>
                                 <rdg wit="#H2" type="substantial" resp="#CJS">δὲ ἐμὲ γελῶντες</rdg>
                             </app>· νῦν δὲ τίνος ἕνεκα <app resp="#DC">
-                                <lem>καὶ</lem>
+                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g">καὶ</lem>
                                 <rdg wit="#H2" resp="#MEC #OF" type="omissio"/>
                             </app>
                             <app resp="#DC">
-                                <lem>καλεῖ</lem>
+                                <lem wit="#V #O #L #N #P #C #K #E #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">καλεῖ</lem>
                                 <rdg wit="#A" resp="#CJS"><add place="above">καλοῖ</add></rdg>
                             </app> μέ τις; <app resp="#DC">
-                                <lem><lacunaStart wit="#F"/>οὔτε γὰρ ἔγωγε <app resp="#DC">
-                                        <lem>σπουδάσαι</lem>
+                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"><lacunaStart wit="#F"/>οὔτε γὰρ ἔγωγε <app resp="#DC">
+                                    <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Q #R #Mut129 #Mon494 #q #r #g">σπουδάσαι</lem>
                                         <rdg wit="#H2" resp="#CJS">σπουδήσαι</rdg>
                                     </app> ἂν δυναίμην μᾶλλον <app resp="#DC">
-                                        <lem>ἤπερ</lem>
-                                        <rdg wit="#RichardsNotes" source="#RichardsNotes"
+                                        <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">ἤπερ</lem>
+                                        <rdg wit="#Richards" source="#RichardsNotes"
                                             resp="#Richards" type="conjecture">ἢ</rdg>
                                     </app> ἀθάνατος γενέσθαι, <app resp="#DC">
 
@@ -1549,7 +1568,7 @@
                                                 μὴν</add></lem>
                                         <rdg wit="#Q #R #Z #N" type="substantial" resp="#CJS">οὔτε
                                             μὴ</rdg>
-                                        <rdg type="substantial" resp="#OF #CJS">τοῦ τε μὴ</rdg>
+                                        <rdg wit="#V #O #L #P #C #K #E #Ha #X #B #H1 #G #VatUrbGr95 #D #Mut129 #Mon494 #H2 #q #r #g" type="substantial" resp="#OF #CJS">τοῦ τε μὴ</rdg>
                                     </app> ὡς ἀντικληθησόμενος καλεῖ μέ τις </lem>
                                 <rdg wit="#F" resp="#CJS" type="lacuna"><lacunaEnd wit="#F"/></rdg>
                                 <witDetail wit="#F" rend="ante-correctionem">From οὔτε γὰρ to μέ τις
@@ -1562,14 +1581,14 @@
                                     manuscripts EAH1.</witDetail>
                             </app> , ἐπεὶ πάντες ἴσασιν ὅτι ἀρχὴν οὐδὲ νομίζεται εἰς τὴν ἐμὴν οἰκίαν
                             δεῖπνον <app resp="#DC">
-                                <lem>προσφέρεσθαι</lem>
-                                <rdg wit="#StephanusFirstEd1561" source="#StephanusFirstEd1561"
+                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">προσφέρεσθαι</lem>
+                                <rdg wit="#Stephanus" source="#StephanusFirstEd1561"
                                     resp="#Stephanus">εἰσφέρεσθαι</rdg>
                             </app>.</said> καὶ ἅμα λέγων ταῦτα ἀπεμύττετό <app resp="#DC">
-                            <lem>τε</lem>
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">τε</lem>
                             <rdg wit="#F" resp="#MEC #OF #CJS" type="omissio"/>
                         </app> καὶ τῇ φωνῇ <app resp="#DC">
-                            <lem>σαφῶς</lem>
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">σαφῶς</lem>
                             <rdg wit="#B" resp="#CJS" type="omissio"/>
                         </app> κλαίειν ἐφαίνετο.</p>
                 </div>
@@ -1580,10 +1599,10 @@
                         #Autolycus, #Niceratus, #Socrates, #Critobulus, #Hermogenes, #Antisthenes, 
                         #Charmides, #Lycon, #Philip" direct="false">
                             <app resp="#DC">
-                                <lem>ὡς</lem>
+                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">ὡς</lem>
                                 <rdg wit="#X #B" resp="#CJS">καὶ</rdg>
                             </app> αὖθις <app resp="#DC">
-                                <lem>γελασόμενοι</lem>
+                                <lem wit="#V #O #L #N #P #C #K #E #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">γελασόμενοι</lem>
                                 <rdg wit="#A" type="substantial" rend="ante-correctionem"
                                     resp="#CJS">γελασόμενος</rdg>
                                 <witDetail wit="#A">Manuscript A reports this reading ante
@@ -1591,7 +1610,7 @@
                             </app> καὶ δειπνεῖν ἐκέλευον</said>, <persName ref="#Critobulus"
                             >Κριτόβουλος</persName> δὲ καὶ ἐξεκάγχασεν ἐπὶ τῷ οἰκτισμῷ αὐτοῦ. <app
                             resp="#DC">
-                            <lem>ὁ δ’ ὡς</lem>
+                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">ὁ δ’ ὡς</lem>
                             <rdg wit="#X #B" resp="#CJS">ὣς δ’ ὡς</rdg>
                         </app> ᾔσθετο τοῦ γέλωτος, ἀνεκαλύψατό τε καὶ τῇ ψυχῇ παρακελευσάμενος
                         θαρρεῖν, ὅτι ἔσονται συμβολαί, πάλιν ἐδείπνει.</p>
