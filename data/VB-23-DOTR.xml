@@ -966,36 +966,36 @@
                 </div>
 
                 <div type="paragraph" n="1" xml:id="c1p1">
-                    <p> Ἀλλ’ <app resp="#Canali">
+                    <p> Ἀλλ’ <app xml:id="c1p1app1" resp="#Canali">
                             <lem
-                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g" resp="#Aristides #Marchant #Ollier"
                                 >ἐμοὶ</lem>
                             <rdg wit="#Aristides" type="substantive">ἔμοιγε</rdg>
                             <note source="#ArisArsRhet">Aristides, Ars Rhetorica, ii.517.2 et
                                 525.12.</note>
-                    </app> δοκεῖ τῶν καλῶν κἀγαθῶν ἀνδρῶν <app resp="#Canali">
+                    </app> δοκεῖ τῶν καλῶν κἀγαθῶν ἀνδρῶν <app xml:id="c1p1app2" resp="#Canali">
                             <lem
                                 wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                 >ἔργα</lem>
-                            <rdg wit="#Aristides" type="omissio"/>
+                            <rdg wit="#Aristides" type="omissio" resp="#Aristides #Marchant #Ollier"/>
                             <note source="#ArisArsRhet">Aristides, in Ars Rhetorica, ii.517.2 et
                                 525.12, omits ἔργα.</note>
-                    </app> οὐ μόνον <app resp="#Canali">
+                    </app> οὐ μόνον <app xml:id="c1p1app3" resp="#Canali">
                             <lem
                                 wit="#V #O #L #N #P #C #K #E #A #X #B #H1 #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                 >τὰ</lem>
                             <rdg wit="#G #Ha" resp="#Marchant #Ollier" type="omissio"/>
-                        </app> μετὰ σπουδῆς πραττόμενα ἀξιομνημόνευτα εἶναι, ἀλλὰ καὶ <app
+                    </app> μετὰ σπουδῆς πραττόμενα ἀξιομνημόνευτα εἶναι, ἀλλὰ καὶ <app xml:id="c1p1app4"
                             resp="#Canali">
                             <lem
                                 wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Mut129 #Mon494 #q #r #g"
                                 >τὰ</lem>
                             <rdg wit="#H2 #Q #R #Z" resp="#Cirignano" type="omissio"/>
-                        </app> ἐν ταῖς παιδιαῖς. οἷς δὲ παραγενόμενος ταῦτα γιγνώσκω <app resp="#Canali">
+                    </app> ἐν ταῖς παιδιαῖς. οἷς δὲ παραγενόμενος ταῦτα γιγνώσκω <app xml:id="c1p1app5" resp="#Canali">
                             <lem
-                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #H2 #Mut129 #Mon494 #q #r #g"
+                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"
                                 >δηλῶσαι</lem>
-                            <rdg wit="#R" type="substantive">δηλώσω</rdg>
+                            <rdg wit="#H2" type="substantive">δηλώσω</rdg>
                         </app> βούλομαι.</p>
                 </div>
 
