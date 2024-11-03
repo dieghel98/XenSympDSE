@@ -1427,7 +1427,7 @@
                 <div type="paragraph" n="10" xml:id="c1p10">
                     <p>
                         <app xml:id="c1p10app1" resp="#Canali">
-                            <lem>πάντες</lem>
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #G #H1 #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">πάντες</lem>
                             <rdg wit="#Aristides" resp="#Aristides #Ollier" type="substantial"
                                 >ἅπαντες</rdg>
                             <note source="#ArisArsRhet">Aristides, Ars Rhetorica</note>
@@ -1457,9 +1457,8 @@
                             <lem
                                 wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Mut129 #Mon494 #H2 #q #r #g"
                                 >τε</lem>
-                            <rdg wit="#Q #F #Aristides" type="omissio" resp="#Aristides #Ollier"/>
+                            <rdg wit="#F #Q #R #Aristides" type="omissio" resp="#Aristides #Ollierm #Cirignano"/>
                             <note source="#ArisArsRhet">Aristides, Ars Rhetorica</note>
-                            <rdg wit="#R" type="omissio" resp="#Ollier #Cirignano"/>
                         </app> ὁρᾶσθαι <app xml:id="c1p10app6" resp="#Canali">
                             <lem
                                 wit="#V #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
