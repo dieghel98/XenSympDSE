@@ -1026,9 +1026,9 @@
                                 <lem
                                     wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                         ><persName ref="#Socrates">Σωκράτην</persName></lem>
-                                <rdg xml:id="witDet1" wit="#F" type="orthographic" resp="#Marchant"><persName
+                            <rdg xml:id="witDetc1p3app1rdg1" wit="#F" type="orthographic" resp="#Marchant"><persName
                                         ref="#Socrates">Σωκράτη</persName></rdg>
-                            <witDetail target="#witDet1" wit="#F" resp="#Marchant">Manuscript F reports the singular
+                            <witDetail target="#witDetc1p3app1rdg1" wit="#F" resp="#Marchant">Manuscript F reports the singular
                                     accusative of Σώκρατης -η instead of -ην everywhere.</witDetail>
                             </app></persName>
                         <app xml:id="c1p3app2" resp="#Canali">
@@ -1065,11 +1065,11 @@
                                 <rdg wit="#O" resp="#Cirignano" type="addition"><add>εἶπεν</add></rdg>
                             </app> πολὺ ἂν τὴν κατασκευήν μοι λαμπροτέραν φανῆναι εἰ ἀνδράσιν <app xml:id="c1p4app3"
                                 resp="#Canali">
-                                <lem wit="#A #Aristides" resp="#Marchant #Ollier #Cirignano #Jackson"
+                                <lem xml:id="c1p4app3lem1" wit="#A #Aristides" resp="#Marchant #Ollier #Cirignano #Jackson"
                                     >ἐκκεκαθαρμένοις</lem>
                                 <note source="#ArisArsRhet">Aristides, Ars Rhetorica
                                     ii.554.14</note>
-                                <witDetail wit="#A" place="above">Manuscript A super
+                                <witDetail target="#c1p4app3lem1" wit="#A" place="above">Manuscript A super
                                     lineam</witDetail>
                                 <rdg
                                     wit="#V #O #L #N #P #C #K #E #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
@@ -1093,10 +1093,10 @@
                                 <lem
                                     wit="#V #O #L #N #P #C #K #A #Ha #X #H1 #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                     resp="#Marchant #Ollier #Cirignano">ἱππάρχοις</lem>
-                                <rdg wit="#D #F #G #E #VatUrbGr95 #Aristides"
+                                <rdg xml:id="c1p4app7rdg1" wit="#D #F #G #E #VatUrbGr95 #Aristides"
                                     type="orthographic" resp="#Aristides #Ollier">ἱππάρχαις</rdg>
                                 <note source="#ArisArsRhet">Aristides, Ars Rhetorica</note>
-                                <witDetail wit="#E" resp="#Ollier" place="above">Manuscript E reports
+                                <witDetail target="#c1p4app7rdg1" wit="#E" resp="#Ollier" place="above">Manuscript E reports
                                     this reading supra versum</witDetail>
                                 <rdg wit="#B" type="substantial" resp="#Ollier">ὑπάρχαις</rdg>
                             </app> καὶ <app xml:id="c1p4app8" resp="#Canali">
@@ -1252,7 +1252,7 @@
                         <!--lacunaStart in H2. -->
                         <app xml:id="c1p8app7" resp="#Canali">
                             <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"/>
-                            <rdg><lacunaStart wit="#H2"/></rdg>
+                            <rdg wit="#H2"><lacunaStart wit="#H2"/></rdg>
                         </app>
                                 εἶναι, ἄλλως τε καὶ ἂν μετ’ αἰδοῦς καὶ
                                 σωφροσύνης, καθάπερ <persName ref="#Autolycus">Αὐτόλυκος</persName>
@@ -1273,7 +1273,6 @@
                                 </app> τις αὐτό. 
                             </p>
                 </div>
-                <!--Here ends paragraph 8-->
 
                 <div type="paragraph" n="9" xml:id="c1p9">
                     <p>πρῶτον μὲν γάρ, ὥσπερ <app xml:id="c1p9app2" resp="#Canali">
@@ -1362,8 +1361,8 @@
                             <lem
                                 wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                 >ὑπ’ἐκείνου</lem>
-                            <rdg wit="#F" type="substantial" resp="#Cirignano">πρὸς ἐκεῖνον</rdg>
-                            <witDetail wit="#F">Manuscript F reports this lesson ante
+                            <rdg xml:id="c1p9app12rdg1" wit="#F" type="substantial" resp="#Cirignano">πρὸς ἐκεῖνον</rdg>
+                            <witDetail target="#c1p9app12rdg1" wit="#F">Manuscript F reports this lesson ante
                                 correctionem</witDetail>
                         </app> . οἱ μέν <app xml:id="c1p9app13" resp="#Canali">
                             <lem
@@ -1447,10 +1446,10 @@
                             <lem
                                 wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Mut129 #Mon494 #H2 #q #r #g"
                                 >φέρονται</lem>
-                            <rdg wit="#F #Q #R #Aristides"
+                            <rdg xml:id="c1p10app8rdg1" wit="#F #Q #R #Aristides"
                                 resp="#Aristides #Ollier #Cirignano">φαίνονται</rdg>
                             <note source="#ArisArsRhet">Aristides, Ars Rhetorica</note>
-                            <witDetail wit="#F">The reading φαίνονται is found also in Aristides,
+                            <witDetail target="#c1p10app8rdg1" wit="#F" place="above">The reading φαίνονται is found also in Aristides,
                                 and it is added supra versum in manuscript F.</witDetail>
                         </app>, οἱ δ’ ὑπὸ τοῦ σώφρονος <persName ref="#Eros">ἔρωτος</persName>
                         ἔνθεοι τά τε ὄμματα <app xml:id="c1p10app9" resp="#Canali">
@@ -1694,21 +1693,29 @@
                                     wit="#V #O #L #N #P #C #K #E #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                     >καλεῖ</lem>
                                 <rdg wit="#A" resp="#Cirignano"><add place="above">καλοῖ</add></rdg>
-                            </app> μέ τις; <app xml:id="c1p15app9" resp="#Canali">
+                            </app> μέ τις; 
+                            
+                            <!--lacunaStart in #F-->
+                            <app xml:id="c1p15app9" resp="#Canali">
                                 <lem
-                                    wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
-                                    ><lacunaStart wit="#F"/>οὔτε γὰρ ἔγωγε <app xml:id="c1p15app10" resp="#Canali">
+                                    wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"/>
+                                <rdg xml:id="witDetc1p15app9rdg1" wit="#F"><lacunaStart wit="#F"/></rdg>
+                                <witDetail target="#witDetc1p15app9rdg1" wit="#F">F shows this lacuna ante correctionem</witDetail>
+                                </app>
+                            οὔτε γὰρ ἔγωγε <app xml:id="c1p15app10" resp="#Canali">
                                         <lem
                                             wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Q #R #Mut129 #Mon494 #q #r #g"
                                             >σπουδάσαι</lem>
                                             <rdg wit="#H2" resp="#Cirignano">σπουδήσαι</rdg>
-                                    </app> ἂν δυναίμην μᾶλλον <app xml:id="c1p15app11" resp="#Canali">
+                                    </app> ἂν δυναίμην μᾶλλον 
+                            <app xml:id="c1p15app11" resp="#Canali">
                                         <lem
                                             wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                             >ἤπερ</lem>
                                         <rdg wit="#Richards" source="#RichardsNotes"
                                             resp="#Richards" type="conjecture">ἢ</rdg>
-                                    </app> ἀθάνατος γενέσθαι, <app xml:id="c1p15app12" resp="#Canali">
+                                    </app> ἀθάνατος γενέσθαι, 
+                            <app xml:id="c1p15app12" resp="#Canali">
                                         <lem wit="#A" resp="#Marchant #Ollier #Cirignano"><add place="margin">οὔτε
                                                 μὴν</add></lem>
                                         <rdg wit="#Q #R #Z #N" type="substantial" resp="#Cirignano">οὔτε
@@ -1716,29 +1723,32 @@
                                         <rdg
                                             wit="#V #O #L #P #C #K #E #Ha #X #B #H1 #G #VatUrbGr95 #D #Mut129 #Mon494 #H2 #q #r #g"
                                             type="substantial" resp="#Ollier #Cirignano">τοῦ τε μὴ</rdg>
-                                    </app> ὡς ἀντικληθησόμενος καλεῖ μέ τις </lem>
-                                <rdg wit="#F" resp="#Cirignano" type="lacuna"><lacunaEnd wit="#F"/></rdg>
-                                <witDetail wit="#F" rend="ante-correctionem">From οὔτε γὰρ to μέ τις
+                                    </app> ὡς ἀντικληθησόμενος καλεῖ μέ τις 
+                            <!--lacunaEnd in #F-->
+                            <app xml:id="c1p15app13">
+                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"/>
+                                <rdg xml:id="witDetc1p15app13rdg1" wit="#F" resp="#Cirignano" type="lacuna"><lacunaEnd wit="#F"/></rdg>
+                                <witDetail target="#witDetc1p15app13rdg1" wit="#F" rend="ante-correctionem">From οὔτε γὰρ to μέ τις
                                     is omitted in manuscript F, ante correctionem.</witDetail>
-                                <rdg wit="#E #A #H1" type="repetition" resp="#Cirignano">
+                                <rdg xml:id="witDetc1p15app13rdg2" wit="#E #A #H1" type="repetition" resp="#Cirignano">
                                     <add>οὔτε γὰρ ἔγωγε σπουδάσαι ἂν δυναίμην μᾶλλον ἤπερ ἀθάνατος
                                         γενέσθαι, οὔτε μὴν ὡς ἀντικληθησόμενος καλεῖ μέ τις</add>
                                 </rdg>
-                                <witDetail wit="#E #A #H1">From οὔτε γὰρ to μέ τις is repeated in
+                                <witDetail target="#witDetc1p15app13rdg2" wit="#E #A #H1">From οὔτε γὰρ to μέ τις is repeated in
                                     manuscripts EAH1.</witDetail>
-                            </app> , ἐπεὶ πάντες ἴσασιν ὅτι ἀρχὴν οὐδὲ νομίζεται εἰς τὴν ἐμὴν οἰκίαν
-                            δεῖπνον <app xml:id="c1p15app13" resp="#Canali">
+                            </app>, ἐπεὶ πάντες ἴσασιν ὅτι ἀρχὴν οὐδὲ νομίζεται εἰς τὴν ἐμὴν οἰκίαν
+                            δεῖπνον <app xml:id="c1p15app14" resp="#Canali">
                                 <lem
                                     wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                     >προσφέρεσθαι</lem>
                                 <rdg wit="#Stephanus" source="#StephanusFirstEd1561"
                                     resp="#Stephanus">εἰσφέρεσθαι</rdg>
-                            </app>.</said> καὶ ἅμα λέγων ταῦτα ἀπεμύττετό <app xml:id="c1p15app14" resp="#Canali">
+                            </app>.</said> καὶ ἅμα λέγων ταῦτα ἀπεμύττετό <app xml:id="c1p15app15" resp="#Canali">
                             <lem
                                 wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                 >τε</lem>
                                 <rdg wit="#F" resp="#Marchant #Ollier #Cirignano" type="omissio"/>
-                            </app> καὶ τῇ φωνῇ <app xml:id="c1p15app15" resp="#Canali">
+                            </app> καὶ τῇ φωνῇ <app xml:id="c1p15app16" resp="#Canali">
                             <lem
                                 wit="#V #O #L #N #P #C #K #E #A #Ha #X #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                 >σαφῶς</lem>
@@ -1760,9 +1770,9 @@
                                 <lem
                                     wit="#V #O #L #N #P #C #K #E #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                     >γελασόμενοι</lem>
-                                <rdg wit="#A" type="substantial" rend="ante-correctionem"
+                            <rdg xml:id="witDetc1p16app2rdg1" wit="#A" type="substantial" rend="ante-correctionem"
                                     resp="#Cirignano">γελασόμενος</rdg>
-                                <witDetail wit="#A">Manuscript A reports this reading ante
+                            <witDetail target="#witDetc1p16app2rdg1" wit="#A">Manuscript A reports this reading ante
                                     correctionem</witDetail>
                             </app> καὶ δειπνεῖν ἐκέλευον</said>, <persName ref="#Critobulus"
                                 >Κριτόβουλος</persName> δὲ καὶ ἐξεκάγχασεν ἐπὶ τῷ οἰκτισμῷ αὐτοῦ. <app xml:id="c1p16app3"
