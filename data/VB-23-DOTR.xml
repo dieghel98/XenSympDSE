@@ -1026,9 +1026,9 @@
                                 <lem
                                     wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                         ><persName ref="#Socrates">Σωκράτην</persName></lem>
-                                <rdg wit="#F" type="orthographic" resp="#Marchant"><persName
+                                <rdg xml:id="witDet1" wit="#F" type="orthographic" resp="#Marchant"><persName
                                         ref="#Socrates">Σωκράτη</persName></rdg>
-                                <witDetail wit="#F" resp="#Marchant">Manuscript F reports the singular
+                            <witDetail target="#witDet1" wit="#F" resp="#Marchant">Manuscript F reports the singular
                                     accusative of Σώκρατης -η instead of -ην everywhere.</witDetail>
                             </app></persName>
                         <app xml:id="c1p3app2" resp="#Canali">
@@ -1195,12 +1195,11 @@
                                 wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g #Athenaeus #Alexis #Naber"
                                 resp="#Naber"
                                 >παρῆλθον</lem>
-                            <note source="#AthenDeipnosoph #AlexisPannuchis #NaberAdFra">Marchant (1921) reports in his apparatus: "παρῆλθον tuetur Naber coll.
-                                Alexis ap. Athen. iv. 170 B : προσῆλθον Richards : cf. Com. III.
-                                vii. i" </note>
                             <rdg wit="#Richards" resp="#Richards"
                                 >προσῆλθον</rdg>
-                            <note source="#RichardsNotes">Richards, Notes on Xenophon and others</note>
+                            <note source="#AthenDeipnosoph #AlexisPannuchis #NaberAdFra #RichardsNotes #Marchant">Marchant (1921): "παρῆλθον tuetur Naber coll.
+                                Alexis ap. Athen. iv. 170 B : προσῆλθον Richards : cf. Com. III.
+                                vii. i"</note>
                         </app>.</p>
                 </div>
 
@@ -1215,9 +1214,8 @@
                             <note source="#MehlerXenSym #CobetProsopoXen">Mehler, Xenophontis Convivium; Cobet, Commentatio, quae continetur Prosopographia
                                 Xenophontea</note>
                         </app>. εὐθὺς <app xml:id="c1p8app2" resp="#Canali">
-                            <lem>μὲν</lem>
-                            <rdg wit="#V" type="omissio" resp="#Ollier #Cirignano"/>
-                            <rdg wit="#O #L #N" type="omissio" resp="#Cirignano"/>
+                            <lem wit="#P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g">μὲν</lem>
+                            <rdg wit="#V #O #L #N" type="omissio" resp="#Ollier #Cirignano"/>
                         </app>
                         <app xml:id="c1p8app3" resp="#Canali">
                             <lem
@@ -1246,7 +1244,7 @@
                                 resp="#Marchant">τι</lem>
                             <rdg wit="#L" resp="#Cirignano" type="substantive">τινα</rdg>
                             <rdg wit="#Aristides" resp="#Aristides #Marchant #Ollier"
-                                type="addition">
+                                type="addition">τι 
                                 <add>τὸ</add>
                             </rdg>
                             <note source="#ArisArsRhet">Aristides, Ars Rhetorica</note>
