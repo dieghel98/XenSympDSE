@@ -1248,11 +1248,13 @@
                                 <add>τὸ</add>
                             </rdg>
                             <note source="#ArisArsRhet">Aristides, Ars Rhetorica</note>
-                        </app> κάλλος <!--lacunaStart in H2. -->
+                        </app> κάλλος 
+                        <!--lacunaStart in H2. -->
                         <app xml:id="c1p8app7" resp="#Canali">
-                            <lem
-                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"
-                                ><lacunaStart wit="#H2"/>εἶναι, ἄλλως τε καὶ ἂν μετ’ αἰδοῦς καὶ
+                            <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"/>
+                            <rdg><lacunaStart wit="#H2"/></rdg>
+                        </app>
+                                εἶναι, ἄλλως τε καὶ ἂν μετ’ αἰδοῦς καὶ
                                 σωφροσύνης, καθάπερ <persName ref="#Autolycus">Αὐτόλυκος</persName>
                                 <app xml:id="c1p8app8" resp="#Canali">
                                     <lem
@@ -1268,19 +1270,13 @@
                                     <rdg
                                         wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"
                                         >κέκτηταί</rdg>
-                                </app> τις αὐτό. </lem>
-                            <rdg wit="#H2" type="lacuna"><lacunaEnd wit="#H2"/></rdg>
-                        </app>
-                    </p>
+                                </app> τις αὐτό. 
+                            </p>
                 </div>
                 <!--Here ends paragraph 8-->
 
                 <div type="paragraph" n="9" xml:id="c1p9">
-                    <p>
-                        <app xml:id="c1p9app1" resp="#Canali">
-                            <lem
-                                wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"
-                                ><lacunaStart wit="#H2"/>πρῶτον μὲν γάρ, ὥσπερ <app xml:id="c1p9app2" resp="#Canali">
+                    <p>πρῶτον μὲν γάρ, ὥσπερ <app xml:id="c1p9app2" resp="#Canali">
                                     <lem
                                         wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #Mut129 #Mon494 #q #r #g"
                                         >ὅταν</lem>
@@ -1315,10 +1311,14 @@
                                         type="substantial">καὶ τὸ Αυτολύκου κάλλος</rdg>
                                     <note source="#AthenDeipnosoph">Athenaeus, Deipnosophistae</note>
                                 </app>
+                        
                                 <!--lacunaEnd in H2-->
-                            </lem>
-                            <rdg wit="#H2"><lacunaEnd wit="#H2"/></rdg>
-                        </app> πάντων <app xml:id="c1p9app7" resp="#Canali">
+                            <app>
+                                <lem wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #q #r #g"/>
+                                <rdg wit="#H2"><lacunaEnd wit="#H2"/></rdg>
+                            </app> 
+                        
+                        πάντων <app xml:id="c1p9app7" resp="#Canali">
                             <lem
                                 wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                 >εἷλκε</lem>
