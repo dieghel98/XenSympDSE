@@ -849,7 +849,7 @@
                     <head>Stemma Codicum</head>
                     <!--Insert here the picture of Huss' stemma codicum-->
                     <figure xml:id="fig1">
-                        <graphic url="images/StemmaHuss1999.png"/>
+                        <graphic url="https://github.com/dieghel98/XenSympDSE/blob/main/images/StemmaHuss1999.png"/>
                         <figDesc>This is the stemma codicum which results from Huss' collatio (1999).</figDesc>
                     </figure>
                     <p>Consensus codicum = V O L N P C K E A Ha X B H1 G VatUrbGr95 D F Z Q R Mut129
