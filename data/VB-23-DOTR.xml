@@ -969,12 +969,14 @@
         <body xml:id="bodyCore" xml:lang="grc">
 
             <div type="title" xml:id="textTitle">
-                <head>Ξενοφώντος <app resp="#Canali">
-                        <lem wit="#E" resp="#Ollier"/>
-                        <rdg wit="#D" resp="#Ollier" type="addition">
-                            <add>ῥήτορος</add>
+                <head>
+                    <app resp="#Canali">
+                        <lem wit="#E" resp="#Ollier">Ξενοφώντος Συμπόσιον</lem>
+                        <rdg wit="#D" resp="#Ollier" type="addition">Ξενοφώντος 
+                            <add>ῥήτορος</add> Συμπόσιον
                         </rdg>
-                    </app> Συμπόσιον </head>
+                    </app>
+                </head>
             </div>
 
             <div type="specimen" n="1" xml:id="specChap_1_full">
@@ -1129,13 +1131,11 @@
                             </app> καὶ <app xml:id="c1p4app8" resp="#Canali">
                                 <lem wit="#Dindorf" type="conjecture"
                                     resp="#Dindorf #Marchant #Ollier">σπουδαρχίαις</lem>
-                                <note source="#DindXenScripMin">Dindorf, Xenophontis Scripta
-                                    Minora</note>
                                 <rdg
                                     wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                     resp="#Cirignano">σπουδάρχαις</rdg>
                                 <rdg wit="#Mehler" type="conjecture">σπουδαρχίδαις</rdg>
-                                <note source="#MehlerXenSym">Mehler, Xenophontis Convivium</note>
+                                <note source="#DindXenScripMin #MehlerXenSym">Dindorf, Xenophontis Scripta Minora; Mehler, Xenophontis Convivium</note>
                             </app>.</said></p>
                 </div>
 
@@ -1222,11 +1222,9 @@
                             <lem
                                 wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g #Athenaeus #Alexis #Naber"
                                 resp="#Naber">παρῆλθον</lem>
-                            <note source="#AthenDeipnosoph #AlexisPannuchis #NaberAdFra #Marchant">Athenaeus, Deipnosophistae; Alexis, Pannuchis; Naber, Ad Fragmenta Comicorum Graecorum ("Contin. ex pag."
-                                268); Marchant, Xenophontis Opera Omnia: Symposium</note>
-                            <rdg wit="#Richards" resp="#Richards">προσῆλθον</rdg>
-                            <note source="#RichardsNotes"
-                                >Richards, Notes on Xenophon and others</note>
+                            <rdg wit="#Richards" resp="#Richards">προσῆλθον</rdg>                            
+                            <note source="#AthenDeipnosoph #AlexisPannuchis #NaberAdFra #RichardsNotes #Marchant">Athenaeus, Deipnosophistae; Alexis, Pannuchis; Naber, Ad Fragmenta Comicorum Graecorum ("Contin. ex pag."
+                                268); Richards, Notes on Xenophon and others; Marchant, Xenophontis Opera Omnia: Symposium</note>
                         </app>.</p>
                 </div>
 
@@ -1358,11 +1356,10 @@
                                 >αὐτόν</lem>
                             <rdg wit="#Petraglia #Plotinus" resp="#Petraglia" type="conjecture"
                                 >αὐτό</rdg>
-                            <note source="#PlotDePulchr #PetragliaIndTrad">Plotinus, Liber de
-                                pulchritudine i 6 1, ll. 17-19; Petraglia, Per la tradizione
-                                indiretta del Simposio di Senofonte</note>
                             <rdg wit="#Athenaeus" resp="#Ollier">αὐτό</rdg>
-                            <note source="#AthenDeipnosoph">Athenaeus, Deipnosofistae, ibid.</note>
+                            <note source="#AthenDeipnosoph #PlotDePulchr #PetragliaIndTrad ">Athenaeus, Deipnosofistae, ibid.;
+                                Plotinus, Liber de pulchritudine i 6 1, ll. 17-19;
+                                Petraglia, Per la tradizione indiretta del Simposio di Senofonte</note>
                         </app> · ἔπειτα τῶν <app xml:id="c1p9app10" resp="#Canali">
                             <lem
                                 wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
@@ -1387,7 +1384,7 @@
                                         >ὑπ’ἐκείνου</lem>
                                     <rdg xml:id="witDetc1p9app13rdg1" wit="#F" type="substantial"
                                         resp="#Cirignano">πρὸς ἐκεῖνον</rdg>
-                                    <witDetail target="#witDetc1p9app13rdg1" wit="#F">Manuscript F
+                                    <witDetail target="#witDetc1p9app13rdg1" wit="#F" rend="ante-correctionem">Manuscript F
                                         reports this lesson ante correctionem</witDetail>
                                 </app> . οἱ μέν <app xml:id="c1p9app14" resp="#Canali">
                                     <lem
@@ -1447,13 +1444,12 @@
                             </rdg>
                         </app>ἐξ ἄλλων πρὸς τὸ <app xml:id="c1p10app4" resp="#Canali">
                             <lem wit="#Stephanus" resp="#Stephanus #Marchant #Ollier"
-                                >γοργότεροί</lem>
-                            <note source="#StephanusFirstEd1561">Stephanus, Excudebat Henricus
-                                Stephanus</note>
+                                >γοργότεροί</lem>                            
                             <rdg
                                 wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g #Aristides"
                                 resp="#Aristides #Marchant #Ollier">γοργότερόν</rdg>
-                            <note source="#ArisArsRhet">Aristides, Ars Rhetorica</note>
+                            <note source="#ArisArsRhet #StephanusFirstEd1561">Aristides, Ars Rhetorica; Stephanus, Excudebat Henricus
+                                Stephanus</note>
                         </app>
                         <app xml:id="c1p10app5" resp="#Canali">
                             <lem
@@ -1748,7 +1744,7 @@
                                     wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"/>
                                 <rdg xml:id="witDetc1p15app9rdg1" wit="#F"><lacunaStart wit="#F"
                                     /></rdg>
-                                <witDetail target="#witDetc1p15app9rdg1" wit="#F">F shows this
+                                <witDetail target="#witDetc1p15app9rdg1" wit="#F" rend="ante-correctionem">F shows this
                                     lacuna ante correctionem</witDetail>
                             </app> οὔτε γὰρ ἔγωγε <app xml:id="c1p15app10" resp="#Canali">
                                 <lem
@@ -1795,7 +1791,7 @@
                                     wit="#V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g"
                                     >προσφέρεσθαι</lem>
                                 <rdg wit="#Stephanus" resp="#Stephanus">εἰσφέρεσθαι</rdg>
-                                <note source="#StephanusFirstEd1561">Stephanus, Excudebat Henricus Stephanus...</note>
+                                <note source="#StephanusFirstEd1561">Stephanus, Excudebat Henricus Stephanus.</note>
                             </app>.</said> καὶ ἅμα λέγων ταῦτα ἀπεμύττετό <app xml:id="c1p15app15"
                             resp="#Canali">
                             <lem
