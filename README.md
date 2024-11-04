@@ -1,7 +1,7 @@
 # Xenophon's _Symposium_: Towards a Digital Scholarly Edition.
 
 
-##The Project
+## The Project
 
 This is my Master Thesis Research Topic. The idea came to me after I asked myself West's question: "Is your edition really necessary?". 
 My initial purpose was to elaborate a critical edition of Xenophon's Symposium, but after approaching West's question, I realized that a new traditional edition was not necessary, since the last one published is still quite recent (it was published by John Cirignano in 1993). So I had to recalculate my purpose, and surfing the  Oxford Scholarly Editions Online - Classics, I noticed the absence of Xenophon in this digitized critical edition database. 
@@ -9,7 +9,7 @@ My idea, then, started to take shape. I decided, then, to elaborate a Digital Sc
 How? In such task I decided to follow a functional model called Why-What-How?, which subdivides the workflow in three-four steps. 
 
 
-##The Method
+## The Method
 
 According to Why-What-How? method, it is a good practice to start with asking Why? In other words, this first preliminary phase is a query of the scholarly needs and purposes of the research activity. In particular, I chose the philological theoretical framework, adopting the point of view of textual criticism. The final purpose is then to produce a reliable Digital Scholarly Edition which aims to be Critical (and not, for example, diplomatic). 
 
@@ -22,7 +22,7 @@ A couple of constraints of using the aforementioned technologies is that a minim
 
 The last and final step of my research is led by a fourth question: What if? It is about giving a glance to the future and survey the possible future improvements, implementations, and updates. In particular, in my case I realized that the next steps in my edition's evolution will be implementing it with Semantic information provided by Ontologies such as CAO (Critical Apparatus Ontology) by Francesca Giovannetti, using RDF triples to express such semantics. A further step would be re-encode the edition entirely, but with the guidelines provided by another software, called LIFT (Linked Data From TEI, again by Francesca Giovannetti), which is a ready-to-use digital environment which grants the scholar to compose a semantic markup without knowing coding or programming languages: LIFT is a ready-to-use digital environment, where the philologist only has to store philological data within a pre-programmed digital environment. Unfortunately, by the time I am writing, such software has not been fully implemented yet, but the general direction undertaken by philologists who want to open up to digital tools goes in the direction of what Elena Pierazzo calls the "bricks approach", according to which the scientific community has to build not general and universal tools, since cover all possible scholarly needs is not possible, but rather small tools that are task-specific, so the scholars only have to choose the most appropriate tools for their needs, according to their research purpose. 
 
-##The State of Art
+## The State of Art
 
 By the time I am writing, my edition is not a finished and definitive product. 
 It is a choice which gets along with the digital nature of my research, for many reasons. Fisrt of all, as a master student I have nor time nor knowledge to compose an outstanding Digital Scholarly Edition which aims to be exhaustive, complete and definitive. Secondly, the digital nature of my edition implies that there is always the possibility to edit it, update it and change it. XML-TEI offers a feature which is very important for this aspect, which is the <listChange> element, which allows the editor(s) to take account of all editorial interventions made on the edition, providing the possibility to express the responsible of the interventions, and the date. It is a good practice to use this functionality, to insert the edition itself in the story of tradition of the text, at the same time it is being composed. This means that, by nature, my Digital Scholarly Edition is an ongoing process, and by editorial choice it does not want to be a finished edition, but rather a workflow _towards_ a Digital Scholarly Edition. This means that I choose only a small sample to begin with, which is chapter 1 of Xenophon's Symposium. As soon as I will be satisfied with the encoding tested on this sample, I will finally have the chance to extend the model to a full representation of the work. 
