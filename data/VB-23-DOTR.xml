@@ -973,7 +973,7 @@
                     <app resp="#Canali">
                         <lem wit="#E" resp="#Ollier">Ξενοφώντος Συμπόσιον</lem>
                         <rdg wit="#D" resp="#Ollier" type="addition">Ξενοφώντος 
-                            <add>ῥήτορος</add> Συμπόσιον
+                            <add>ῥήτορος </add> Συμπόσιον
                         </rdg>
                     </app>
                 </head>
@@ -1224,7 +1224,7 @@
                                 resp="#Naber">παρῆλθον</lem>
                             <rdg wit="#Richards" resp="#Richards">προσῆλθον</rdg>                            
                             <note source="#AthenDeipnosoph #AlexisPannuchis #NaberAdFra #RichardsNotes #Marchant">Athenaeus, Deipnosophistae; Alexis, Pannuchis; Naber, Ad Fragmenta Comicorum Graecorum ("Contin. ex pag."
-                                268); Richards, Notes on Xenophon and others; Marchant, Xenophontis Opera Omnia: Symposium</note>
+                                268); Richards, Notes on Xenophon and others; Marchant, Xenophontis Opera Omnia: Symposium.</note>
                         </app>.</p>
                 </div>
 
