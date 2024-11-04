@@ -55,7 +55,7 @@
                 <!--fourth element of fileDesc element-->
                 <publisher>Alma Mater Studiorum - University of Bologna</publisher>
                 <pubPlace>Università di Bologna</pubPlace>
-                <date>2023</date>
+                <date>07/11/2024</date>
                 <availability>
                     <p>This edition will be available for research purpose only</p>
                 </availability>
@@ -531,52 +531,51 @@
                 </listOrg>
 
                 <listPerson>
-                    <head>List of Characters</head>
                     <person xml:id="Callias" sortKey="Callias">
-                        <persName xml:lang="gre">Καλλίας</persName>
+                        <persName full="yes" xml:lang="gre">Καλλίας</persName>
                     </person>
                     <person xml:id="Hipponicus" sortKey="Hipponicus">
-                        <persName xml:lang="gre">Ἱππόνικος</persName>
+                        <persName full="yes" xml:lang="gre">Ἱππόνικος</persName>
                     </person>
                     <person xml:id="Autolycus" sortKey="Autolycus">
-                        <persName xml:lang="gre">Αὐτόλυκος</persName>
+                        <persName full="yes" xml:lang="gre">Αὐτόλυκος</persName>
                     </person>
                     <person xml:id="Niceratus" sortKey="Niceratus">
-                        <persName xml:lang="gre">Νικήρατος</persName>
+                        <persName full="yes" xml:lang="gre">Νικήρατος</persName>
                     </person>
                     <person xml:id="Socrates" sameAs="http://viaf.org/viaf/88039167"
                         sortKey="Socrates">
-                        <persName xml:lang="gre">Σωκράτης</persName>
+                        <persName full="yes" xml:lang="gre">Σωκράτης</persName>
                     </person>
                     <person xml:id="Critobulus" sortKey="Critobulus">
-                        <persName xml:lang="gre">Κριτόβουλος</persName>
+                        <persName full="yes" xml:lang="gre">Κριτόβουλος</persName>
                     </person>
                     <person xml:id="Hermogenes" sortKey="Hermogenes">
-                        <persName xml:lang="gre">Ἑρμογένης</persName>
+                        <persName full="yes" xml:lang="gre">Ἑρμογένης</persName>
                     </person>
                     <person xml:id="Antisthenes" sortKey="Antisthenes">
-                        <persName xml:lang="gre">Ἀντισθένης</persName>
+                        <persName full="yes" xml:lang="gre">Ἀντισθένης</persName>
                     </person>
                     <person xml:id="Charmides" sortKey="Charmides">
-                        <persName xml:lang="gre">Χαρμίδης</persName>
+                        <persName full="yes" xml:lang="gre">Χαρμίδης</persName>
                     </person>
                     <person xml:id="Lycon" sortKey="Lycon">
-                        <persName xml:lang="gre">Λύκων</persName>
+                        <persName full="yes" xml:lang="gre">Λύκων</persName>
                     </person>
                     <person xml:id="Protagoras" sortKey="Protagoras">
-                        <persName xml:lang="gre">Πρωταγόρας</persName>
+                        <persName full="yes" xml:lang="gre">Πρωταγόρας</persName>
                     </person>
                     <person xml:id="Gorgias" sortKey="Gorgias">
-                        <persName xml:lang="gre">Γοργίας</persName>
+                        <persName full="yes" xml:lang="gre">Γοργίας</persName>
                     </person>
                     <person xml:id="Prodicus" sortKey="Prodicus">
-                        <persName xml:lang="gre">Πρόδικος</persName>
+                        <persName full="yes" xml:lang="gre">Πρόδικος</persName>
                     </person>
                     <person xml:id="Philip" sortKey="Philip">
-                        <persName xml:lang="gre">Φίλιππος</persName>
+                        <persName full="yes" xml:lang="gre">Φίλιππος</persName>
                     </person>
                     <person xml:id="Eros" sortKey="Eros">
-                        <persName xml:lang="gre">Ἔρως</persName>
+                        <persName full="yes" xml:lang="gre">Ἔρως</persName>
                     </person>
                 </listPerson>
 
@@ -849,7 +848,10 @@
                 <div>
                     <head>Stemma Codicum</head>
                     <!--Insert here the picture of Huss' stemma codicum-->
-                    <p><graphic url="images/StemmaHuss1999.png"/></p>
+                    <figure xml:id="fig1">
+                        <graphic url="images/StemmaHuss1999.png"/>
+                        <figDesc>This is the stemma codicum which results from Huss' collatio (1999).</figDesc>
+                    </figure>
                     <p>Consensus codicum = V O L N P C K E A Ha X B H1 G VatUrbGr95 D F Z Q R Mut129
                         Mon494 H2 q r g</p>
                     <!--codd. = #V #O #L #N #P #C #K #E #A #Ha #X #B #H1 #G #VatUrbGr95 #D #F #Z #Q #R #Mut129 #Mon494 #H2 #q #r #g-->
